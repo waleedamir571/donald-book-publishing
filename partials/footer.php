@@ -96,9 +96,9 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 col-md-12 col-sm-12">
                     <div class="footer-content">
-                        <div class="logofooter">
-                            <a href="index.html">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/logo.webp"></a>
+                        <div class="logofooter w-50">
+                            <a href="index">
+                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/home/logo2.png"></a>
                         </div>
                         <p class="mt-2">Seedspire crafts captivating stories that turn your ideas into
                             bestselling books, leaving a memorable mark on readers and the literary world.</p>
@@ -138,29 +138,29 @@
                                         transform="translate(-1003.035 -514.947)" fill="#707070"></path>
                                 </svg>
                             </a>
-                            <a href="https://www.facebook.com/seedspirepublishing/">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="33.598" height="33.598"
-                                    viewBox="0 0 33.598 33.598">
-                                    <path id="Path_188" data-name="Path 188"
-                                        d="M1099.818,514.947a16.8,16.8,0,1,0,16.8,16.8A16.819,16.819,0,0,0,1099.818,514.947Zm4.66,9.965a.254.254,0,0,1-.254.254h-2.02a.9.9,0,0,0-.9.9v2.115h2.873a.254.254,0,0,1,.253.275l-.252,2.982a.253.253,0,0,1-.252.232h-2.622v9.895a.254.254,0,0,1-.254.254h-3.616a.254.254,0,0,1-.254-.254v-9.895h-1.808a.253.253,0,0,1-.254-.254v-2.982a.254.254,0,0,1,.254-.254h1.808V525.3a3.627,3.627,0,0,1,3.627-3.627h3.413a.254.254,0,0,1,.254.254Z"
-                                        transform="translate(-1083.019 -514.947)" fill="#707070"></path>
-                                </svg>
+                            <!-- <a href="https://www.tiktok.com/@donaldsbookpublishing">
+                                <i class="fa fa-tiktok" aria-hidden="true"></i>
+
+                            </a> -->
+                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+
                             </a>
-                            <a href="https://www.instagram.com/seedspirepublishing">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="33.379" height="33.379"
-                                    viewBox="0 0 33.379 33.379">
-                                    <g id="Group_241" data-name="Group 241" transform="translate(-1016.693 -9014.012)">
-                                        <path id="Path_190" data-name="Path 190"
-                                            d="M1179.692,515.631a16.689,16.689,0,1,0,16.69,16.689A16.709,16.709,0,0,0,1179.692,515.631Zm10.6,20.73a6.327,6.327,0,0,1-6.327,6.328h-8.351a6.328,6.328,0,0,1-6.328-6.328v-8.352a6.328,6.328,0,0,1,6.328-6.328h8.351a6.327,6.327,0,0,1,6.327,6.328Z"
-                                            transform="translate(-146.31 8498.381)" fill="#707070"></path>
-                                        <path id="Path_191" data-name="Path 191"
-                                            d="M1189.135,528.681h-8.351a4.346,4.346,0,0,0-4.346,4.346v8.352a4.346,4.346,0,0,0,4.346,4.346h8.351a4.346,4.346,0,0,0,4.346-4.346v-8.352A4.346,4.346,0,0,0,1189.135,528.681Zm-4.14,13.845a5.188,5.188,0,1,1,5.188-5.188A5.194,5.194,0,0,1,1184.995,542.526Zm5.49-9.489a1.235,1.235,0,1,1,1.235-1.235A1.235,1.235,0,0,1,1190.485,533.036Z"
-                                            transform="translate(-151.475 8493.363)" fill="#707070"></path>
-                                        <path id="Path_192" data-name="Path 192"
-                                            d="M1188.264,537.347a3.323,3.323,0,1,0,3.323,3.323A3.327,3.327,0,0,0,1188.264,537.347Z"
-                                            transform="translate(-154.745 8490.031)" fill="#707070"></path>
-                                    </g>
-                                </svg>
+                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+                            </a>
+                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+
+                            </a>
+                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+
+                            </a>
+                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+
                             </a>
                         </div>
                     </div>
@@ -169,12 +169,12 @@
                     <div class="customulfooter padding-left-customs-desktop">
                         <h6>Company</h6>
                         <ul>
-                            <li><a href="About.html">About Us </a></li>
+                            <li><a href="About">About Us </a></li>
 
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-                            <li><a href="disclaimer-policy.html">Disclaimer Policy</a></li>
+                            <li><a href="contact-us">Contact Us</a></li>
+                            <li><a href="privacy-policy">Privacy Policy</a></li>
+                            <li><a href="terms-and-conditions">Terms and Conditions</a></li>
+                            <li><a href="disclaimer-policy">Disclaimer Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -185,12 +185,12 @@
                             <div class="customulfooter">
 
                                 <ul>
-                                    <li><a href="book-writing-services.html">Book Writing Service</a></li>
-                                    <li><a href="book-design-services.html">Book Design Service</a></li>
-                                    <li><a href="book-publishing-services.html">Book Publishing Service</a></li>
-                                    <li><a href="book-marketing-services.html">Book Marketing Service </a></li>
-                                    <li><a href="audiobook-services.html">Audiobook Service </a></li>
-                                    <li><a href="book-editing-services.html">Book Editing Service</a></li>
+                                    <li><a href="book-writing-services">Book Writing Service</a></li>
+                                    <li><a href="book-design-services">Book Design Service</a></li>
+                                    <li><a href="book-publishing-services">Book Publishing Service</a></li>
+                                    <li><a href="book-marketing-services">Book Marketing Service </a></li>
+                                    <li><a href="audiobook-services">Audiobook Service </a></li>
+                                    <li><a href="book-editing-services">Book Editing Service</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -198,12 +198,12 @@
                             <div class="customulfooter">
 
                                 <ul class="customtopcss">
-                                    <li><a href="book-video-trailer.html">Book Video Trailer</a></li>
-                                    <li><a href="web-design-and-seo.html">Web design & SEO</a></li>
-                                    <li><a href="Illustration-services.html">Illustration Services</a></li>
-                                    <li><a href="articles-services.html">Articles Services </a></li>
-                                    <li><a href="book-printing-services.html">Book Printing Services </a></li>
-                                    <li><a href="web-content-writing-service.html">Web Content Writing
+                                    <li><a href="book-video-trailer">Book Video Trailer</a></li>
+                                    <li><a href="web-design-and-seo">Web design & SEO</a></li>
+                                    <li><a href="Illustration-services">Illustration Services</a></li>
+                                    <li><a href="articles-services">Articles Services </a></li>
+                                    <li><a href="book-printing-services">Book Printing Services </a></li>
+                                    <li><a href="web-content-writing-service">Web Content Writing
                                             Service</a></li>
                                 </ul>
                             </div>
@@ -215,15 +215,15 @@
                     <div class="customulfooter footer-content">
                         <h6 class="">Contact Details</h6>
                         <p>Phone</p>
-                        <a href="tel:+1 (833) 501-8030">+1 (833) 501-8030</a>
+                        <a href="tel:+1 (833) 123-4567">+1 (833) 123-4567</a>
                         <p>Email</p>
-                        <a href="mailto:info@seedspirepublishing.com">info@seedspirepublishing.com</a>
+                        <a href="mailto:info@testpublishing.com">info@testpublishing.com</a>
 
 
                         <p>
                             Address
                             <br />
-                            166 Geary Street Ste 1500, San Francisco, CA
+                            401 Park Avenue South New York NY 10016
                         </p>
                     </div>
                 </div>
@@ -232,8 +232,8 @@
 
 
         <div class="f-bottom">
-            <p>© 2025 seedspirepublishing. All rights reserved.</p>
-            <p>Powered by Seedspire Publishing</p>
+            <p>© 2025 DonaldsBookPublishing. All rights reserved.</p>
+            <p>Powered by Donalds Book Publishing</p>
         </div>
     </section>
 </footer>

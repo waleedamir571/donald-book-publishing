@@ -1,22 +1,20 @@
 <?php include 'partials/header.php'; ?>
 <div class="body-content">
 
-
   <section class="banner banner-inner custom-padding position-relative-customs">
     <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-publishing-services.webp">
+      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-marketing-image.webp">
     </div>
     <div class="container-wrapper ">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
           <div class="services-inner-banner-style">
-            <h1>Shaping Manuscripts into Acclaimed Published Masterpieces</h1>
-            <p class="main-para">Exceptional publishing services turning manuscripts into celebrated, acclaimed
-              works. </p>
+            <h1>Maximize Book Reach with Expert Marketing</h1>
+            <p class="main-para">Strategic marketing to expand book visibility and audience engagement. </p>
             <div class="custom-ul ctaul">
               <ul>
-                <li>Award-winning editors, designers, and publishing professionals</li>
-                <li>Fast and efficient publishing process with global distribution</li>
+                <li>Award-winning marketers, strategists, and branding experts</li>
+                <li>Fast and efficient campaign execution with measurable results</li>
                 <li>Budget-friendly solutions – 100% client satisfaction guaranteed</li>
               </ul>
             </div>
@@ -55,40 +53,40 @@
             <div class="processboxsection vertical-align-box">
               <a href="javascript:void();" class="process-box">
                 <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-1.webp">
-                <h6>Manuscript <br /> Finalization</h6>
+                <h6>Strategy <br /> Consultation</h6>
               </a>
               <a href="javascript:void();" class="process-box">
                 <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-2.webp">
-                <h6>Platform <br /> Setup</h6>
+                <h6>Campaign <br /> Planning</h6>
               </a>
               <a href="javascript:void();" class="process-box">
                 <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-3.webp">
-                <h6>Launch <br /> & Promotion</h6>
+                <h6>Launch <br /> & Monitor</h6>
               </a>
             </div>
           </div>
           <div class="w-20-c hzoom">
-            <div class="my-process-box-inner bg1 border-radius-20 process-style-content">
+            <div class="my-process-box-inner bg1 bg8 border-radius-20 process-style-content">
               <h3>Step 01<br>
-                Manuscript Finalization</h3>
+                Strategy Consultation</h3>
 
-              <h4>Refine content and format for publication.</h4>
+              <h4>Define goals and create a tailored roadmap.</h4>
             </div>
           </div>
           <div class="w-20-c hzoom">
-            <div class="my-process-box-inner bg2 bg5 border-radius-20 process-style-content">
+            <div class="my-process-box-inner bg2 bg9 border-radius-20 process-style-content">
               <h3>Step 02<br>
-                Platform Setup</h3>
+                Campaign Planning</h3>
 
-              <h4>Select and configure the publishing platforms.</h4>
+              <h4>Craft a detailed and <br />actionable campaign plan.</h4>
             </div>
           </div>
           <div class="w-20-c hzoom">
-            <div class="my-process-box-inner bg3 bg7 border-radius-20 process-style-content">
+            <div class="my-process-box-inner bg3 bg10 border-radius-20 process-style-content">
               <h3>Step 03<br>
-                Launch & Promotion</h3>
+                Launch & Monitor</h3>
 
-              <h4>Publish and market the book for maximum visibility.</h4>
+              <h4>Execute the campaign and track performance.</h4>
             </div>
           </div>
         </div>
@@ -96,19 +94,18 @@
     </section>
 
 
-    <section class="main-our-cta-section">
+    <section class="main-our-cta-section   ">
       <div class="container-wrapper">
-        <div class="cta-bg border-radius-33 custom-flex cta-ghost bg-publishing ctastyles-new">
+        <div class="cta-bg border-radius-33 custom-flex cta-ghost ctastyles-new">
           <div class="col-lg-6">
-            <h4 class="uppercase mb-3">Turn Manuscripts into Published Masterpieces with Expert Publishing Services!
-            </h4>
+            <h4 class="uppercase mb-3">Amplify Your Book’s Reach with Expert Marketing Strategies!</h4>
             <div class="row mb-custom-ul">
               <div class="col-lg-12 col-sm-12">
                 <div class="custom-ul ctaul">
                   <ul>
-                    <li>Meticulous manuscript formatting for smooth publication.</li>
-                    <li>Publishing on leading platforms for wide reach.</li>
-                    <li>Strategic marketing for sustained success. </li>
+                    <li>Customized strategies to boost visibility and engagement.</li>
+                    <li>Proven techniques to grow and retain readers.</li>
+                    <li>Targeted campaigns to increase sales and influence.</li>
                   </ul>
                 </div>
               </div>
@@ -117,8 +114,7 @@
 
             <div class="d-flex btnflex mt-4">
               <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                Touch</a>
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in Touch</a>
             </div>
           </div>
         </div>
@@ -131,65 +127,69 @@
   <section class=" services-box">
     <div class="container-wrapper">
       <div class="row flex-align-items-stretch">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
-            <div class="content-services">
-              <h3>Typesetting and Formatting</h3>
-              <p>Professional layout design ensuring visually appealing, industry-standard, and reader-friendly
-                books for publishing.</p>
-              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
-                Quote</a>
 
-              <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/publish1.webp"></div>
-            </div>
-          </div>
-        </div>
+
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
             <div class="content-services">
-              <h3>Amazon KDP <br> Publishing</h3>
-              <p>Comprehensive publishing services to format, upload, and distribute your book on Amazon KDP.</p>
-              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
-                Quote</a>
-              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/publish2.webp"></div>
+              <h3>SEO-Based Services </h3>
+              <p>Optimizing book visibility with strategic SEO, driving organic traffic, and boosting discoverability
+                online.</p>
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get a Quote</a>
+              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/book1.webp">
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row flex-align-items-stretch">
+
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div
             class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone moblileheights ">
             <div class="content-services ">
               <div class="zindex1">
-                <h3>IngramSpark <br> Publishing</h3>
-                <p>Expert solutions for formatting, uploading, and distributing books globally via IngramSpark’s
-                  extensive network.</p>
+                <h3> Paid Advertising Services</h3>
+                <p>Maximizing book visibility through targeted paid ads, driving traffic, and increasing sales
+                  effectively.</p>
                 <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
                   Quote</a>
               </div>
 
             </div>
             <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/publish3.webp"></div>
+                src="assets/images/book2.webp"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row flex-align-items-stretch">
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
+            <div class="content-services">
+              <h3>Branding and Author Promotion</h3>
+              <p>Building a strong author brand with strategic promotion, enhancing visibility and reader connection.
+              </p>
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get a Quote</a>
+
+              <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
+                  src="assets/images/book3.webp"></div>
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
             <div class="content-services">
-              <h3>Multiple Platform Publishing </h3>
-              <p>Seamless publishing across multiple platforms ensuring broad distribution and maximum audience
-                reach worldwide.</p>
-              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
-                Quote</a>
+              <h3> Digital Marketing for Books</h3>
+              <p>Leveraging digital platforms to effectively market books, expanding the reach, and engaging target
+                audiences.</p>
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a Quote</a>
 
               <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/publish4.webp"></div>
+                  src="assets/images/book4.webp"></div>
             </div>
           </div>
         </div>
+
+
 
       </div>
 
@@ -209,8 +209,7 @@
         <div class="col-lg-5 col-md-12 col-sm-12">
           <div class="d-flex btnflex flex-bottoms">
             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-              Touch</a>
+            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in Touch</a>
           </div>
         </div>
       </div>
@@ -222,7 +221,9 @@
       <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
         <div class="col-lg-6">
           <h4 class="uppercase mb-3">ALL. GENRES. COVERED.</h4>
-          <p class="my-pera">Diversity meets creativity at Seedspire to create magic.</p>
+          <p class="my-pera">Diversity meets creativity at Seedspire to bring your unique story to life. Whether it's
+            fiction, non-fiction, or anything in between, we craft compelling narratives that resonate with your
+            audience. Your vision, our expertise – let’s create something extraordinary together!</p>
 
 
           <div class="btn-blockss mt-4">
@@ -234,6 +235,7 @@
       </div>
     </div>
   </section>
+
   <section class="portfolio-slider">
     <div class="container-wrapper">
       <div class="center-heading text-center pt-5 pb-5">
@@ -409,23 +411,22 @@
       <div class="custom-flex customflexoff">
         <div class="col-lg-7 col-md-12 col-sm-12">
           <div class="myheading-custom heading-custom-withbtn">
-            <h2>Pricing Plans</h2>
+            <h2>PRICING </h2>
 
             <p class="my-bigp"><strong>Shaping Stories into Timeless Literary Masterpieces</strong></p>
           </div>
         </div>
         <div class="col-lg-5 col-md-12 col-sm-12">
           <div class="d-flex btnflex flex-bottoms">
-            <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-              Touch</a>
+            <a href="#." class="web-black-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get a Quote </a>
+            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Chat with Us</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="pricing-section  d-none ">
+  <section class="pricing-section d-none ">
     <div class="container-wrapper">
       <div class="row">
         <div class="col-lg-4 col-md-12">
@@ -451,8 +452,7 @@
               </div>
             </div>
             <div class="button-bottom-price">
-              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Discuss
-                Project</a>
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A Quote</a>
             </div>
           </div>
         </div>
@@ -480,8 +480,7 @@
               </div>
             </div>
             <div class="button-bottom-price">
-              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Discuss
-                Project</a>
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A Quote</a>
             </div>
           </div>
         </div>
@@ -509,8 +508,7 @@
               </div>
             </div>
             <div class="button-bottom-price">
-              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Discuss
-                Project</a>
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A Quote</a>
             </div>
           </div>
         </div>
@@ -530,9 +528,9 @@
 
               <div class="testimonials-content w-50-custom">
                 <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                <p>"Seedspire's publishing service turned my manuscript into a professionally crafted masterpiece.
-                  The process was seamless and my book has never looked better."</p>
-                <p class="text-dark"><strong>Olivia Matthews</strong></p>
+                <p>"Seedspire’s book marketing took my debut novel to new heights. The tailored strategies increased
+                  visibility, and I saw immediate growth in readers and sales."</p>
+                <p class="text-dark"><strong> Rachel Montgomery</strong></p>
               </div>
             </div>
 
@@ -547,9 +545,9 @@
 
               <div class="testimonials-content w-50-custom">
                 <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                <p>"Thanks to Seedspire, my book went from a draft to a bestseller in no time. Their expertise and
-                  attention to detail were unmatched."</p>
-                <p class="text-dark"><strong>Liam Roberts</strong></p>
+                <p>"Working with Seedspire on book marketing made all the difference. Their expertise in reaching the
+                  right audience helped my book stand out in a crowded market."</p>
+                <p class="text-dark"><strong> David Kingston </strong></p>
               </div>
             </div>
 
@@ -564,9 +562,9 @@
 
               <div class="testimonials-content w-50-custom">
                 <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                <p>"I couldn't have asked for a better publishing experience. Seedspire guided me every step of the
-                  way, ensuring my vision was realized perfectly."</p>
-                <p class="text-dark"><strong>Evans Clark</strong></p>
+                <p>"Seedspire’s marketing team knows how to create buzz. The targeted campaigns and exceptional
+                  promotional tactics drove my book to bestseller status. "</p>
+                <p class="text-dark"><strong>William Collins </strong></p>
               </div>
             </div>
 
@@ -588,13 +586,11 @@
 
 
           </p>
-
           <p class="captial-small">You are just a step away from greatness.</p>
 
           <div class="d-flex btnflex mt-5">
             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get in
-              Touch</a>
+            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get in Touch</a>
           </div>
         </div>
 
@@ -649,7 +645,7 @@
     </div>
   </section>
 
-
 </div>
+
 
 <?php include 'partials/footer.php'; ?>
