@@ -9,14 +9,20 @@
 
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h1 class=""> Seedspire: Where Stories Become Bestsellers</h1>
-                        <p class="mb-5"> At Seedspire, we’re passionate about transforming your ideas into books
-                            that leave a lasting impression. From ghostwriting to publishing, marketing,
-                            audiobook creation, and editing, we provide end-to-end support to bring your vision
-                            to life. What sets us apart? It’s our dedication to turning every project into a
-                            masterpiece and our belief in empowering authors to achieve their dreams. With
-                            Seedspire, your story doesn’t just grow—it flourishes into a success that stands
-                            tall.</p>
+                        <h1 class=""> Donald’s Book Publishing: Where Your Story Becomes a Bestseller</h1>
+                        <p class="mb-5"> At Donald’s Book Publishing, we believe every great story deserves to be
+                            told—and told well. Whether you're starting with a spark of an idea or a finished
+                            manuscript, we're here to help bring your vision to life. From ghostwriting and editing to
+                            publishing, audiobook production, and strategic marketing, we offer full-service support
+                            every step of the way.
+                            <br> <br>
+                            What makes us different? It’s our heartfelt commitment to excellence and our passion for
+                            helping authors thrive. We treat every project as a masterpiece in the making—because your
+                            words matter, and your voice deserves to be heard.
+                            <br> <br>
+                            With Donald’sBook Publishing, you’re not just publishing a book—you’re launching a legacy.
+
+                        </p>
                     </div>
                 </div>
             </div>
@@ -35,32 +41,43 @@
         <div class="container-wrapper">
             <div class="cta-bg custombluebg border-radius-33 custom-flex cta-ghost bg-abouts ctastyles-new">
                 <div class="col-lg-6">
-                    <h4 class="uppercase mb-3">Shaping Narratives That Leave a Lasting Impression</h4>
+                    <h4 class="uppercase mb-3">Shaping Stories That Make a Lasting Impact
+                    </h4>
                     <div class="row mb-custom-ul">
                         <div class="col-lg-12 col-sm-12">
 
-                            <p>At Seedspire, we understand that the path to becoming a bestselling author is
-                                unique for each storyteller. That’s why we take a personalized, hands-on
-                                approach to every project, ensuring that your voice is not only heard but
-                                celebrated. Our team of skilled writers, editors, and marketers work
-                                collaboratively to transform your ideas into polished, compelling stories that
-                                resonate with readers.</p>
-                            <p>From the first spark of inspiration to the final page, we guide you through every
-                                stage of the book creation process. </p>
-                            <p>But what truly sets us apart is our unwavering commitment to marketing your book
-                                to the right audience, ensuring that your hard work doesn’t go unnoticed. At
-                                Seedspire, we don’t just help you write a book—we help you build a legacy that
-                                stands the test of time. With us by your side, the world will know your name and
-                                your story.</p>
+                            <p>At Donald’s Book Publishing, we know that every author’s journey is one-of-a-kind. That’s
+                                why we take a personalized, hands-on approach to every project—ensuring your voice
+                                shines through, authentically and powerfully.
+                            </p>
+                            <br>
+                            <p>Our dedicated team of writers, editors, and marketing experts works side by side with you
+                                to turn your ideas into captivating, well-crafted books that connect with readers and
+                                leave a lasting impression.
+                            </p>
+                            <br>
+                            <p>From the first glance of inspiration to the final page in print, we’re with you every
+                                step of the way.
+                            </p>
+                            <br>
+                            <p>What truly sets us apart is our commitment to getting your book into the hands of the
+                                right audience. With targeted marketing strategies and unwavering support, we make sure
+                                your story doesn’t just exist—it thrives.
+                                <br><br>
+                                At Donald’s Book Publishing, we don’t just help you write a book. We help you create a
+                                legacy.
+                            </p>
 
                         </div>
 
                     </div>
 
                     <div class="d-flex btnflex mt-4">
-                        <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
+                        <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Discuss Your Project
+                        </a>
                         <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
+                            Touch
+                        </a>
                     </div>
                 </div>
             </div>
@@ -69,7 +86,8 @@
 
     <section class="mt-5 pt-5">
         <div class="container-wrapper myaboutprocess">
-            <h2>Empowering Authors, Shaping Stories, Creating Legacies</h2>
+            <h2>Empowering Authors. Shaping Stories. Creating Legacies.
+            </h2>
             <div class="row mt-4 cflexs g-0">
                 <div class="col-lg-3 col-md-12">
                     <a href="javascript:void();" class="process-box bx1">
@@ -80,8 +98,11 @@
                 <div class="col-lg-9 col-md-12">
                     <div class="customtextabouts">
                         <h4>Our Mission</h4>
-                        <p>At Seedspire, we turn ideas into captivating stories, providing authors with expert
-                            support in writing, publishing, marketing, and audiobooks to inspire success.</p>
+                        <p>At Donald’s Book Publishing, our mission is to transform your ideas into powerful,
+                            unforgettable stories. We provide expert support across writing, editing, publishing,
+                            marketing, and audiobook production, helping authors share their voice and achieve lasting
+                            success.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -96,9 +117,12 @@
                 </div>
                 <div class="col-lg-9 col-md-12">
                     <div class="customtextabouts">
-                        <h4>Our Vision </h4>
-                        <p>We envision a world where every author’s voice is heard, their stories resonate
-                            deeply, and their books achieve the success they deserve.</p>
+                        <h4>Our Vision
+                        </h4>
+                        <p>We envision a world where every storyteller is heard, every book finds its audience, and
+                            every author reaches their full potential. At Donald’s Book Publishing, we believe your
+                            story deserves to make an impact.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -116,8 +140,11 @@
                 <div class="col-lg-9 col-md-12">
                     <div class="customtextabouts">
                         <h4>Our Core Values </h4>
-                        <p>We believe in fostering creativity, upholding integrity, empowering authors, striving
-                            for excellence, and working together to deliver stories that leave a lasting impact.
+                        <p>At Donald’s Book Publishing, we are deeply committed to nurturing creativity, upholding
+                            integrity, empowering authors, striving for excellence, and fostering collaboration. We
+                            believe in the transformative power of storytelling and dedicate ourselves to providing
+                            authors with the support and resources they need to bring their narratives to life.
+
                         </p>
                     </div>
                 </div>
@@ -133,54 +160,7 @@
 
 
 
-    <section class="mt-5 mb-5">
-        <div class="boxes-bottom-section">
-            <div class="container-wrapper">
-                <h2 class="text-center pb-3">Why Choose Seedspire Publishing?</h2>
-                <p class="text-center mb-5">At Seedspire, we bring your literary dreams to life with unmatched
-                    expertise, personalized solutions, and a commitment to excellence. From crafting your
-                    manuscript to marketing your masterpiece, we ensure every step is seamless. Let us help your
-                    story shine and achieve the success it deserves.</p>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="box-one-service-bottom bg-gray-dark">
-                            <img loading="lazy" alt="Seedspire Publishing" class="mb-20s"
-                                src="assets/images/sr-box-ico1.webp">
-                            <h6>Comprehensive <br> Services </h6>
-                            <p>End-to-end support from writing to publishing and marketing excellence.</p>
-                            <div class="imgright">
-                                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="box-one-service-bottom bg-gray-dark">
-                            <img loading="lazy" alt="Seedspire Publishing" class="mb-20s"
-                                src="assets/images/sr-box-ico2.webp">
-                            <h6>Personalized <br>
-                                Approach </h6>
-                            <p>Tailored solutions to match every author’s unique vision and goals.</p>
-                            <div class="imgright">
-                                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="box-one-service-bottom bg-gray-dark">
-                            <img loading="lazy" alt="Seedspire Publishing" class="mb-20s"
-                                src="assets/images/sr-box-ico3.webp">
-                            <h6>Proven <br>
-                                Results </h6>
-                            <p>Effective strategies to maximize visibility, engagement, and book sales.</p>
-                            <div class="imgright">
-                                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include 'partials/why-choose.php'; ?>
 
 
 </div>

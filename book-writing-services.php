@@ -1,654 +1,379 @@
 <?php include 'partials/header.php'; ?>
-    <div class="body-content">
+<div class="body-content">
 
 
-      <section class="banner banner-inner custom-padding position-relative-customs">
-        <div class="bg-banner-inner-service-img">
-          <img loading="lazy" alt="Seedspire Publishing" src="assets/images/banner-one-service.webp">
+  <section class="banner banner-inner custom-padding position-relative-customs">
+    <div class="bg-banner-inner-service-img">
+      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/banner-one-service.webp">
+    </div>
+    <div class="container-wrapper ">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="services-inner-banner-style">
+            <h1>Professional Book Writing Services in the USA – Get Yours Today!</h1>
+            <p class="main-para">Best writing services that turn your dream into reality
+            </p>
+            <div class="custom-ul ctaul">
+              <ul>
+                <li>Get a write-up of your book now without hassle
+                </li>
+                <li>From ISBN registration to Amazon KDP & global distribution</li>
+                <li>Seamless process of book writing
+                </li>
+              </ul>
+            </div>
+            <div class="d-flex btnflex mt-4">
+              <a href="#." class="web-black-btn open-chat-button" role="button">Free Consultation </a>
+              <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
+                data-bs-target="#contact-popup">Connect now
+              </a>
+            </div>
+            <div class="custom-flex-banner">
+              <div class="imagetrustd"><img loading="lazy" alt="Seedspire Publishing"
+                  src="assets/images/trusted-banner.webp"></div>
+              <div class="imagetrustd-text">
+                <p>Trusted By<br>
+                  5600+ Author’s Worldwide</p>
+              </div>
+            </div>
+            <div class="trustbottombanner">
+              <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-icons-banner.webp"
+                class="mybannertrusted">
+            </div>
+          </div>
         </div>
-        <div class="container-wrapper ">
-          <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12">
-              <div class="services-inner-banner-style">
-                <h1>Turning Visionary Ideas into Exceptional Bestseller Narratives</h1>
-                <p class="main-para">Professional book writing that shapes ideas into bestsellers. </p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <div class="mb-5 mt-5">
+
+    <section class="main-our-process-section mb-5" id="our-process-section">
+      <div class="container-wrapper">
+        <h2>Our Process</h2>
+        <div class="custom-flex main-our-process-inner-section mt-5 justify-content-around-c">
+          <div class="w-20-c hzoom">
+            <div class="processboxsection vertical-align-box">
+              <a href="javascript:void();" class="process-box">
+                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-1.webp">
+                <h6>Consultation & Outline Creation</h6>
+              </a>
+              <a href="javascript:void();" class="process-box">
+                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-2.webp">
+                <h6>Chapter Development & Submission</h6>
+              </a>
+              <a href="javascript:void();" class="process-box">
+                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-3.webp">
+                <h6>Editing, Formatting & Finalization</h6>
+              </a>
+            </div>
+          </div>
+          <div class="w-20-c hzoom">
+            <div class="my-process-box-inner bg1 border-radius-20 process-style-content">
+              <h3>Step 01<br>
+                Creating an outline</h3>
+
+              <h4>Developing a clear concept and a structured outline to maintain efficiency</h4>
+            </div>
+          </div>
+          <div class="w-20-c hzoom">
+            <div class="my-process-box-inner bg2 border-radius-20 process-style-content">
+              <h3>Step 02<br>
+                Submission and Go-ahead</h3>
+
+              <h4>It’s all about client satisfaction. We draft, submit chapters, and welcome your review
+              </h4>
+            </div>
+          </div>
+          <div class="w-20-c hzoom">
+            <div class="my-process-box-inner bg3 border-radius-20 process-style-content">
+              <h3>Step 03<br>
+                Finalizing with accuracy</h3>
+
+              <h4>Fixing through edits, formatting, and finalizing the entire process
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="main-our-cta-section   ">
+      <div class="container-wrapper">
+        <div class="cta-bg border-radius-33 custom-flex cta-ghost ctastyles-new">
+          <div class="col-lg-6">
+            <h4 class="uppercase mb-3">Transform Your Ideas into Powerful Stories!
+
+            </h4>
+            <div class="row mb-custom-ul">
+              <div class="col-lg-12 col-sm-12">
                 <div class="custom-ul ctaul">
                   <ul>
-                    <li>Award-winning writers crafting bestselling fiction and non-fiction.</li>
-                    <li>Personalized writing with quick turnaround times.</li>
-                    <li>Competitive pricing – Satisfaction guaranteed – Unlimited revisions.</li>
+                    <li>Compelling tales that grab readers’ attention from beginning to end.
+                    </li>
+                    <li>Real, relatable characters and dialogue that make your story unforgettable</li>
+                    <li>High-quality writing that resonates and leaves a lasting impression.</li>
+
                   </ul>
                 </div>
-                <div class="d-flex btnflex mt-4">
-                  <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                  <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
-                    data-bs-target="#contact-popup">Get in Touch</a>
-                </div>
-                <div class="custom-flex-banner">
-                  <div class="imagetrustd"><img loading="lazy" alt="Seedspire Publishing"
-                      src="assets/images/trusted-banner.webp"></div>
-                  <div class="imagetrustd-text">
-                    <p>Trusted By<br>
-                      5600+ Author’s Worldwide</p>
-                  </div>
-                </div>
-                <div class="trustbottombanner">
-                  <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-icons-banner.webp"
-                    class="mybannertrusted">
-                </div>
               </div>
+
+            </div>
+
+            <div class="d-flex btnflex mt-4">
+              <a href="#." class="web-black-btn open-chat-button" role="button">Free Consultation </a>
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Connect now
+              </a>
             </div>
           </div>
         </div>
-
-      </section>
-
-
-      <div class="mb-5 mt-5">
-
-        <section class="main-our-process-section mb-5" id="our-process-section">
-          <div class="container-wrapper">
-            <h2>Our Process</h2>
-            <div class="custom-flex main-our-process-inner-section mt-5 justify-content-around-c">
-              <div class="w-20-c hzoom">
-                <div class="processboxsection vertical-align-box">
-                  <a href="javascript:void();" class="process-box">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-1.webp">
-                    <h6>Consultation & Outline Creation</h6>
-                  </a>
-                  <a href="javascript:void();" class="process-box">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-2.webp">
-                    <h6>Chapter Development & Submission</h6>
-                  </a>
-                  <a href="javascript:void();" class="process-box">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-3.webp">
-                    <h6>Editing, Formatting & Finalization</h6>
-                  </a>
-                </div>
-              </div>
-              <div class="w-20-c hzoom">
-                <div class="my-process-box-inner bg1 border-radius-20 process-style-content">
-                  <h3>Step 01<br>
-                    Consultation & Outline Creation</h3>
-
-                  <h4>Developing a clear concept<br /> and structured outline.</h4>
-                </div>
-              </div>
-              <div class="w-20-c hzoom">
-                <div class="my-process-box-inner bg2 border-radius-20 process-style-content">
-                  <h3>Step 02<br>
-                    Chapter Development & Submission</h3>
-
-                  <h4>Drafting and submitting chapters for seamless review.</h4>
-                </div>
-              </div>
-              <div class="w-20-c hzoom">
-                <div class="my-process-box-inner bg3 border-radius-20 process-style-content">
-                  <h3>Step 03<br>
-                    Editing, Formatting & Finalization</h3>
-
-                  <h4>Refining, formatting, and preparing for publication.</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <section class="main-our-cta-section   ">
-          <div class="container-wrapper">
-            <div class="cta-bg border-radius-33 custom-flex cta-ghost ctastyles-new">
-              <div class="col-lg-6">
-                <h4 class="uppercase mb-3">Turn Your Ideas into Impactful Stories with Premier Book Writing Expertise!
-                </h4>
-                <div class="row mb-custom-ul">
-                  <div class="col-lg-12 col-sm-12">
-                    <div class="custom-ul ctaul">
-                      <ul>
-                        <li>Engaging narratives that captivate readers from start to finish.</li>
-                        <li>Well-crafted characters and dialogue that bring stories to life.</li>
-                        <li>Quality writing that resonates and leaves a lasting impact.</li>
-
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="d-flex btnflex mt-4">
-                  <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                  <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                    Touch</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
       </div>
+    </section>
 
-      <section class=" services-box">
-        <div class="container-wrapper">
-          <div class="row flex-align-items-stretch">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
-                <div class="content-services">
-                  <h3>Outline and Synopsis Writing </h3>
-                  <p>Creating concise, compelling outlines and synopses that effectively convey a story’s essence.</p>
-                  <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
-                    Quote</a>
-                  <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                      src="assets/images/gwriting1.webp"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
-                <div class="content-services">
-                  <h3>Dialogue and Character Development</h3>
-                  <p>Crafting authentic dialogue and developing memorable characters that bring stories to life vividly.
-                  </p>
-                  <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
-                    Quote</a>
-                  <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                      src="assets/images/gwriting2.webp"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row flex-align-items-stretch">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
-                <div class="content-services">
-                  <h3>Story Structuring</h3>
-                  <p>Building a strong narrative structure that guides the story with clarity and purpose.</p>
-                  <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
-                    Quote</a>
 
-                  <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
-                      src="assets/images/gwriting3.webp"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div
-                class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone moblileheights ">
-                <div class="content-services ">
-                  <div class="zindex1">
-                    <h3>Manuscript Development</h3>
-                    <p>Developing a compelling manuscript with attention to detail, shaping each element for success.
-                    </p>
-                    <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
-                      Quote</a>
-                  </div>
+  </div>
 
-                </div>
-                <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/gwriting4.webp"></div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="custom-padding">
-        <div class="container-wrapper">
-          <div class="custom-flex">
-            <div class="col-lg-7 col-md-12 col-sm-12">
-              <div class="myheading-custom heading-custom-withbtn">
-                <h2>Ready to Shape Your Book into a Masterpiece? </h2>
-
-                <p class="my-bigp"><strong>Let’s Get Started!</strong></p>
-              </div>
-            </div>
-            <div class="col-lg-5 col-md-12 col-sm-12">
-              <div class="d-flex btnflex flex-bottoms">
-                <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                  Touch</a>
-              </div>
+  <section class=" services-box">
+    <div class="container-wrapper">
+      <div class="row flex-align-items-stretch">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
+            <div class="content-services">
+              <h3>Outline and Synopsis Writing
+              </h3>
+              <p>Crafting focused outlines that highlight key plot points, character arcs, and story structure to keep
+                the narrative on track. Writing engaging summaries that capture the heart of the story in a few
+                impactful sentences, making readers eager to dive into the full narrative</p>
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
+                Quote</a>
+              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
+                  src="assets/images/gwriting1.webp"></div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="main-our-cta-section" id="">
-        <div class="container-wrapper">
-          <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
-            <div class="col-lg-6">
-              <h4 class="uppercase mb-3">ALL. GENRES. COVERED.</h4>
-              <p class="my-pera">Diversity meets creativity at Seedspire to bring your unique story to life. Whether
-                it's fiction, non-fiction, or anything in between, we craft compelling narratives that resonate with
-                your audience. Your vision, our expertise – let’s create something extraordinary together!</p>
-
-
-              <div class="btn-blockss mt-4">
-                <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a></div>
-                <div><a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                    Touch</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="portfolio-slider">
-        <div class="container-wrapper">
-          <div class="center-heading text-center pt-5 pb-5">
-            <h2>Bookfolio</h2>
-            <h5>Shaping Stories into Timeless Literary Masterpieces</h5>
-          </div>
-        </div>
-
-        <div class="tabscustom text-center mb-5">
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one"
-                type="button" role="tab" aria-controls="pills-one" aria-selected="true">Educational</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two"
-                type="button" role="tab" aria-controls="pills-two" aria-selected="false">Romance</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three"
-                type="button" role="tab" aria-controls="pills-three" aria-selected="false">Fiction</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-four-tab" data-bs-toggle="pill" data-bs-target="#pills-four"
-                type="button" role="tab" aria-controls="pills-four" aria-selected="false">Biography</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-five-tab" data-bs-toggle="pill" data-bs-target="#pills-five"
-                type="button" role="tab" aria-controls="pills-five" aria-selected="false">Sci-fi</button>
-            </li>
-          </ul>
-
-        </div>
-
-      </section>
-
-
-      <section class="portfolio-slider">
-
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
-            <div class="owl-carousel-center owl-theme owl-carousel">
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Edutional01.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Edutional02.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Edutional03.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Edutional04.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Edutional05.webp"></div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
-            <div class="owl-carousel-center owl-theme owl-carousel">
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Romance01.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Romance02.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Romance03.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Romance04.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Romance05.webp"></div>
-              </div>
-
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
-            <div class="owl-carousel-center owl-theme owl-carousel">
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Fiction01.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Fiction02.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Fiction03.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Fiction04.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Fiction05.webp"></div>
-              </div>
-
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
-            <div class="owl-carousel-center owl-theme owl-carousel">
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Biography01.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Biography02.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Biography03.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Biography04.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Biography05.webp"></div>
-              </div>
-
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">
-            <div class="owl-carousel-center owl-theme owl-carousel">
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Sci-fi01.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Sci-fi02.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Sci-fi03.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Sci-fi04.webp"></div>
-              </div>
-              <div class="item">
-                <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                    src="assets/images/Sci-fi05.webp"></div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-
-
-      </section>
-
-
-      <section class="custom-padding d-none">
-        <div class="container-wrapper">
-          <div class="custom-flex customflexoff">
-            <div class="col-lg-7 col-md-12 col-sm-12">
-              <div class="myheading-custom heading-custom-withbtn">
-                <h2>Pricing Plans</h2>
-
-                <p class="my-bigp"><strong>Shaping Stories into Timeless Literary Masterpieces</strong></p>
-              </div>
-            </div>
-            <div class="col-lg-5 col-md-12 col-sm-12">
-              <div class="d-flex btnflex flex-bottoms">
-                <a href="#." class="web-black-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get a Quote
-                </a>
-                <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Chat with
-                  Us</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="pricing-section d-none ">
-        <div class="container-wrapper">
-          <div class="row">
-            <div class="col-lg-4 col-md-12">
-              <div class="ourpricing">
-                <div class="package">Basic</div>
-                <h3>50 PAGES</h3>
-                <div class="btmspace">
-                  <div class="pricing-inner">
-                    <div class="scrollbar force-overflow style-4" id="">
-                      <ul class="">
-                        <li>Producing /updating the outline</li>
-                        <li>Finishing a complete book of 50-100 Pages as per the requests/plan</li>
-                        <li>Adjusting the layout and presentation for the publishing standards</li>
-                        <li>Unlimited Free revisions </li>
-                        <li>A devoted team of professional writers</li>
-                        <li>Free Editing, Proofreading, formatting & Structuring</li>
-                        <li>Get Free Unique Cover design</li>
-                        <li>Content Copyrights are 100% guaranteed</li>
-
-
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="button-bottom-price">
-                  <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A
-                    Quote</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-12">
-              <div class="ourpricing">
-                <div class="package">Standard</div>
-                <h3>100 PAGES</h3>
-                <div class="btmspace">
-                  <div class="pricing-inner">
-                    <div class="scrollbar force-overflow style-4" id="">
-                      <ul class="">
-                        <li>Producing /updating the outline</li>
-                        <li>Finishing a complete book of 50-100 Pages as per the requests/plan</li>
-                        <li>Adjusting the layout and presentation for the publishing standards</li>
-                        <li>Unlimited Free revisions </li>
-                        <li>A devoted team of professional writers</li>
-                        <li>Free Editing, Proofreading, formatting & Structuring</li>
-                        <li>Get Free Unique Cover design</li>
-                        <li>Content Copyrights are 100% guaranteed</li>
-
-
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="button-bottom-price">
-                  <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A
-                    Quote</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-12">
-              <div class="ourpricing mb-0-mobile">
-                <div class="package">Premium</div>
-                <h3>200 PAGES</h3>
-                <div class="btmspace">
-                  <div class="pricing-inner">
-                    <div class="scrollbar force-overflow style-4" id="">
-                      <ul class="">
-                        <li>Producing /updating the outline</li>
-                        <li>Finishing a complete book of 50-100 Pages as per the requests/plan</li>
-                        <li>Adjusting the layout and presentation for the publishing standards</li>
-                        <li>Unlimited Free revisions </li>
-                        <li>A devoted team of professional writers</li>
-                        <li>Free Editing, Proofreading, formatting & Structuring</li>
-                        <li>Get Free Unique Cover design</li>
-                        <li>Content Copyrights are 100% guaranteed</li>
-
-
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="button-bottom-price">
-                  <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A
-                    Quote</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonials mt-5">
-        <div class="container-wrapper">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <div class="testimonialsbox">
-                <div class="d-flex align-items-center">
-                  <div class="testi-image-main w-50-custom">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/testi-1.webp">
-                  </div>
-
-                  <div class="testimonials-content w-50-custom">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                    <p>"Seedspire’s book writing service turned my rough idea into a captivating novel. Their skilled
-                      writers brought my vision to life with incredible creativity and precision."</p>
-                    <p class="text-dark"><strong>Sophia Martin</strong></p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <div class="testimonialsbox">
-                <div class="d-flex align-items-center">
-                  <div class="testi-image-main w-50-custom">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/testi-2.webp">
-                  </div>
-
-                  <div class="testimonials-content w-50-custom">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                    <p>"Seedspire took my concept and turned it into a final manuscript that exceeded my expectations.
-                      Their attention to detail made all the difference."</p>
-                    <p class="text-dark"><strong> Ethan Williams</strong></p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <div class="testimonialsbox">
-                <div class="d-flex align-items-center">
-                  <div class="testi-image-main w-50-custom">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/testi-3.webp">
-                  </div>
-
-                  <div class="testimonials-content w-50-custom">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                    <p>"Seedspire’s book-writing service is exceptional. They brought my book idea to life with flawless
-                      writing and professionalism."</p>
-                    <p class="text-dark"><strong>Liam Harris</strong></p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
-        <div class="container-wrapper">
-          <div class="cta-bg border-radius-33 cta-one ">
-            <div class="col-lg-5 mycustomctanew">
-              <h2 class="uppercase mb-5">Your IDEA. <br>
-                Our Expertise.</h2>
-              <p>
-                BECOME A BESTSELLER TODAY!
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
+            <div class="content-services">
+              <h3>Developing Character and Dialogues
+              </h3>
+              <p>Creating realistic dialogue and developing standout characters who bring stories to life.
 
               </p>
-              <p class="captial-small">You are just a step away from greatness.</p>
-
-              <div class="d-flex btnflex mt-5">
-                <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project</a>
-                <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get in
-                  Touch</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-
-      <section>
-        <div class="boxes-bottom-section">
-          <div class="container-wrapper">
-            <h2 class="text-center pb-3">Why Choose Seedspire Publishing?</h2>
-            <p class="text-center mb-5">At Seedspire, we bring your literary dreams to life with unmatched expertise,
-              personalized solutions, and a commitment to excellence. From crafting your manuscript to marketing your
-              masterpiece, we ensure every step is seamless. Let us help your story shine and achieve the success it
-              deserves.</p>
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="box-one-service-bottom bg-gray-dark">
-                  <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/sr-box-ico1.webp">
-                  <h6>Comprehensive <br> Services </h6>
-                  <p>End-to-end support from writing to publishing and marketing excellence.</p>
-                  <div class="imgright">
-                    <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="box-one-service-bottom bg-gray-dark">
-                  <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/sr-box-ico2.webp">
-                  <h6>Personalized <br>
-                    Approach </h6>
-                  <p>Tailored solutions to match every author’s unique vision and goals.</p>
-                  <div class="imgright">
-                    <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="box-one-service-bottom bg-gray-dark">
-                  <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/sr-box-ico3.webp">
-                  <h6>Proven <br>
-                    Results </h6>
-                  <p>Effective strategies to maximize visibility, engagement, and book sales.</p>
-                  <div class="imgright">
-                    <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                  </div>
-                </div>
-              </div>
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
+                Quote</a>
+              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
+                  src="assets/images/gwriting2.webp"></div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="row flex-align-items-stretch">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
+            <div class="content-services">
+              <h3>Story Structuring</h3>
+              <p>Crafting a solid narrative structure that steers the story with clarity and intent.
+              </p>
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
+                Quote</a>
 
+              <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
+                  src="assets/images/gwriting3.webp"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div
+            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone moblileheights ">
+            <div class="content-services ">
+              <div class="zindex1">
+                <h3>Manuscript Development</h3>
+                <p>Creating a captivating manuscript, fine-tuning every detail for success.
+                </p>
+                <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
+                  Quote</a>
+              </div>
+
+            </div>
+            <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
+                src="assets/images/gwriting4.webp"></div>
+          </div>
+        </div>
+      </div>
 
     </div>
-    <?php include 'partials/footer.php'; ?>
+  </section>
+
+  <section class="custom-padding">
+    <div class="container-wrapper">
+      <div class="custom-flex">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <div class="myheading-custom heading-custom-withbtn">
+            <h2>All Set to Transform Your Book into a Masterpiece?
+            </h2>
+
+            <p class="my-bigp"><strong>Let’s Begin!</strong></p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12">
+          <div class="d-flex btnflex flex-bottoms">
+            <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
+            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get connected</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-our-cta-section" id="">
+    <div class="container-wrapper">
+      <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
+        <div class="col-lg-6">
+          <h4 class="uppercase mb-3">Embracing All Genres
+          </h4>
+          <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether fiction, non-fiction, or anything in between, we craft captivating narratives that connect with your audience. Your vision, our expertise – let’s create something remarkable!
+          </p>
+
+
+          <div class="btn-blockss mt-4">
+            <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a></div>
+            <div><a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
+                Touch</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <?php include 'partials/portfolio.php'; ?>
+
+
+  <section class="custom-padding d-none">
+    <div class="container-wrapper">
+      <div class="custom-flex customflexoff">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <div class="myheading-custom heading-custom-withbtn">
+            <h2>Pricing Plans</h2>
+
+            <p class="my-bigp"><strong>Shaping Stories into Timeless Literary Masterpieces</strong></p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12">
+          <div class="d-flex btnflex flex-bottoms">
+            <a href="#." class="web-black-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get a Quote
+            </a>
+            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Chat with
+              Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing-section d-none ">
+    <div class="container-wrapper">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <div class="ourpricing">
+            <div class="package">Basic</div>
+            <h3>50 PAGES</h3>
+            <div class="btmspace">
+              <div class="pricing-inner">
+                <div class="scrollbar force-overflow style-4" id="">
+                  <ul class="">
+                    <li>Producing /updating the outline</li>
+                    <li>Finishing a complete book of 50-100 Pages as per the requests/plan</li>
+                    <li>Adjusting the layout and presentation for the publishing standards</li>
+                    <li>Unlimited Free revisions </li>
+                    <li>A devoted team of professional writers</li>
+                    <li>Free Editing, Proofreading, formatting & Structuring</li>
+                    <li>Get Free Unique Cover design</li>
+                    <li>Content Copyrights are 100% guaranteed</li>
+
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="button-bottom-price">
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A
+                Quote</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="ourpricing">
+            <div class="package">Standard</div>
+            <h3>100 PAGES</h3>
+            <div class="btmspace">
+              <div class="pricing-inner">
+                <div class="scrollbar force-overflow style-4" id="">
+                  <ul class="">
+                    <li>Producing /updating the outline</li>
+                    <li>Finishing a complete book of 50-100 Pages as per the requests/plan</li>
+                    <li>Adjusting the layout and presentation for the publishing standards</li>
+                    <li>Unlimited Free revisions </li>
+                    <li>A devoted team of professional writers</li>
+                    <li>Free Editing, Proofreading, formatting & Structuring</li>
+                    <li>Get Free Unique Cover design</li>
+                    <li>Content Copyrights are 100% guaranteed</li>
+
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="button-bottom-price">
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A
+                Quote</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="ourpricing mb-0-mobile">
+            <div class="package">Premium</div>
+            <h3>200 PAGES</h3>
+            <div class="btmspace">
+              <div class="pricing-inner">
+                <div class="scrollbar force-overflow style-4" id="">
+                  <ul class="">
+                    <li>Producing /updating the outline</li>
+                    <li>Finishing a complete book of 50-100 Pages as per the requests/plan</li>
+                    <li>Adjusting the layout and presentation for the publishing standards</li>
+                    <li>Unlimited Free revisions </li>
+                    <li>A devoted team of professional writers</li>
+                    <li>Free Editing, Proofreading, formatting & Structuring</li>
+                    <li>Get Free Unique Cover design</li>
+                    <li>Content Copyrights are 100% guaranteed</li>
+
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="button-bottom-price">
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get A
+                Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <?php include 'partials/testimonials.php'; ?>
+
+
+  <?php include 'partials/vision.php'; ?>
+
+  <?php include 'partials/why-choose.php'; ?>
+  
+
+
+</div>
+<?php include 'partials/footer.php'; ?>

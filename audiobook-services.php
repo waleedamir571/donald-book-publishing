@@ -9,20 +9,28 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="services-inner-banner-style">
-                        <h1>Bring Stories to Life with Every Word</h1>
-                        <p class="main-para">Immerse listeners in unforgettable stories with expert narration and sound
-                            design. </p>
+                        <h1>Bring Your Audiobook to Life with Expert Narration
+                        </h1>
+                        <p class="main-para">Immerse listeners in unforgettable stories with professional narration and
+                            sound design.
+                        </p>
                         <div class="custom-ul ctaul">
                             <ul>
-                                <li>Award-winning narrators, sound engineers, and audio editors</li>
-                                <li>Fastest turnaround time for high-quality audiobook production</li>
-                                <li>Affordable rates – 100% satisfaction guarantee – unlimited revisions</li>
+                                <li>Award-Winning Narrators, Sound Engineers, and Audio Editors
+
+
+                                </li>
+                                <li>Fast Turnaround for Top-Quality Audiobook Production
+                                </li>
+                                <li>Affordable Rates – 100% Satisfaction Guarantee – Unlimited Revisions</li>
                             </ul>
                         </div>
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project
+                            </a>
                             <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch</a>
+                                data-bs-target="#contact-popup">Get in Touch Today!
+                            </a>
                         </div>
                         <div class="custom-flex-banner">
                             <div class="imagetrustd">
@@ -83,7 +91,8 @@
                             <h3>Step 01<br>
                                 Script Refinement</h3>
 
-                            <h4>Perfect the text for flawless narration.</h4>
+                            <h4>Polish the text for seamless narration.
+                            </h4>
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
@@ -91,7 +100,7 @@
                             <h3>Step 02<br>
                                 Engaging Narration</h3>
 
-                            <h4>Capture the story with professional voice talent.</h4>
+                            <h4>Bring the story to life with professional voice talent.</h4>
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
@@ -99,7 +108,7 @@
                             <h3>Step 03<br>
                                 Audio Polishing</h3>
 
-                            <h4>Ensure clarity and consistency.</h4>
+                            <h4>Enhance clarity and consistency for a flawless listening experience</h4>
                         </div>
                     </div>
                 </div>
@@ -111,15 +120,16 @@
             <div class="container-wrapper">
                 <div class="cta-bg border-radius-33 custom-flex cta-ghost bg-audio ctastyles-new">
                     <div class="col-lg-6">
-                        <h4 class="uppercase mb-3">Create Unforgettable Audiobooks with Professional Narration and
-                            Impeccable Sound Editing!</h4>
+                        <h4 class="uppercase mb-3">Spectacular Audiobooks with Expert Narration and Clearer Sound
+                            Editing!
+                        </h4>
                         <div class="row mb-custom-ul">
                             <div class="col-lg-12 col-sm-12">
                                 <div class="custom-ul ctaul">
                                     <ul>
-                                        <li>Expert narration that brings stories to life.</li>
-                                        <li>Crystal-clear sound editing for immersive listening.</li>
-                                        <li>Fast, flawless production and delivery.</li>
+                                        <li>Professional narration that brings your story to life.</li>
+                                        <li>Crystal-clear sound editing for an immersive experience</li>
+                                        <li>Fast, high-quality production and timely delivery.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -127,9 +137,10 @@
                         </div>
 
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a>
                             <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get
-                                in Touch</a>
+                                in Touch Today!
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -146,8 +157,9 @@
                     <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
                         <div class="content-services">
                             <h3>Single Narrator </h3>
-                            <p>Bringing stories to life with a single narrator, creating an immersive and engaging
-                                listening experience.</p>
+                            <p> Bring your story to life with a single narrator, creating a captivating and immersive
+                                listening experience.
+                            </p>
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get
                                 a Quote</a>
 
@@ -161,8 +173,9 @@
                     <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
                         <div class="content-services">
                             <h3>Full-Cast Audiobooks</h3>
-                            <p>Immersive storytelling with multi-voice performances for unforgettable audiobook
-                                experiences. </p>
+                            <p> Experience immersive storytelling with multi-voice performances that make your audiobook
+                                unforgettable.
+                            </p>
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get
                                 a Quote</a>
                             <div class="position-image">
@@ -177,8 +190,8 @@
                     <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
                         <div class="content-services">
                             <h3>Abridged Audiobooks</h3>
-                            <p>Concise storytelling with clarity, delivering impactful and time-efficient audiobooks for
-                                all listeners</p>
+                            <p>Deliver concise and impactful storytelling, providing time-efficient audiobooks for all
+                                listeners</p>
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get
                                 a Quote</a>
 
@@ -194,7 +207,7 @@
                         <div class="content-services ">
                             <div class="zindex1">
                                 <h3>Unabridged Audiobooks</h3>
-                                <p>Delivering complete, immersive storytelling with every detail intact for a rich
+                                <p> Present the full, immersive story with every detail intact for a rich and engaging
                                     auditory experience.</p>
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
                                     class="web-blue-btn">Get a Quote</a>
@@ -216,15 +229,16 @@
             <div class="custom-flex">
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="myheading-custom heading-custom-withbtn">
-                        <h2>Ready to Shape Your Book into a Masterpiece?</h2>
+                        <h2>Ready to Add Sound to Your Book?</h2>
 
-                        <p class="my-bigp"><strong>Let’s Get Started!</strong></p>
+                        <p class="my-bigp"><strong> Let’s Get Started!
+                            </strong></p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="d-flex btnflex flex-bottoms">
-                        <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
+                        <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a>
+                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get in
                             Touch</a>
                     </div>
                 </div>
@@ -235,194 +249,28 @@
     <section class="main-our-cta-section" id="">
         <div class="container-wrapper">
             <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
-                <div class="col-lg-6">
-                    <h4 class="uppercase mb-3">ALL. GENRES. COVERED.</h4>
-                    <p class="my-pera">Diversity meets creativity at Seedspire to bring your unique story to life.
-                        Whether it's fiction, non-fiction, or anything in between, we craft compelling narratives that
-                        resonate with your audience. Your vision, our expertise – let’s create something extraordinary
-                        together!</p>
+                <div class="col-lg-4">
+                    <h4 class="uppercase mb-3">Best Audiobook Services in the USA for All Genres
+                    </h4>
+                    <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life.
+                        Whether fiction, non-fiction, or anything in between, we craft captivating narratives that
+                        connect with your audience. Your vision, our expertise – let’s create something remarkable!
+                    </p>
 
 
                     <div class="btn-blockss mt-4">
-                        <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
+                        <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a>
                         </div>
                         <div><a href="#." class="web-blue-btn" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch</a></div>
+                                data-bs-target="#contact-popup">Get in Touch
+                            </a></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="portfolio-slider">
-        <div class="container-wrapper">
-            <div class="center-heading text-center pt-5 pb-5">
-                <h2>Bookfolio</h2>
-                <h5>Shaping Stories into Timeless Literary Masterpieces</h5>
-            </div>
-        </div>
-
-        <div class="tabscustom text-center mb-5">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one"
-                        type="button" role="tab" aria-controls="pills-one" aria-selected="true">Educational</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two"
-                        type="button" role="tab" aria-controls="pills-two" aria-selected="false">Romance</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three"
-                        type="button" role="tab" aria-controls="pills-three" aria-selected="false">Fiction</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-four-tab" data-bs-toggle="pill" data-bs-target="#pills-four"
-                        type="button" role="tab" aria-controls="pills-four" aria-selected="false">Biography</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-five-tab" data-bs-toggle="pill" data-bs-target="#pills-five"
-                        type="button" role="tab" aria-controls="pills-five" aria-selected="false">Sci-fi</button>
-                </li>
-            </ul>
-
-        </div>
-
-    </section>
-
-
-    <section class="portfolio-slider">
-
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
-                <div class="owl-carousel-center owl-theme owl-carousel">
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Edutional01.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Edutional02.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Edutional03.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Edutional04.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Edutional05.webp"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
-                <div class="owl-carousel-center owl-theme owl-carousel">
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Romance01.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Romance02.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Romance03.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Romance04.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Romance05.webp"></div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
-                <div class="owl-carousel-center owl-theme owl-carousel">
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Fiction01.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Fiction02.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Fiction03.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Fiction04.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Fiction05.webp"></div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
-                <div class="owl-carousel-center owl-theme owl-carousel">
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Biography01.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Biography02.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Biography03.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Biography04.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Biography05.webp"></div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">
-                <div class="owl-carousel-center owl-theme owl-carousel">
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Sci-fi01.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Sci-fi02.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Sci-fi03.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Sci-fi04.webp"></div>
-                    </div>
-                    <div class="item">
-                        <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/Sci-fi05.webp"></div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-
-    </section>
+    <?php include 'partials/portfolio.php'; ?>
 
     <section class="custom-padding d-none">
         <div class="container-wrapper">
@@ -538,148 +386,13 @@
         </div>
     </section>
 
-    <section class="testimonials mt-5">
-        <div class="container-wrapper">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="testimonialsbox">
-                        <div class="d-flex align-items-center">
-                            <div class="testi-image-main w-50-custom">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/testi-1.webp">
-                            </div>
-
-                            <div class="testimonials-content w-50-custom">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                                <p>"The audiobook production was flawless! Seedspire turned my manuscript into an
-                                    engaging, professionally narrated experience."</p>
-                                <p class="text-dark"><strong>Brian Lockwood </strong></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="testimonialsbox">
-                        <div class="d-flex align-items-center">
-                            <div class="testi-image-main w-50-custom">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/testi-2.webp">
-                            </div>
-
-                            <div class="testimonials-content w-50-custom">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                                <p>"Seedspire’s audiobook service turned my script into a captivating final product.
-                                    Their team provided top-tier service, making my audiobook enjoyable to listen to."
-                                </p>
-                                <p class="text-dark"><strong>Liza Bynes </strong></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="testimonialsbox">
-                        <div class="d-flex align-items-center">
-                            <div class="testi-image-main w-50-custom">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/testi-3.webp">
-                            </div>
-
-                            <div class="testimonials-content w-50-custom">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-image.webp">
-                                <p>"Seedspire's attention to detail and commitment to excellence made my audiobook a
-                                    standout. The narration was perfect, and the final product was exceptional! "</p>
-                                <p class="text-dark"><strong>Leonard Wilson </strong></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include 'partials/testimonials.php'; ?>
 
 
-    <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
-        <div class="container-wrapper">
-            <div class="cta-bg border-radius-33 cta-one ">
-                <div class="col-lg-5 mycustomctanew ccspace">
-                    <h2 class="uppercase mb-5">Your IDEA.
-                        <br>
-                        Our Expertise.
-                    </h2>
-                    <p>
-                        BECOME A BESTSELLER TODAY!
+    <?php include 'partials/vision.php'; ?>
 
 
-                    </p>
-                    <p class="captial-small">You are just a step away from greatness.</p>
-
-                    <div class="d-flex btnflex mt-5">
-                        <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <section>
-        <div class="boxes-bottom-section">
-            <div class="container-wrapper">
-                <h2 class="text-center pb-3">Why Choose Seedspire Publishing?</h2>
-                <p class="text-center mb-5">At Seedspire, we bring your literary dreams to life with unmatched
-                    expertise, personalized solutions, and a commitment to excellence. From crafting your manuscript to
-                    marketing your masterpiece, we ensure every step is seamless. Let us help your story shine and
-                    achieve the success it deserves.</p>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="box-one-service-bottom bg-gray-dark">
-                            <img loading="lazy" alt="Seedspire Publishing" class="mb-20s"
-                                src="assets/images/sr-box-ico1.webp">
-                            <h6>Comprehensive
-                                <br>
-                                Services
-                            </h6>
-                            <p>End-to-end support from writing to publishing and marketing excellence.</p>
-                            <div class="imgright">
-                                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="box-one-service-bottom bg-gray-dark">
-                            <img loading="lazy" alt="Seedspire Publishing" class="mb-20s"
-                                src="assets/images/sr-box-ico2.webp">
-                            <h6>Personalized
-                                <br>
-                                Approach
-                            </h6>
-                            <p>Tailored solutions to match every author’s unique vision and goals.</p>
-                            <div class="imgright">
-                                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="box-one-service-bottom bg-gray-dark">
-                            <img loading="lazy" alt="Seedspire Publishing" class="mb-20s"
-                                src="assets/images/sr-box-ico3.webp">
-                            <h6>Proven
-                                <br>
-                                Results
-                            </h6>
-                            <p>Effective strategies to maximize visibility, engagement, and book sales.</p>
-                            <div class="imgright">
-                                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include 'partials/why-choose.php'; ?>
 
 </div>
 <?php include 'partials/footer.php'; ?>

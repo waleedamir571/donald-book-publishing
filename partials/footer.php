@@ -4,13 +4,12 @@
             <div class="row d-flex justify-content-around align-items-center">
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="myheading-custom">
-                        <h2>Ready to Get Started?</h2>
+                        <h2>Ready to Begin?</h2>
                         <p>
-                            Take the first step toward publishing success.
+                            Initiate the first step to your publishing success.
 
                         </p>
-                        <p class="my-bigp clr-changed"><strong>Join the league of 1,200+ Bestselling Authors
-                                Today.</strong></p>
+                        <p class="my-bigp clr-changed"><strong>Join over thousands of Bestselling Authors Today.</strong></p>
                     </div>
 
                     <div class="form-style">
@@ -385,7 +384,7 @@
 <script src="assets/js/intl-tel-input.js" defer></script>
 
 
-<script>
+<script>y 
     $(document).ready(function () {
         var currentURL = window.location.href; // Current page ka URL get karein
         $('#canonicals').attr('href', currentURL); // Href attribute set karein
