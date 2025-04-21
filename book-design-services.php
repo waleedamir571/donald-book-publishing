@@ -229,7 +229,7 @@
   <section class="main-our-cta-section" id="">
     <div class="container-wrapper">
       <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <h4 class="uppercase mb-3">Designing for All Genres
           </h4>
           <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether
