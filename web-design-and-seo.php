@@ -3,7 +3,7 @@
 
     <section class="banner banner-inner custom-padding position-relative-customs">
         <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/web-design-and-seo.webp">
+            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/web-design/header.png">
         </div>
         <div class="container-wrapper ">
             <div class="row">
@@ -148,7 +148,7 @@
                             </a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/webdesign-servicesbox1.webp">
+                                    src="assets/images/web-design/custom-web.png">
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/webdesign-servicesbox2.webp">
+                                    src="assets/images/web-design/seo.png">
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
 
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/webdesign-servicesbox3.webp">
+                                    src="assets/images/web-design/ecommerce.png">
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
                         </div>
                         <div class="position-image-custom-ab">
                             <img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/webdesign-servicesbox4.webp">
+                                src="assets/images/web-design/maintainance.png">
                         </div>
                     </div>
                 </div>

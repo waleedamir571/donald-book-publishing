@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="mycta-footerimg">
-                        <img loading="lazy" alt="Seedspire Publishing" src="assets/images/footerimage-cta.webp" />
+                        <img loading="lazy" alt="Seedspire Publishing" src="assets/images/Book-writing/footer.png" />
                     </div>
                 </div>
             </div>

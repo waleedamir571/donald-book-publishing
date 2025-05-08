@@ -3,7 +3,7 @@
 
     <section class="banner banner-inner custom-padding position-relative-customs">
         <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/artical-banner.webp">
+            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/articles-services/header.png">
         </div>
         <div class="container-wrapper ">
             <div class="row">
@@ -125,9 +125,9 @@
                         </div>
 
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Talk About Your Content Goals
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Talk About Your Content 
                             </a>
-                            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Connect With Us Now
+                            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Connect With Us 
                             </a>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Request a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/articles-servicesbox1.webp">
+                                    src="assets/images/articles-services/guest.png">
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/articles-servicesbox2.webp">
+                                    src="assets/images/articles-services/content.png">
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
 
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/articles-servicesbox3.webp">
+                                    src="assets/images/articles-services/article.png">
                             </div>
                         </div>
                     </div>
@@ -200,7 +200,7 @@
                         </div>
                         <div class="position-image-custom-ab">
                             <img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/articles-servicesbox4.webp">
+                                src="assets/images/articles-services/press-release.png">
                         </div>
                     </div>
                 </div>

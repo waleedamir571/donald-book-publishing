@@ -4,7 +4,7 @@
 
   <section class="banner banner-inner custom-padding position-relative-customs">
     <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-publishing-services.webp">
+      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-publishing/header.png">
     </div>
     <div class="container-wrapper ">
       <div class="row">
@@ -162,7 +162,7 @@
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
                 Quote</a>
               <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/publish2.webp"></div>
+                  src="assets/images/book-publishing/amazon-kdp.png"></div>
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@
             class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone moblileheights ">
             <div class="content-services ">
               <div class="zindex1">
-                <h3>Platform <br> selection</h3>
+                <h3>Platform  selection</h3>
                 <p>Deciding which platform to use for publishing smoothly. There are many platforms providing networks
                   for publication that can be used.
                 </p>
@@ -183,7 +183,7 @@
 
             </div>
             <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/publish3.webp"></div>
+                src="assets/images/book-publishing/platform.png"></div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -232,7 +232,7 @@
   <section class="main-our-cta-section" id="">
     <div class="container-wrapper">
       <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <h4 class="uppercase mb-3">Embracing All Genres
           </h4>
           <p class="my-pera">At Donald’s Publishing, creativity and diversity bring your story to life. Whether fiction,

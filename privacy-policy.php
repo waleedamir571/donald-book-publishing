@@ -9,7 +9,7 @@
     <section class="banner contact-banner pageterms custom-padding">
         <div class="container-wrapper text-center bannerh1">
             <div class="contactbanner">
-                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/logo-popup.webp">
+            <img class="w-12" loading="lazy" alt="Seedspire Publishing" src="assets/images/home/logo2.png">
                 <h1 class="">PRIVACY POLICY </h1>
 
             </div>
@@ -19,13 +19,16 @@
     <section>
         <div class="container custom-padding pb-5 mb-5">
             <div class="content-styles">
-                <h2 class="mb-4">Privacy Policy for Seedspire Publishing</h2>
+                <h2 class="mb-4">Privacy Policy for Donald's Publishing </h2>
                 <p>This privacy notice explains the information collection practices on <a
-                        href="index.html">seedspirepublishing.com</a> . By using this website, you agree to the
-                    following terms:</p>
+                        href="index.php">donaldspublishing.com</a> By using this website, you agree to the following
+                    terms:
+                </p>
 
-                <h5 class="mt-4 mb-2">Information Collection, Use, and Sharing</h5>
-                <p class="mb-3"><strong>At any time, you can:</strong></p>
+                <h5 class="mt-4 mb-2">Information Collection, Use, and Sharing
+                </h5>
+                <p class="mb-3"><strong>At any time, you can:
+                    </strong></p>
                 <div class="custom-ul ctaul">
                     <ul>
                         <li>View the information we have collected about you.</li>
@@ -38,9 +41,10 @@
                 </div>
 
                 <h5 class="mt-3">Security</h5>
-                <p>We take your privacy seriously. Your personal information is stored securely and only authorized
+                <p>We take your privacy seriously. Your personal information is stored securely, and only authorized
                     employees or contractors who need it to fulfill a specific function (such as processing services or
-                    billing) have access. Our servers are secured to prevent unauthorized access.</p>
+                    billing) have access. Our servers are secured to prevent unauthorized access.
+                </p>
 
 
                 <h5 class="mt-3">Payment Information</h5>
@@ -48,30 +52,28 @@
                     address, and phone number. We use trusted third-party payment providers (e.g., PayPal or Square) to
                     handle your credit card information securely.</p>
                 <h5 class="mt-3">IP Address and Cookies</h5>
-                <p>We automatically collect non-personal information like your IP address when you visit our website for
-                    the purpose of diagnosing technical issues and improving the website's performance. Cookies are used
-                    to enhance your experience and collect usage data for internal purposes.</p>
+                <p>We automatically collect non-personal information like your IP address when you visit our website to
+                    diagnose technical issues and improve the website's performance. Cookies are used to enhance your
+                    experience and collect usage data for internal purposes.
+                </p>
 
 
                 <h5 class="mt-3">Confidentiality and Ownership</h5>
                 <p>We value the confidentiality of your projects. All communications and content we work on together
                     will remain strictly confidential. You retain full ownership of all materials, and we do not claim
                     any rights to the work we produce for you. As our client, you are the sole author and owner of the
-                    final product.</p>
+                    final product.
+                </p>
 
                 <h5 class="mt-3">Originality</h5>
-                <p>Seedspire ensures that all content we create for you, including ghostwriting, is original, free from
-                    plagiarism, and properly cited if inspired or researched from other sources.</p>
+                <p>Donald's Publishing ensures that all content we create for you, including ghostwriting, is original, free from plagiarism, and properly cited if inspired or researched from other sources.
+                </p>
 
                 <h5 class="mt-3">Disclaimer</h5>
-                <p>The logos and trademarks displayed on this website belong to their respective owners. Seedspire is
-                    not affiliated, endorsed, or connected with these companies or their trademarks. All content on the
-                    website is for informational purposes and should not be considered professional advice. While we
-                    strive for accuracy, we do not guarantee the completeness or reliability of the information. Any
-                    reliance on the content is at your own risk.</p>
+                <p>The logos and trademarks displayed on this website belong to their respective owners. Donald's Publishing is not affiliated, endorsed, or connected with these companies or their trademarks. All content on the website is for informational purposes and should not be considered professional advice. While we strive for accuracy, we do not guarantee the completeness or reliability of the information. Any reliance on the content is at your own risk.
+                </p>
 
-                <p>If you believe we are not adhering to this privacy policy, please contact us immediately through the
-                    provided email or phone number.</p>
+                <p>If you believe we are not adhering to this privacy policy, please contact us immediately through the provided email or phone number.</p>
 
 
             </div>

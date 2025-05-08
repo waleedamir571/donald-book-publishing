@@ -4,7 +4,7 @@
 
   <section class="banner banner-inner custom-padding position-relative-customs">
     <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/services-page-2.webp">
+      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-editing/header.png">
     </div>
     <div class="container-wrapper ">
       <div class="row">
@@ -141,7 +141,7 @@
               </p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a Quote</a>
               <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/edit-1.webp"></div>
+                  src="assets/images/book-editing/editing-flow.png"></div>
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@
               </p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a Quote</a>
               <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/edit-2.webp"></div>
+                  src="assets/images/book-editing/accuray.png"></div>
             </div>
           </div>
         </div>
@@ -175,7 +175,7 @@
 
             </div>
             <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/edit-3.webp"></div>
+                src="assets/images/book-editing/formatting.png"></div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -186,7 +186,7 @@
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a Quote</a>
 
               <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/edit-4.webp"></div>
+                  src="assets/images/book-editing/comprehensive.png"></div>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@
 
   <section class="banner banner-inner custom-padding position-relative-customs">
     <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/banner-one-service.webp">
+      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/Book-writing/Header.png">
     </div>
     <div class="container-wrapper ">
       <div class="row">
@@ -150,7 +150,7 @@
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
                 Quote</a>
               <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/gwriting1.webp"></div>
+                  src="assets/images/Book-writing/outline.png"></div>
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
                 Quote</a>
               <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/gwriting2.webp"></div>
+                  src="assets/images/Book-writing/character.png"></div>
             </div>
           </div>
         </div>
@@ -181,7 +181,7 @@
                 Quote</a>
 
               <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/gwriting3.webp"></div>
+                  src="assets/images/Book-writing/Story-Structuring.png"></div>
             </div>
           </div>
         </div>
@@ -199,7 +199,7 @@
 
             </div>
             <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/gwriting4.webp"></div>
+                src="assets/images/Book-writing/Manuscrip.png"></div>
           </div>
         </div>
       </div>

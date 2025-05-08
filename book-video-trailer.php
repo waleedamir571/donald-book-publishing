@@ -3,7 +3,7 @@
 
     <section class="banner banner-inner custom-padding position-relative-customs">
         <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-video-trailerbanner.webp">
+            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/video-trailer/header.png">
         </div>
         <div class="container-wrapper ">
             <div class="row">
@@ -156,7 +156,7 @@
                                 class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/videoservicesbox1.webp">
+                                    src="assets/images/video-trailer/trailer-concept.png">
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/videoservicesbox2.webp">
+                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/video-trailer/video-production.png">
                         </div>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
 
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/videoservicesbox3.webp">
+                                    src="assets/images/video-trailer/trailer-editing.png">
                             </div>
                         </div>
                     </div>
@@ -222,7 +222,7 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/videoservicesbox4.webp">
+                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/video-trailer/sound-design.png">
                         </div>
                     </div>
                 </div>

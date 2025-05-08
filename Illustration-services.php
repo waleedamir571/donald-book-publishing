@@ -157,7 +157,7 @@
                                 class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/illustratorservices-box1.webp">
+                                    src="assets/images/Illustration-services/character.png">
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                             </a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/illustratorservices-box2.webp">
+                                    src="assets/images/Illustration-services/scene.png">
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@
 
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/illustratorservices-box3.webp">
+                                    src="assets/images/Illustration-services/cover.png">
                             </div>
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                         </div>
                         <div class="position-image-custom-ab">
                             <img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/illustratorservices-box4.webp">
+                                src="assets/images/Illustration-services/artwork.png">
                         </div>
                     </div>
                 </div>

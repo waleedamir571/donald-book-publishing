@@ -162,7 +162,7 @@
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/blogwriting-servicesbox2.webp">
+                                    src="assets/images/blog-writing/seo-blog.png">
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
 
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/blogwriting-servicesbox3.webp">
+                                    src="assets/images/blog-writing/blog-managemnt.png">
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                         </div>
                         <div class="position-image-custom-ab">
                             <img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/blogwriting-servicesbox4.webp">
+                                src="assets/images/blog-writing/guest-blog.png">
                         </div>
                     </div>
                 </div>

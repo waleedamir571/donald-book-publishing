@@ -15,19 +15,19 @@
                     <div class="bannerslider ">
                         <div class="owl-carousel-banner owl-theme owl-carousel newcaro">
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/sliderbook1.webp">
+                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/1.png">
                             </div>
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/sliderbook2.webp">
+                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/2.png">
                             </div>
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/sliderbook3.webp">
+                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/3.png">
                             </div>
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/sliderbook4.webp">
+                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/4.png">
                             </div>
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/sliderbook5.webp">
+                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/5.png">
                             </div>
                         </div>
                     </div>
@@ -47,10 +47,10 @@
                             <div class="content-services">
                                 <h3>Book Writing </h3>
                                 <p>Changing your ideas to impactful literary masterpieces</p>
-                                <a href="book-writing-services.html" class="web-blue-btn">View More</a>
+                                <a href="book-writing-services.<i class="fas fa-paragraph    "></i>" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/ghost-writing.webp">
+                                        src="assets/images/homepage/book-writing.png">
                                 </div>
                             </div>
                         </div>
@@ -61,10 +61,10 @@
                             <div class="content-services">
                                 <h3>Book Publishing</h3>
                                 <p>Seamless publishing services made easier than ever</p>
-                                <a href="book-publishing-services.html" class="web-blue-btn">View More</a>
+                                <a href="book-publishing-services.php" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/e-book-publishing.webp">
+                                        src="assets/images/homepage/book-publishing.png">
                                 </div>
                             </div>
                         </div>
@@ -77,10 +77,10 @@
                             <div class="content-services">
                                 <h3>Book Marketing</h3>
                                 <p>Promoting your book by captivating the right audience</p>
-                                <a href="book-marketing-services.html" class="web-blue-btn">View More</a>
+                                <a href="book-marketing-services.php" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/book-marketing.webp">
+                                        src="assets/images/homepage/book-marketing.png">
                                 </div>
                             </div>
                         </div>
@@ -92,11 +92,11 @@
                                 <div class="zindex1">
                                     <h3>Book Design</h3>
                                     <p>Creating attention-grabbing book designs to please the reader’s eye.</p>
-                                    <a href="book-design-services.html" class="web-blue-btn">View More</a>
+                                    <a href="book-design-services.php" class="web-blue-btn">View More</a>
                                 </div>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/illustration-book.webp">
+                                        src="assets/images/homepage/design.png">
                                 </div>
                             </div>
                         </div>
@@ -109,11 +109,11 @@
                             <div class="content-services">
                                 <h3>Book Editing</h3>
                                 <p>Formatting and editing up to the mark to add value to the final product.</p>
-                                <a href="book-editing-services.html" class="web-blue-btn">View More</a>
+                                <a href="book-editing-services.php" class="web-blue-btn">View More</a>
 
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/editing-and-proof.webp">
+                                        src="assets/images/homepage/editing.png">
                                 </div>
                             </div>
                         </div>
@@ -124,10 +124,10 @@
                             <div class="content-services">
                                 <h3>Audiobook</h3>
                                 <p>Soothing narrations that go perfectly with your book type.</p>
-                                <a href="audiobook-services.html" class="web-blue-btn">View More</a>
+                                <a href="audiobook-services.php" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing" class=""
-                                        src="assets/images/audiobook.webp">
+                                        src="assets/images/homepage/audiobook.png">
                                 </div>
                             </div>
                         </div>

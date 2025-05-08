@@ -3,7 +3,7 @@
 
     <section class="banner banner-inner custom-padding position-relative-customs">
         <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/webcontent-banner.webp">
+            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/web-content/header.png">
         </div>
         <div class="container-wrapper ">
             <div class="row">
@@ -120,7 +120,7 @@
                         </div>
 
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Start Your Project With Us
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Start  Project With Us
                             </a>
                             <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Let’s Create Something Powerful
                             </a>
@@ -154,7 +154,7 @@
                         </div>
                         <div class="position-image-custom-ab">
                             <img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/contentwriting-servicesbox1.webp">
+                                src="assets/images/web-content/landing.png">
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                             </a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/contentwriting-servicesbox2.webp">
+                                    src="assets/images/web-content/product.png">
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
 
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/contentwriting-servicesbox3.webp">
+                                    src="assets/images/web-content/case-studies.png">
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                         </div>
                         <div class="position-image-custom-ab">
                             <img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/contentwriting-servicesbox4.webp">
+                                src="assets/images/web-content/email.png">
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
     <section class="main-our-cta-section" id="">
         <div class="container-wrapper">
             <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <h4 class="uppercase mb-3">Embracing All Genres</h4>
                     <p class="my-pera">At Donald’s Book  Publishing, creativity and diversity bring your story to life. Whether fiction, nonfiction, or anything in between, we craft captivating narratives that connect with your audience. Your vision, our expertise—let’s create something remarkable!</p>
 

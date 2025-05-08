@@ -44,23 +44,23 @@
         <div class="owl-carousel-center owl-theme owl-carousel">
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Edutional01.webp"></div>
+                src="assets/images/bookfolio/Educational/1.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Edutional02.webp"></div>
+                src="assets/images/bookfolio/Educational/2.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Edutional03.webp"></div>
+                src="assets/images/bookfolio/Educational/3.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Edutional04.webp"></div>
+                src="assets/images/bookfolio/Educational/4.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Edutional05.webp"></div>
+                src="assets/images/bookfolio/Educational/5.png"></div>
           </div>
         </div>
       </div>
@@ -68,23 +68,23 @@
         <div class="owl-carousel-center owl-theme owl-carousel">
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Romance01.webp"></div>
+                src="assets/images/bookfolio/Romance/1.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Romance02.webp"></div>
+                src="assets/images/bookfolio/Romance/2.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Romance03.webp"></div>
+                src="assets/images/bookfolio/Romance/3.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Romance04.webp"></div>
+                src="assets/images/bookfolio/Romance/4.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Romance05.webp"></div>
+                src="assets/images/bookfolio/Romance/5.png"></div>
           </div>
 
         </div>
@@ -93,23 +93,23 @@
         <div class="owl-carousel-center owl-theme owl-carousel">
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Fiction01.webp"></div>
+                src="assets/images/bookfolio/Fiction/1.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Fiction02.webp"></div>
+                src="assets/images/bookfolio/Fiction/2.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Fiction03.webp"></div>
+                src="assets/images/bookfolio/Fiction/3.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Fiction04.webp"></div>
+                src="assets/images/bookfolio/Fiction/4.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Fiction05.webp"></div>
+                src="assets/images/bookfolio/Fiction/5.png"></div>
           </div>
 
         </div>
@@ -118,23 +118,23 @@
         <div class="owl-carousel-center owl-theme owl-carousel">
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Biography01.webp"></div>
+                src="assets/images/bookfolio/Biographies/1.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Biography02.webp"></div>
+                src="assets/images/bookfolio/Biographies/2.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Biography03.webp"></div>
+                src="assets/images/bookfolio/Biographies/3.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Biography04.webp"></div>
+                src="assets/images/bookfolio/Biographies/4.png"></div>
           </div>
           <div class="item">
             <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/Biography05.webp"></div>
+                src="assets/images/bookfolio/Biographies/5.png"></div>
           </div>
 
         </div>
@@ -142,23 +142,23 @@
       <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">
         <div class="owl-carousel-center owl-theme owl-carousel">
           <div class="item">
-            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/Sci-fi01.webp">
+            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/bookfolio/Sci-fi/1.png">
             </div>
           </div>
           <div class="item">
-            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/Sci-fi02.webp">
+            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/bookfolio/Sci-fi/2.png">
             </div>
           </div>
           <div class="item">
-            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/Sci-fi03.webp">
+            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/bookfolio/Sci-fi/3.png">
             </div>
           </div>
           <div class="item">
-            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/Sci-fi04.webp">
+            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/bookfolio/Sci-fi/4.png">
             </div>
           </div>
           <div class="item">
-            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/Sci-fi05.webp">
+            <div class="custom-slider"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/bookfolio/Sci-fi/5.png">
             </div>
           </div>
 

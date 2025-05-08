@@ -30,7 +30,7 @@
         content="-">
     <meta name="keywords" content="" />
     <link id="canonicals" rel="canonical" href="#">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/home/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css" as="style" media="screen">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -62,7 +62,7 @@
                 <a class="navbar-brand" href="index">
                     <img loading="lazy" alt="Seedspire Publishing" class="d-none-desktop"
                         src="assets/images/home/logo2.png" width="137" height="40">
-                    <img loading="lazy" alt="Seedspire Publishing" class="d-none-mobile" src="assets/images/home/logo2.png"
+                    <img loading="lazy" alt="Seedspire Publishing" class="d-none-mobile w-100" src="assets/images/home/logo2.png"
                         width="127" height="52"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
                     aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
@@ -168,8 +168,4 @@
             //]]>
         </script>
 
-        <div class="aspNetHidden">
-
-            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
-        </div>
-        <input name="IpInfo" type="hidden" class="IpInfo" />
+       

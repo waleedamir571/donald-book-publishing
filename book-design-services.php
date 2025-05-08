@@ -4,7 +4,7 @@
 
   <section class="banner banner-inner custom-padding position-relative-customs">
     <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-design-one-service.webp">
+      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-design/header.png">
     </div>
     <div class="container-wrapper ">
       <div class="row">
@@ -122,10 +122,10 @@
             </div>
 
             <div class="d-flex btnflex mt-4">
-              <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Create Something Beautiful </a>
+              <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Create Something  </a>
               <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Discuss Your
                 Project
-                Touch</a>
+                </a>
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Request a
                 Quote</a>
               <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/bookdesign-ones.webp"></div>
+                  src="assets/images/book-design/cover-design.png"></div>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote
               </a>
               <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
-                  src="assets/images/bookdesign-two.webp"></div>
+                  src="assets/images/book-design/specialized-design.png"></div>
             </div>
           </div>
         </div>
@@ -196,7 +196,7 @@
 
             </div>
             <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
-                src="assets/images/bookdesign-four.webp"></div>
+                src="assets/images/book-design/3d.png"></div>
           </div>
         </div>
       </div>
