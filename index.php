@@ -47,7 +47,8 @@
                             <div class="content-services">
                                 <h3>Book Writing </h3>
                                 <p>Changing your ideas to impactful literary masterpieces</p>
-                                <a href="book-writing-services.<i class="fas fa-paragraph    "></i>" class="web-blue-btn">View More</a>
+                              
+                                  <a href="book-writing-services.php" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
                                         src="assets/images/homepage/book-writing.png">

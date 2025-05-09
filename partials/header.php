@@ -1,3 +1,5 @@
+<?php include 'backend/function/meta.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,10 +27,11 @@
     <link rel="preload" href="assets/images/illustration-book.webp" as="image">
     <link rel="preload" href="assets/images/editing-and-proof.webp" as="image">
     <link rel="preload" href="assets/images/audiobook.webp" as="image">
-    <title> Expert Book Publishing & Services</title>
-    <meta name="description"
-        content="-">
-    <meta name="keywords" content="" />
+   <title>
+        <?php echo $title_name; ?>
+    </title>
+    <meta name="description" content="<?php echo $description; ?>">
+    <meta name="keywords" content="<?php echo $keywords; ?>" />
     <link id="canonicals" rel="canonical" href="#">
     <link rel="icon" type="image/x-icon" href="assets/images/home/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css" as="style" media="screen">
@@ -59,7 +62,7 @@
     <header class="my-nav">
         <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
             <div class="container">
-                <a class="navbar-brand" href="index">
+                <a class="navbar-brand" href="./">
                     <img loading="lazy" alt="Seedspire Publishing" class="d-none-desktop"
                         src="assets/images/home/logo2.png" width="137" height="40">
                     <img loading="lazy" alt="Seedspire Publishing" class="d-none-mobile w-100" src="assets/images/home/logo2.png"
@@ -102,7 +105,7 @@
                             <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
                                 <li><a class="dropdown-item" href="book-video-trailer">Book Video Trailer</a></li>
                                 <li><a class="dropdown-item" href="web-design-and-seo">Web design & SEO</a></li>
-                                <li><a class="dropdown-item" href="Illustration-services">Illustration Services</a>
+                                <li><a class="dropdown-item" href="book-illustration-services">Illustration Services</a>
                                 </li>
                                 <li><a class="dropdown-item" href="articles-services">Articles Services</a></li>
                                 <li><a class="dropdown-item" href="book-design-services">Book Design Services</a>
