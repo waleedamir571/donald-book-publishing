@@ -112,13 +112,13 @@ switch ($functions) {
           $keywords = "blog writing services USA, professional blog writers, SEO blog content USA, custom blog writing, content writing services USA, blog content creation";
      
         break;
-         case "article-writing-services.php";
+         case "articles-services.php";
         $title_name = "Top Web Design Services in the USA | Donald’s Book Publishing";
         $description = "Professional Article Writing Services in the USA | Donald’s Book Publishing";
           $keywords = "article writing services USA, SEO article writers, professional content writing USA, blog writing services, custom article writing, USA content creators";
      
         break;
-         case "web-design-services.php";
+         case "web-design-and-seo.php";
         $title_name = "Top Web Design Services in the USA | Donald’s Book Publishing";
         $description = "Professional web design services in the USA tailored to your business. Get responsive, SEO-optimized websites that drive traffic, leads, and conversions";
           $keywords = "web design services USA, custom website design, responsive web design USA, professional web designers, USA web development, SEO web design services";
@@ -130,7 +130,7 @@ switch ($functions) {
           $keywords = "book design services USA, custom book cover design, interior book layout, professional book formatting, book design for self-publishing, USA book designers";
      
         break;
-          case "book-trailer-video.php";
+          case "book-video-trailer.php";
         $title_name = "Book Trailer Video Services in the USA | Donald’s Book Publishing";
         $description = "Engage readers with professional book trailer video services in the USA. Custom trailers for authors and publishers to market fiction, non-fiction, and more.";
           $keywords = "book trailer video services USA, book trailers for authors, custom book trailer videos, promote your book USA, book marketing videos, author video trailers";
