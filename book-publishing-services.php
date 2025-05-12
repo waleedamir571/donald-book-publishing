@@ -45,7 +45,6 @@
 
   </section>
 
-
   <div class="mb-5 mt-5">
 
     <section class="main-our-process-section mb-5" id="our-process-section">
@@ -98,7 +97,6 @@
       </div>
     </section>
 
-
     <section class="main-our-cta-section">
       <div class="container-wrapper">
         <div class="cta-bg border-radius-33 custom-flex cta-ghost bg-publishing ctastyles-new">
@@ -129,8 +127,6 @@
         </div>
       </div>
     </section>
-
-
   </div>
 
   <section class=" services-box">
@@ -173,7 +169,7 @@
             class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone moblileheights ">
             <div class="content-services ">
               <div class="zindex1">
-                <h3>Platform  selection</h3>
+                <h3>Platform selection</h3>
                 <p>Deciding which platform to use for publishing smoothly. There are many platforms providing networks
                   for publication that can be used.
                 </p>
@@ -239,7 +235,6 @@
             non-fiction, or anything in between, we craft captivating narratives that connect with your audience. Your
             vision, our expertise – let’s create something remarkable!</p>
 
-
           <div class="btn-blockss mt-4">
             <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a></div>
             <div><a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
@@ -273,7 +268,7 @@
     </div>
   </section>
 
-  <section class="pricing-section  d-none ">
+  <section class="pricing-section d-none ">
     <div class="container-wrapper">
       <div class="row">
         <div class="col-lg-4 col-md-12">
@@ -366,12 +361,11 @@
     </div>
   </section>
 
+  <?php include 'partials/testimonials.php'; ?>
 
-    <?php include 'partials/testimonials.php'; ?>
-    
-    <?php include 'partials/vision.php'; ?>
+  <?php include 'partials/vision.php'; ?>
 
-    <?php include 'partials/why-choose.php'; ?>
+  <?php include 'partials/why-choose.php'; ?>
 
 
 </div>

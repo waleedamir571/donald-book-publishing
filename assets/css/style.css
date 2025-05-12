@@ -4322,7 +4322,8 @@ section.portfolio-slider h5 {
 
 .imgright {
 	text-align: right;
-	margin-top: 10px
+	margin-top: 10px;
+	display: none !important;
 }
 
 .box-one-service-bottom h6,
@@ -7747,7 +7748,7 @@ section.portfolio-slider h5 {
 }
 
 .bg-gray-dark {
-	background-color: #e8e8e8
+	background: linear-gradient(93deg, #b7e0ef 0, #f0f3f4 100%) !important;
 }
 
 .box-one-service-bottom img.mb-20s {
@@ -8714,7 +8715,7 @@ section.banner.contact-banner.pageterms.custom-padding {
 	width: 100%;
 	border: 1px solid #f3f3f3;
 	padding: 50px;
-	background: #f3f3f3;
+	background: linear-gradient(93deg, #b7e0ef 0, #f0f3f4 100%) !important;
 	min-height: 296px
 }
 

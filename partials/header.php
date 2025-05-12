@@ -27,7 +27,7 @@
     <link rel="preload" href="assets/images/illustration-book.webp" as="image">
     <link rel="preload" href="assets/images/editing-and-proof.webp" as="image">
     <link rel="preload" href="assets/images/audiobook.webp" as="image">
-   <title>
+    <title>
         <?php echo $title_name; ?>
     </title>
     <meta name="description" content="<?php echo $description; ?>">
@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <!-- <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/intlTelInput.min.css" as="style" media="screen">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
@@ -51,7 +51,7 @@
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
@@ -65,8 +65,8 @@
                 <a class="navbar-brand" href="./">
                     <img loading="lazy" alt="Seedspire Publishing" class="d-none-desktop"
                         src="assets/images/home/logo2.png" width="137" height="40">
-                    <img loading="lazy" alt="Seedspire Publishing" class="d-none-mobile w-100" src="assets/images/home/logo2.png"
-                        width="127" height="52"> </a>
+                    <img loading="lazy" alt="Seedspire Publishing" class="d-none-mobile w-100"
+                        src="assets/images/home/logo2.png" width="127" height="52"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
                     aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -127,8 +127,7 @@
             </div>
         </nav>
     </header>
-    <form method="post" action="" onsubmit="javascript:return WebForm_OnSubmit();"
-        id="ctl00">
+    <form method="post" action="" onsubmit="javascript:return WebForm_OnSubmit();" id="ctl00">
         <div class="aspNetHidden">
             <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
             <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
@@ -170,5 +169,3 @@
             }
             //]]>
         </script>
-
-       

@@ -45,7 +45,6 @@
 
   </section>
 
-
   <div class="mb-5 mt-5">
 
     <section class="main-our-process-section mb-5" id="our-process-section">
@@ -71,7 +70,7 @@
           <div class="w-20-c hzoom">
             <div class="my-process-box-inner bg1 bg8 border-radius-20 process-style-content">
               <h3>Step 01<br>
-              Discussing Strategy  
+                Discussing Strategy
               </h3>
 
               <h4>Providing a customized roadmap and defining goals. We create a Strong Brand and Marketing Plans.
@@ -81,9 +80,10 @@
           <div class="w-20-c hzoom">
             <div class="my-process-box-inner bg2 bg9 border-radius-20 process-style-content">
               <h3>Step 02<br>
-              Campaign planning</h3>
+                Campaign planning</h3>
 
-              <h4>Utilize platforms like Instagram, Facebook, TikTok, etc., to create awareness and excitement. Paid ads, behind-the-scenes content, and teaser trailers work well here.
+              <h4>Utilize platforms like Instagram, Facebook, TikTok, etc., to create awareness and excitement. Paid
+                ads, behind-the-scenes content, and teaser trailers work well here.
               </h4>
             </div>
           </div>
@@ -123,7 +123,8 @@
             <div class="d-flex btnflex mt-4">
               <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Discuss Your Project
               </a>
-              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in Touch Today!</a>
+              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in Touch
+                Today!</a>
             </div>
           </div>
         </div>
@@ -143,10 +144,13 @@
             <div class="content-services">
               <h3>SEO-Driven Services
               </h3>
-              <p>Enhance your book’s visibility with expert SEO strategies that drive organic traffic and improve online discoverability</p>
-              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get Your Quote Today!
+              <p>Enhance your book’s visibility with expert SEO strategies that drive organic traffic and improve online
+                discoverability</p>
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get Your Quote
+                Today!
               </a>
-              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-marketing/seo.png">
+              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
+                  src="assets/images/book-marketing/seo.png">
               </div>
             </div>
           </div>
@@ -161,7 +165,8 @@
                 </h3>
                 <p>Maximize your book’s reach with targeted ads that drive traffic and boost sales effectively.
                 </p>
-                <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Request a Quote Today!
+                <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Request a
+                  Quote Today!
                 </a>
               </div>
 
@@ -177,10 +182,12 @@
           <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
             <div class="content-services">
               <h3>Author Branding & Promotion</h3>
-              <p>Create a powerful author brand with strategic promotion that boosts visibility and fosters a deeper connection with readers.
+              <p>Create a powerful author brand with strategic promotion that boosts visibility and fosters a deeper
+                connection with readers.
 
               </p>
-              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get Your Quote Today!
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get Your Quote
+                Today!
               </a>
 
               <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
@@ -192,9 +199,11 @@
           <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
             <div class="content-services">
               <h3> Digital Marketing for Books</h3>
-              <p>Harness the power of digital platforms to market your book, expand its reach, and connect with your target audience.
+              <p>Harness the power of digital platforms to market your book, expand its reach, and connect with your
+                target audience.
               </p>
-              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get Your Quote Today!</a>
+              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get Your Quote
+                Today!</a>
 
               <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
                   src="assets/images/book-marketing/digital-marketing.png"></div>
@@ -218,7 +227,7 @@
             </h2>
 
             <p class="my-bigp"><strong>Let’s Begin the Journey!
-            </strong></p>
+              </strong></p>
           </div>
         </div>
         <div class="col-lg-5 col-md-12 col-sm-12">
@@ -237,7 +246,9 @@
         <div class="col-lg-4">
           <h4 class="uppercase mb-3">Embracing All Genres
           </h4>
-          <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether fiction, nonfiction, or anything in between, we craft captivating narratives that connect with your audience. Your vision, our expertise—let’s create something remarkable!</p>
+          <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether
+            fiction, nonfiction, or anything in between, we craft captivating narratives that connect with your
+            audience. Your vision, our expertise—let’s create something remarkable!</p>
 
 
           <div class="btn-blockss mt-4">
@@ -372,5 +383,6 @@
 
 </div>
 
-
 <?php include 'partials/footer.php'; ?>
+
+

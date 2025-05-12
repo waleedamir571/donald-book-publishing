@@ -14,20 +14,20 @@
 
                     <div class="form-style">
                         <div class="mb-3">
-                            <input name="ctl00$txtcnsite" type="text" maxlength="60" id="txtcnsite"
+                            <input name="name" type="text" maxlength="60" id="txtcnsite"
                                 class="form-control cn" placeholder="Enter Your full Name" />
-                            <span data-val-controltovalidate="txtcnsite"
+                            <!-- <span data-val-controltovalidate="txtcnsite"
                                 data-val-errormessage="Please enter correct name" data-val-display="Dynamic"
                                 data-val-validationGroup="site" id="RegularExpressionValidator2" class="text-danger"
                                 data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid"
                                 data-val-validationexpression="^[a-zA-Z\s]+$" style="display:none;">Please enter
-                                correct name</span>
-                            <span data-val-controltovalidate="txtcnsite"
+                                correct name</span> -->
+                            <!-- <span data-val-controltovalidate="txtcnsite"
                                 data-val-errormessage="Please enter correct name" data-val-display="Dynamic"
                                 data-val-validationGroup="site" id="RequiredFieldValidator3" data-val="true"
                                 data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid"
                                 data-val-initialvalue="" style="color:Red;display:none;">Please enter correct
-                                name</span>
+                                name</span> -->
                         </div>
 
                         <div class="mb-3">
@@ -35,10 +35,10 @@
                                 <input type="hidden" value="" class="countryname">
                                 <input type="hidden" value="" class="countrycode">
                                 <input type="hidden" value="" class="dialcode" name="dcsite" id="dcsite">
-                                <input name="ctl00$pnsite" type="tel" id="pnsite" maxlength="10" minlength="10"
+                                <input name="phone" type="tel" id="pnsite" maxlength="10" minlength="10"
                                     tabindex="-1" class="phone-js form-control js-byphone js-valGet js-numbervalid pn"
                                     placeholder="Phone Number" />
-                                <span data-val-controltovalidate="pnsite"
+                                <!-- <span data-val-controltovalidate="pnsite"
                                     data-val-errormessage="Please enter correct number 0 to 9"
                                     data-val-display="Dynamic" data-val-validationGroup="site"
                                     id="RequiredFieldValidator1" data-val="true"
@@ -51,14 +51,14 @@
                                     id="RegularExpressionValidator412" class="text-danger" data-val="true"
                                     data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid"
                                     data-val-validationexpression="^[0-9]{10}$" style="display:none;">Please
-                                    enter correct number 0 to 9</span>
+                                    enter correct number 0 to 9</span> -->
                             </div>
                         </div>
 
                         <div class="mb-3">
-                            <input name="ctl00$txtemsite" type="text" maxlength="60" id="txtemsite"
+                            <input name="email" type="text" maxlength="60" id="txtemsite"
                                 class="form-control em" placeholder="Enter Your Email Address" />
-                            <span data-val-controltovalidate="txtemsite"
+                            <!-- <span data-val-controltovalidate="txtemsite"
                                 data-val-errormessage="Please enter correct email" data-val-display="Dynamic"
                                 data-val-validationGroup="site" id="RegularExpressionValidator4" class="text-danger"
                                 data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid"
@@ -69,15 +69,15 @@
                                 data-val-validationGroup="site" id="RequiredFieldValidator4" data-val="true"
                                 data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid"
                                 data-val-initialvalue="" style="color:Red;display:none;">Please enter correct
-                                email</span>
+                                email</span> -->
                         </div>
                         <input type="hidden" value="" class="" name="visitorsite">
                         <input type="hidden" name="ctl00$hdnPageUrlsite" id="hdnPageUrlsite" value="default.html" />
                         <p>
                             <span id="lblErrorMessagesite" style="color:Red;"></span>
                         </p>
-                        <input type="submit" name="ctl00$btnSubmitsite" value="Submit"
-                            onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnSubmitsite&quot;, &quot;&quot;, true, &quot;site&quot;, &quot;&quot;, false, false))"
+                        <input type="submit" name="$btnSubmitsite" value="Submit"
+                            
                             id="btnSubmitsite" class="btn btn-primary web-blue-btn" />
                     </div>
                 </div>
