@@ -713,7 +713,7 @@ function publishingJourney($payload, $con)
     }
 }
 
-function sendEmail($message, $subject = 'Lead from no-reply@hancockpublishers.com', $to = 'no-reply@hancockpublishers.com', $fromName = 'Hancock Publishers')
+function sendEmail($message, $subject = 'Lead from no-reply@hancockpublishers.com', $to = 'info@donaldsbookpublishing.com', $fromName = 'Hancock Publishers')
 {
     // Set up additional headers
     $headers = "From: {$fromName} <no-reply@hancockpublishers.com>\r\n";

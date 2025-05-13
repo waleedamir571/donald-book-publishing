@@ -32,7 +32,7 @@
                             <div class="col-lg-4 col-md-12">
                                 <div class="contactboxs">
                                     <img loading="lazy" alt="Seedspire Publishing" src="assets/images/emails.webp">
-                                    <p><a href="mailto:info@testepublishing.com">info@testepublishing.com</a>
+                                    <p><a href="mailto:info@donaldsbookpublishing.com">info@donaldsbookpublishing.com</a>
                                     </p>
                                 </div>
                             </div>

@@ -20,6 +20,10 @@ html body h3 {
 	color: #000
 }
 
+.fs-40{
+	font-size: 40px;
+}
+
 .banner-image,
 .content-services,
 .form-style,
@@ -67,6 +71,11 @@ html body p {
 	color: #6d6d6d;
 	margin: 0;
 	padding: 0
+}
+
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: none !important;
 }
 
 html body h1,
@@ -7898,7 +7907,7 @@ section.banner.banner-inner.custom-padding {
 }
 
 .cta-ghost.bg-abouts:before {
-	background-image: url(../images/aboutbgs-new.webp)
+	/* background-image: url(../images/aboutbgs-new.webp) */
 }
 
 .cta-ghost.bg-audio:before {
@@ -8307,18 +8316,20 @@ section.banner.banner-inner {
 	min-height: 202px
 }
 
+
+
 .contactboxs a,
 .contactboxs p {
 	font-size: 18px;
 	color: #6d6d6d;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	text-decoration: none
 }
 
 .banner.contact-banner {
 	background: #d9d9d9;
 	background: linear-gradient(180deg, #d9d9d9 0, #fff 100%);
-	height: 100vh;
+	height: 85vh;
 	display: flex;
 	align-items: center;
 	padding-top: 0

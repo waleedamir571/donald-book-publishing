@@ -9,17 +9,17 @@
 
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h1 class=""> Donald’s Book Publishing: Where Your Story Becomes a Bestseller</h1>
+                        <h1 class="fs-40"> Donald’s Book Publishing: Where Your Story Becomes a Bestseller</h1>
                         <p class="mb-5"> At Donald’s Book Publishing, we believe every great story deserves to be
                             told—and told well. Whether you're starting with a spark of an idea or a finished
                             manuscript, we're here to help bring your vision to life. From ghostwriting and editing to
                             publishing, audiobook production, and strategic marketing, we offer full-service support
                             every step of the way.
-                            <br> <br>
+                            
                             What makes us different? It’s our heartfelt commitment to excellence and our passion for
                             helping authors thrive. We treat every project as a masterpiece in the making—because your
                             words matter, and your voice deserves to be heard.
-                            <br> <br>
+                            
                             With Donald’sBook Publishing, you’re not just publishing a book—you’re launching a legacy.
 
                         </p>

@@ -12,6 +12,7 @@
                         <p class="my-bigp clr-changed"><strong>Join over thousands of Bestselling Authors Today.</strong></p>
                     </div>
 
+                    <form action="">
                     <div class="form-style">
                         <div class="mb-3">
                             <input name="name" type="text" maxlength="60" id="txtcnsite"
@@ -80,6 +81,7 @@
                             
                             id="btnSubmitsite" class="btn btn-primary web-blue-btn" />
                     </div>
+                    </form>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="mycta-footerimg">
@@ -216,7 +218,7 @@
                         <p>Phone</p>
                         <a href="tel:+1 (833) 123-4567">+1 (833) 123-4567</a>
                         <p>Email</p>
-                        <a href="mailto:info@testpublishing.com">info@testpublishing.com</a>
+                        <a href="mailto:info@donaldsbookpublishing.com">info@donaldsbookpublishing.com</a>
 
 
                         <p>
@@ -232,7 +234,7 @@
 
         <div class="f-bottom">
             <p>© 2025 DonaldsBookPublishing. All rights reserved.</p>
-            <p>Powered by Donalds Book Publishing</p>
+           
         </div>
     </section>
 </footer>
@@ -363,7 +365,7 @@
                                 <span id="lblErrorMessagesite1" style="color:Red;"></span>
                             </p>
                             <input type="submit" name="ctl00$btnSubmitsite1" value="Submit"
-                                onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnSubmitsite1&quot;, &quot;&quot;, true, &quot;site1&quot;, &quot;&quot;, false, false))"
+                               
                                 id="btnSubmitsite1" class="btn btn-primary web-blue-btn" />
                         </div>
                     </div>

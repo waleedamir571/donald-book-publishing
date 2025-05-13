@@ -33,6 +33,8 @@
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <link id="canonicals" rel="canonical" href="#">
+    <meta name="robots" content="noindex, nofollow">
+
     <link rel="icon" type="image/x-icon" href="assets/images/home/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css" as="style" media="screen">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
