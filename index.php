@@ -1,9 +1,6 @@
 <?php include 'partials/header.php'; ?>
 
-
-
 <div class="body-content">
-
 
     <div class="body">
 
@@ -31,12 +28,9 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
-
 
         <section class=" services-box">
             <div class="container-wrapper">
@@ -48,7 +42,7 @@
                                 <h3>Book Writing </h3>
                                 <p>Changing your ideas to impactful literary masterpieces</p>
                               
-                                  <a href="book-writing-services.php" class="web-blue-btn">View More</a>
+                                  <a href="book-writing-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
                                         src="assets/images/homepage/book-writing.png">
@@ -62,7 +56,7 @@
                             <div class="content-services">
                                 <h3>Book Publishing</h3>
                                 <p>Seamless publishing services made easier than ever</p>
-                                <a href="book-publishing-services.php" class="web-blue-btn">View More</a>
+                                <a href="book-publishing-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
                                         src="assets/images/homepage/book-publishing.png">
@@ -78,7 +72,7 @@
                             <div class="content-services">
                                 <h3>Book Marketing</h3>
                                 <p>Promoting your book by captivating the right audience</p>
-                                <a href="book-marketing-services.php" class="web-blue-btn">View More</a>
+                                <a href="book-marketing-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
                                         src="assets/images/homepage/book-marketing.png">
@@ -93,7 +87,7 @@
                                 <div class="zindex1">
                                     <h3>Book Design</h3>
                                     <p>Creating attention-grabbing book designs to please the reader’s eye.</p>
-                                    <a href="book-design-services.php" class="web-blue-btn">View More</a>
+                                    <a href="book-design-services" class="web-blue-btn">View More</a>
                                 </div>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
@@ -110,7 +104,7 @@
                             <div class="content-services">
                                 <h3>Book Editing</h3>
                                 <p>Formatting and editing up to the mark to add value to the final product.</p>
-                                <a href="book-editing-services.php" class="web-blue-btn">View More</a>
+                                <a href="book-editing-services" class="web-blue-btn">View More</a>
 
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
@@ -125,7 +119,7 @@
                             <div class="content-services">
                                 <h3>Audiobook</h3>
                                 <p>Soothing narrations that go perfectly with your book type.</p>
-                                <a href="audiobook-services.php" class="web-blue-btn">View More</a>
+                                <a href="audiobook-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing" class=""
                                         src="assets/images/homepage/audiobook.png">
@@ -136,12 +130,10 @@
                 </div>
             </div>
         </section>
-
-
+        
         <?php include 'partials/portfolio.php'; ?>
 
         <?php include 'partials/testimonials.php'; ?>
-
 
         <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
             <div class="container-wrapper">
@@ -171,14 +163,10 @@
             </div>
         </section>
 
-
         <?php include 'partials/why-choose.php'; ?>
-
-    
 
     </div>
 
 </div>
-
 
 <?php include 'partials/footer.php'; ?>

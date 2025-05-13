@@ -7907,7 +7907,7 @@ section.banner.banner-inner.custom-padding {
 }
 
 .cta-ghost.bg-abouts:before {
-	/* background-image: url(../images/aboutbgs-new.webp) */
+	background-image: url(../images/onal-image.png)
 }
 
 .cta-ghost.bg-audio:before {
@@ -7965,7 +7965,7 @@ section.banner.banner-inner.custom-padding {
 }
 
 .bg-banner-inner-service-img img {
-	width: 90%
+	width: 70%
 }
 
 .bg-banner-inner-service-img {
