@@ -95,30 +95,34 @@
                             <a class="nav-link active" aria-current="page" href="book-editing-services">Book
                                 Editing </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="book-printing-services">Book
-                                Printing </a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="book-printing-services"></a>
+                        </li> -->
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Other Services
+                          <a class="nav-link dropdown-toggle" href="services" id="navbarDarkDropdownMenuLink" role="button">
+
+                               
+                                Other Services
                             </a>
-                            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="book-printing-services">Book Printing</a></li>
                                 <li><a class="dropdown-item" href="book-video-trailer">Book Video Trailer</a></li>
                                 <li><a class="dropdown-item" href="web-design-and-seo">Web design & SEO</a></li>
                                 <li><a class="dropdown-item" href="book-illustration-services">Illustration Services</a>
                                 </li>
                                 <li><a class="dropdown-item" href="articles-services">Articles Services</a></li>
-                                <li><a class="dropdown-item" href="book-design-services">Book Design Services</a>
-                                </li>
-                                <li><a class="dropdown-item" href="blog-writing-services">Blog Writing Services</a>
-                                </li>
+                                <li><a class="dropdown-item" href="book-design-services">Book Design Services</a></li>
+                                <li><a class="dropdown-item" href="blog-writing-services">Blog Writing Services</a></li>
                                 <li><a class="dropdown-item" href="web-content-writing-service">Web Content Writing
                                         Service</a></li>
                             </ul>
                         </li>
 
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">Blogs </a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="contact-us">Contact </a>
                         </li>
@@ -163,11 +167,14 @@
         <!-- <script
             src="WebResource2ffb.js?d=x2nkrMJGXkMELz33nwnakAoXx7BHhUButGZQnllUNwQzjFobvO9zm4wD8d7u7RvbfECFL3Gw4wAC1ggBp8oPYjI7a9JzEsLyq4bhPVVNI5U1&amp;t=638610871965203766"
             type="text/javascript"></script> -->
-        <script type="text/javascript">
-            //<![CDATA[
-            function WebForm_OnSubmit() {
-                if (typeof (ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
-                return true;
-            }
-            //]]>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const dropdownLink = document.getElementById('navbarDarkDropdownMenuLink');
+                dropdownLink.addEventListener('click', function (e) {
+                    // Prevent Bootstrap dropdown toggle behavior
+                    if (!dropdownLink.classList.contains('show')) {
+                        window.location.href = dropdownLink.getAttribute('href');
+                    }
+                });
+            });
         </script>
