@@ -13,7 +13,7 @@
                         </p>
                     </div>
                     <form action="backend/action/action" method="POST">
-                        <input type="hidden" name="type" value="formlong">
+                        <input type="hidden" name="type" value="middleForm">
                         <div class="form-style">
                             <div class="mb-3">
                                 <input
@@ -437,10 +437,13 @@
                             <span class="clr-changed ">Best-Selling</span>
                             Journey!
                         </h3>
+
+                        <form action="backend/action/action" method="POST">
+                        <input type="hidden" name="type" value="formLong">
                         <div class="row">
                             <div class="col">
                                 <input
-                                    name="ctl00$txtcnsite1"
+                                    name="name"
                                     type="text"
                                     maxlength="60"
                                     id="txtcnsite1"
@@ -487,7 +490,7 @@
                                         type="hidden"
                                         value=""
                                         class="dialcode"
-                                        name="dcsite1"
+                                        name="phone"
                                         id="dcsite1"
                                     >
                                     <input
@@ -535,7 +538,7 @@
                         <div class="row">
                             <div class="col">
                                 <input
-                                    name="ctl00$txtemsite1"
+                                    name="email"
                                     type="text"
                                     maxlength="60"
                                     id="txtemsite1"
@@ -573,7 +576,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <input
-                                    name="ctl00$txttrsite1"
+                                    name="message"
                                     type="text"
                                     id="txttrsite1"
                                     class="form-control"
@@ -597,14 +600,9 @@
                             <p>
                                 <span id="lblErrorMessagesite1" style="color:Red;"></span>
                             </p>
-                            <input
-                                type="submit"
-                                name="ctl00$btnSubmitsite1"
-                                value="Submit"
-                                id="btnSubmitsite1"
-                                class="btn btn-primary web-blue-btn"
-                            >
+                             <button type="submit" class="btn btn-primary web-blue-btn">submit</button>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>
