@@ -6,8 +6,8 @@
 
         <section class=" mainbanner banner custom-padding hbanner">
             <div class="container-wrapper text-center bannerh1 hbanner">
-                <h1 class="mb-4">Welcome to The Best Book Publishing Company in USA
-                </h1>
+                <p class="mb-4 welcome">Welcome to  <span class="black">The Best Book</span>  Publishing <span class="blue">Company in the USA</span> 
+                </p>
                 <div class="banner-heights">
                     <div class="bannerslider ">
                         <div class="owl-carousel-banner owl-theme owl-carousel newcaro">

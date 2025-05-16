@@ -5,9 +5,9 @@
     <div class="body">
 
        <section class="banner banner-inner custom-padding position-relative-customs">
-    <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-publishing/header.png">
-    </div>
+    <!-- <div class="bg-banner-inner-service-img">
+    
+    </div> -->
     <div class="container-wrapper ">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -41,6 +41,9 @@
                 class="mybannertrusted">
             </div>
           </div>
+        </div>
+        <div class="col-md-6">
+  <img loading="lazy" alt="Seedspire Publishing" src="assets/images/services/Header.png">
         </div>
       </div>
     </div>
@@ -123,7 +126,7 @@
 
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/homepage/editing.png">
+                                        src="assets/images/services/book-Editing.png">
                                 </div>
                             </div>
                         </div>
@@ -137,7 +140,7 @@
                                 <a href="audiobook-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing" class=""
-                                        src="assets/images/homepage/audiobook.png">
+                                        src="assets/images/services/audiobook.png">
                                 </div>
                             </div>
                         </div>
@@ -168,7 +171,7 @@
                                 <a href="book-video-trailer" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing" class=""
-                                        src="assets/images/homepage/audiobook.png">
+                                        src="assets/images/services/book-Video.png">
                                 </div>
                             </div>
                         </div>
@@ -185,7 +188,7 @@
 
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/homepage/editing.png">
+                                        src="assets/images/services/web-Design.png">
                                 </div>
                             </div>
                         </div>
@@ -199,7 +202,7 @@
                                 <a href="book-illustration-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing" class=""
-                                        src="assets/images/homepage/audiobook.png">
+                                        src="assets/images/services/Illustration.png">
                                 </div>
                             </div>
                         </div>
@@ -216,7 +219,7 @@
 
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/homepage/editing.png">
+                                        src="assets/images/services/article.png">
                                 </div>
                             </div>
                         </div>
@@ -230,7 +233,7 @@
                                 <a href="book-design-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing" class=""
-                                        src="assets/images/homepage/audiobook.png">
+                                        src="assets/images/services/book-design.png">
                                 </div>
                             </div>
                         </div>
@@ -247,7 +250,7 @@
 
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/homepage/editing.png">
+                                        src="assets/images/services/blog-writing.png">
                                 </div>
                             </div>
                         </div>
@@ -261,7 +264,7 @@
                                 <a href="web-content-writing-service" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing" class=""
-                                        src="assets/images/homepage/audiobook.png">
+                                        src="assets/images/services/web-Content.png">
                                 </div>
                             </div>
                         </div>

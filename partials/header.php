@@ -5,47 +5,51 @@
 
 
 
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="alternate" hreflang="x-default" href="https://donaldsbookpublishing.com/" />
+    <link rel="alternate" hreflang="en-us" href="https://donaldsbookpublishing.com/" />
 
 
 
-    <link rel="preload" href="assets/images/mobile-logo.webp" as="image">
-    <link rel="preload" href="assets/images/logo.webp" as="image">
-    <link rel="preload" href="assets/images/sliderbook1.webp" as="image">
-    <link rel="preload" href="assets/images/sliderbook2.webp" as="image">
-    <link rel="preload" href="assets/images/sliderbook3.webp" as="image">
-    <link rel="preload" href="assets/images/sliderbook4.webp" as="image">
-    <link rel="preload" href="assets/images/sliderbook5.webp" as="image">
-
-    <link rel="preload" href="assets/images/e-book-publishing.webp" as="image">
-    <link rel="preload" href="assets/images/ghost-writing.webp" as="image">
-    <link rel="preload" href="assets/images/book-marketing.webp" as="image">
-    <link rel="preload" href="assets/images/illustration-book.webp" as="image">
-    <link rel="preload" href="assets/images/editing-and-proof.webp" as="image">
-    <link rel="preload" href="assets/images/audiobook.webp" as="image">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Top Book Publishing Company in USA | Donald’s Book Publishing" />
+    <meta property="og:description"
+        content="Get your book published with the best book publishing services in USA. Trusted by authors for editing, design, and global distribution." />
+    <meta name="keywords" content="Best Book Publishing Company in the USA" />
+    <meta property="og:url" content="https://donaldsbookpublishing.com/" />
+    <meta property="og:image" content="https://donaldsbookpublishing.com/assets/images/home/logo2.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="donaldsbookpublishing" />
     <title>
         <?php echo $title_name; ?>
     </title>
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="keywords" content="<?php echo $keywords; ?>" />
-    <link id="canonicals" rel="canonical" href="#">
+    <link rel="canonical" href="https://donaldsbookpublishing.com/" />
     <meta name="robots" content="noindex, nofollow">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="donaldsbookpublishing">
+    <meta name="twitter:creator" content="@donaldsbookpublishing">
+    <meta name="twitter:title" content=" Top Book Publishing Company in USA|Donald’s Book Publishing">
+    <meta name="twitter:description"
+        content="Get your book published with the best book publishing services in USA. Trusted by authors for editing, design, and global distribution.">
+    <meta name="twitter:image" content="https://donaldsbookpublishing.com/assets/images/home/logo2.png">
 
     <link rel="icon" type="image/x-icon" href="assets/images/home/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css" as="style" media="screen">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+    
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <!-- <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
+    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/intlTelInput.min.css" as="style" media="screen">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+   
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +60,16 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+       <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+        <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
+    <!-- ROBOT TAG -->
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet: -1" />
+    <meta name="bingbot" content="index, follow, max-snippet: -1 " />
 
 </head>
 
@@ -100,9 +114,10 @@
                         </li> -->
 
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="services" id="navbarDarkDropdownMenuLink" role="button">
+                            <a class="nav-link dropdown-toggle" href="services" id="navbarDarkDropdownMenuLink"
+                                role="button">
 
-                               
+
                                 Other Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -121,7 +136,7 @@
 
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="">Blogs </a>
+                            <a class="nav-link active" aria-current="page" href="#">Blogs </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="contact-us">Contact </a>

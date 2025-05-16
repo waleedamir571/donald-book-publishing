@@ -114,7 +114,7 @@ switch ($functions) {
     break;
   case "articles-services.php";
     $title_name = "Top Web Design Services in the USA | Donald’s Book Publishing";
-    $description = "Professional Article Writing Services in the USA | Donald’s Book Publishing";
+    $description = "Get expert professional article writing services in the USA. Quality content tailored to boost your brand and engage your audience";
     $keywords = "article writing services USA, SEO article writers, professional content writing USA, blog writing services, custom article writing, USA content creators";
 
     break;

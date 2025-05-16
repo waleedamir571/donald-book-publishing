@@ -1,9 +1,10 @@
 <section>
     <div class="boxes-bottom-section">
       <div class="container-wrapper">
-        <h2 class="text-center pb-3">Why Choose Donald’s Book Publishing?
+        <h2 class="text-center black1 pb-3">Why Choose Donald’s Book Publishing?
         </h2>
-        <p class="text-center mb-5">Here is Why You Need to Choose Our Book Publishing Services. We are not restricted to publishing, but we are about providing everything you need for your book.
+        <p class="text-center black1 mb-5">Here is Why You Need to Choose Our Book Publishing Services. We are not restricted to publishing, <br>       
+           but we are about providing everything you need for your book.
         </p>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
