@@ -14,7 +14,6 @@
 </style>
 <div class="body-content">
 
-
     <section class="banner custom-padding hbanner">
         <div class=" text-center bannerh1 hbanner">
 
@@ -39,17 +38,8 @@
                     </div>
                 </div>
             </div>
-
-           
-
-
         </div>
     </section>
-
-
-
-
-
 
 </div>
 <?php include 'partials/footer.php'; ?>
