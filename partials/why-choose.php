@@ -9,7 +9,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="box-one-service-bottom bg-gray-dark">
-              <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/sr-box-ico1.webp">
+              <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/home/ico1.png">
               <h6>End-to-End  <br> Publishing </h6>
               <p>From manuscript to bookstores with your rights & royalties</p>
               <div class="imgright">
@@ -19,7 +19,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="box-one-service-bottom bg-gray-dark">
-              <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/sr-box-ico2.webp">
+              <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/home/ico2.png">
               <h6>Seamless Amazon &  <br>
                 Retail Distribution </h6>
               <p>Get listed on Amazon, Barnes & Noble, Apple Books & more.
@@ -31,7 +31,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="box-one-service-bottom bg-gray-dark">
-              <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/sr-box-ico3.webp">
+              <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/home/ico3.png">
               <h6>Print &  <br>
                 Digital Formats </h6>
               <p>Paperback, hardcover, ebook & audiobook. Custom solutions for every author.

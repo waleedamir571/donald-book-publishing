@@ -386,8 +386,3 @@
 <?php include 'partials/footer.php'; ?>
 
 
-
-
-<div class="col-md-4">
-  
-</div>

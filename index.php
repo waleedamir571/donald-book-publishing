@@ -91,7 +91,7 @@
                                 </div>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
-                                        src="assets/images/homepage/design.png">
+                                        src="assets/images/homepage/design.webp">
                                 </div>
                             </div>
                         </div>
@@ -139,16 +139,16 @@
             <div class="container-wrapper">
                 <div class="cta-bg border-radius-33 cta-one ">
                     <div class="col-lg-5 mycustomctanew">
-                        <h2 class="uppercase mb-5">You Think,
+                        <h2 class="uppercase color-white">You Think,
 
                             <br>
                             We Write.
                         </h2>
-                        <p class="mb-3">
+                        <p class="mb-3 color-white">
                             Our team of experts is all set to write, design, format, and publish your dream most
                             efficiently.
                         </p>
-                        <p> Connect now for astounding services.
+                        <p class="color-white">  Connect now for astounding services.
                         </p>
 
                         <div class="d-flex btnflex mt-5">

@@ -29,9 +29,35 @@ html body h3 {
     color: white !important;
 }
 
+.reD-color{
+	background-color: #BE0A2F !important;
+}
+
+.one{
+background-color: #0b3764 !important;
+}
+
+.thanks{
+	COLOR: #0b3764;
+	    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
 .black1{
 	color: black;
 }
+
+/* First ul with class - white text */
+.custom-ul.ctaul:first-of-type ul li {
+  color: black;
+}
+
+/* Last ul with class - black text */
+.custom-ul.ctaul:last-of-type ul li {
+  color: white;
+}
+
 
 
 .banner-image,
@@ -48,7 +74,7 @@ html body h3 {
 }
 
 .black{
-	color: black;
+	color: #BE0A2F;
 	font-weight: 600;
 }
 
@@ -90,12 +116,12 @@ img {
 }
 .col-lg-4:nth-child(1) .testimonials-content.w-50-custom,
 .col-lg-4:nth-child(3) .testimonials-content.w-50-custom {
-  background: black;
+  background: #BE0A2F;
 }
 
 .row > .col-lg-4:nth-child(1) .box-one-service-bottom,
 .row > .col-lg-4:nth-child(3) .box-one-service-bottom {
-  background: black !important;
+  background: #BE0A2F !important;
 }
 
 html body label,
@@ -147,6 +173,16 @@ html body h1 {
     color: #0b3764;
     font-weight: 600;
 }
+
+/* Assuming both are inside the same parent */
+.parent-class > .custom-ul.ctaul:nth-child(1) ul li {
+  color: white !important;
+}
+
+.parent-class > .custom-ul.ctaul:nth-child(2) ul li {
+  color: black !important;
+}
+
 
 .content-services a.web-blue-btn,
 a.web-black-btn,
@@ -364,11 +400,22 @@ section.form-section.custom-padding {
 }
 
 .process-box {
-	border: 1px solid #6d6d6d;
-	padding: 30px 100px;
-	border-radius: 25px;
-	margin: 0 0 28px;
-	width: 100%
+    border: 1px solid #6d6d6d;
+    padding: 30px 100px;
+    border-radius: 25px;
+    margin: 0 0 28px;
+    width: 100%;
+}
+
+/* 1st and 3rd box */
+.process-box:nth-child(1),
+.process-box:nth-child(3) {
+    background-color: #BE0A2F;
+}
+
+/* 2nd box */
+.process-box:nth-child(2) {
+    background-color: #0b3764;
 }
 
 .processboxsection .process-box {
@@ -446,6 +493,10 @@ a.process-box:hover {
 .cta-one {
 	position: relative;
 	overflow: hidden
+}
+
+.color-white{
+	color: white;
 }
 
 .bg1:before,
@@ -4194,7 +4245,7 @@ a.process-box:hover {
 .owl-carousel-center .item {
 	background: #f9f9f9;
 	/* background: #0E4173 !important; */
-	background: url(../images/lightbluebg-background3.webp) !important;
+	/* background: url(../images/lightbluebg-background3.webp) !important; */
 }
 
 .cta-ghost:before,
@@ -6997,15 +7048,13 @@ img {
 	max-width: 100%
 }
 
-html body label,
-html body li,
-html body p {
-	font-size: 16px;
-	line-height: 26px;
-	font-weight: 400;
-	color: white;
-	margin: 0;
-	padding: 0
+html body label, html body li, html body p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 html body h1,
@@ -7050,8 +7099,8 @@ input.web-blue-btn {
 }
 
 html body h2 {
-    font-size: 60px;
-    color: #fff;
+    font-size: 50px;
+    color: #000;
     line-height: 80px;
 }
 
@@ -7089,8 +7138,8 @@ html body h6 {
 a.web-black-btn {
 	border-radius: 50px;
 	color: #fff;
-	border: 1px solid #000;
-	background-color: #000;
+	border: 1px solid transparent;
+	background-color: #BE0A2F ;
 	padding: 10px 40px 6px;
 	margin-bottom: 30px;
 	font-size: 18px
@@ -7107,10 +7156,11 @@ input.web-blue-btn {
 }
 
 a.web-black-btn:hover {
-	color: #000;
-	border: 1px solid #000;
-	background-color: transparent;
-	transition: .5s
+    color: white;
+    border: 1px solid #000;
+    background-color: transparent;
+    transition: .5s;
+    background: black;
 }
 
 a.web-blue-btn,
@@ -7119,12 +7169,11 @@ button.web-blue-btn {
 	border-radius: 50px
 }
 
-a.web-blue-btn:hover,
-input.web-blue-btn:hover {
-	color: #0E4173;
-	border: 1px solid #0E4173;
-	background-color: transparent;
-	transition: .5s
+a.web-blue-btn:hover, input.web-blue-btn:hover {
+    color: #0E4173;
+    border: 1px solid #0E4173;
+    background-color: white;
+    transition: .5s;
 }
 
 input.web-blue-btn {
@@ -7175,7 +7224,7 @@ input.web-blue-btn {
 
 .custom-padding,
 section.form-section.custom-padding {
-	padding: 50px 0
+	padding: 25px 0
 }
 
 .mybox-services-main {
@@ -7184,7 +7233,7 @@ section.form-section.custom-padding {
 }
 
 .content-services p {
-	color: #000;
+	color: #fff;
 	margin-bottom: 30px;
 	font-family: "Josefin Sans", serif;
 	font-weight: 300;
@@ -7193,17 +7242,22 @@ section.form-section.custom-padding {
 	margin-top: 20px
 }
 
+.rf {
+    color: black;
+}
+
 .content-services h3 {
 	text-transform: uppercase;
 	font-size: 48px;
-	color: #000;
+	color: #fff;
 	line-height: 55px
 }
 
 .content-services a.web-blue-btn {
-	padding: 10px 40px 6px;
-	margin-bottom: 30px;
-	font-size: 18px
+    padding: 10px 40px 6px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    border: 1px solid transparent;
 }
 
 .content-services {
@@ -7230,6 +7284,23 @@ section.form-section.custom-padding {
 	position: relative
 }
 
+/* .bg-gray-box div:nth-child(1),
+.bg-gray-box div:nth-child(4),
+.bg-gray-box div:nth-child(5),
+.bg-gray-box div:nth-child(8) {
+  background-color: blue;
+
+}
+
+.bg-gray-box div:nth-child(2),
+.bg-gray-box div:nth-child(3),
+.bg-gray-box div:nth-child(6),
+.bg-gray-box div:nth-child(7) {
+  background-color: red;
+ 
+} */
+
+
 .bg-gray-box {
 	background-color: #f9f9f9
 }
@@ -7252,13 +7323,14 @@ section.form-section.custom-padding {
 	padding: 30px 100px;
 	border-radius: 25px;
 	margin: 0 0 28px;
-	width: 100%
+	width: 100%;
+	/* background-color: #0b3764 !important; */
 }
 
 .processboxsection .process-box {
 	display: block;
 	text-decoration: none;
-	opacity: .5
+	opacity: 1;
 }
 
 a.process-box:hover {
@@ -7267,7 +7339,7 @@ a.process-box:hover {
 }
 
 .process-box h6 {
-	color: #6d6d6d;
+	color: white;
 	font-size: 18px;
 	line-height: 24px
 }
@@ -7604,13 +7676,14 @@ a.process-box:hover {
 }
 
 .cta-bg {
-	background: #eaeaea;
-	background: linear-gradient(180deg, #eaeaea 35%, #fff 100%);
-	padding: 80px
+    background: #eaeaea;
+    background: #0b3764;
+    padding: 80px;
 }
 
 .uppercase {
-	text-transform: uppercase
+	text-transform: uppercase;
+	color: white;
 }
 
 .custom-ul li {
@@ -7700,7 +7773,7 @@ a.process-box:hover {
 }
 
 .tabscustom button {
-    color: black;
+    color: #BE0A2F;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -7725,19 +7798,20 @@ a.process-box:hover {
 }
 
 .mycustomctanew p {
-    font-size: 25px;
+    line-height: 1.5;
+    font-size: 19px;
     text-transform: uppercase;
-    line-height: 40px;
+    /* line-height: 40px; */
     font-weight: 500;
     padding-right: 40px;
+    color: white;
 }
-
 .btnflex a.web-black-btn {
 	margin-right: 20px
 }
 
 .cta-one:before {
-    background-image: url(../images/Book-writing/vision.png);
+    background-image: url(../images/services/vision.png);
     width: 100%;
     height: 100%;
     display: block;
@@ -7838,7 +7912,8 @@ a.process-box:hover {
 
 .myheading-custom p.my-bigp {
 	font-size: 30px;
-	line-height: 40px
+	line-height: 40px;
+	color: black;
 }
 
 .myheading-custom p {
@@ -7932,7 +8007,7 @@ section.banner.banner-inner.custom-padding {
 	width: 10px;
 	height: 10px;
 	left: 0;
-	background: #6d6d6d;
+	background: #fff;
 	border-radius: 50px;
 	top: 8px
 }
@@ -7953,7 +8028,8 @@ section.banner.banner-inner.custom-padding {
 }
 
 .cta-ghost.bg-publishing:before {
-	background-image: url(../images/book-publishing.webp)
+	background-image: url(../images/book-publishing.webp);
+	background-color: #0b3764 !important;
 }
 
 .cta-ghost.bg-abouts:before {
@@ -7980,16 +8056,18 @@ section.banner.banner-inner.custom-padding {
 }
 
 .services-inner-banner-style p.main-para {
-	font-size: 16px;
-	text-transform: uppercase;
-	font-weight: 600;
-	margin: 18px 0 20px
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 18px 0 20px;
+    color: black;
 }
 
 .services-inner-banner-style .custom-ul.ctaul ul li:after {
-	width: 8px;
-	height: 8px;
-	top: 8px
+    width: 8px;
+    height: 8px;
+    top: 8px;
+    background: black;
 }
 
 .services-inner-banner-style li {
@@ -8052,9 +8130,10 @@ section.banner.banner-inner.custom-padding {
 }
 
 .morespace-cta.cta-ghost:before {
-	background-image: url("../images/Book-writing/genres.png")
+    background-image: url(../images/Book-writing/genres.png);
+    background-color: #0b3764;
+    border-radius: 25px;
 }
-
 section.banner.banner-inner {
 	height: 100vh
 }
@@ -8359,11 +8438,12 @@ section.banner.banner-inner {
 }
 
 .contactboxs {
-	border: 1px solid #6d6d6d;
+	border: 1px solid transparent;
 	padding: 40px 25px;
 	border-radius: 30px;
-	background-color: #fff;
-	min-height: 202px
+	background-color: #0b3764;
+	min-height: 202px;
+	/* color: white !important; */
 }
 
 
@@ -8371,7 +8451,7 @@ section.banner.banner-inner {
 .contactboxs a,
 .contactboxs p {
 	font-size: 18px;
-	color: #6d6d6d;
+	color: white;
 	text-transform: lowercase;
 	text-decoration: none
 }
@@ -8617,43 +8697,43 @@ section.services-box+section.custom-padding .custom-flex {
 }
 
 .services-box .row:first-child .col-lg-6:first-child .mybox-services-main {
-	background: #0b3764 ;
+	background: #BE0A2F;
 	width: 100%;
 	height: 100% !important;
 }
 
 .services-box .row:first-child .col-lg-6:nth-child(2) .mybox-services-main {
-	background: #000 ;
+	background: #0b3764;
 	width: 100%;
 	height: 100% !important;
 }
 
 .services-box .row:nth-child(2) .col-lg-6:first-child .mybox-services-main {
-	background: #000 ;
+	background: #0b3764;
 	/* background: url('../images/lightbluebg-background3.webp') 0 0/100% 100% no-repeat; */
 	width: 100%;
 	height: 100% !important;
 }
 
 .services-box .row:nth-child(2) .col-lg-6:nth-child(2) .mybox-services-main {
-		background: #0b3764 !important;
-	/* background: url('../images/lightbluebg-background3.webp') 0 0/100% 100% no-repeat !important; */
-	width: 100%;
-	height: 100% !important;
+		background: #BE0A2F !important;
+		/* background: url('../images/lightbluebg-background3.webp') 0 0/100% 100% no-repeat !important; */
+		width: 100%;
+		height: 100% !important;
 }
 
 .services-box .row:nth-child(3) .col-lg-6:first-child .mybox-services-main {
-	background: #0b3764 !important;
+	background: #BE0A2F !important;
 	/* background: url('../images/lightbluebg-background3.webp') !important; */
 	width: 100%;
 	height: 100% !important;
 }
 
 .services-box .row:nth-child(3) .col-lg-6:nth-child(2) .mybox-services-main {
-		background: #000 !important;
-	/* background: url('../images/lightbluebg-background3.webp') !important; */
-	width: 100%;
-	height: 100% !important;
+		background: #0b3764 !important;
+		/* background: url('../images/lightbluebg-background3.webp') !important; */
+		width: 100%;
+		height: 100% !important;
 }
 
 .bg-ctabottom .row {

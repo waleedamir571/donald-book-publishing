@@ -343,7 +343,7 @@
             </div>
         </div>
         <div class="f-bottom">
-            <p>© 2025
+            <p class="rf">© 2025
                 <a href="https://donaldsbookpublishing.com/">Donalds Book Publishing</a>  All rights reserved.
             </p>
         </div>
