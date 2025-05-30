@@ -16,41 +16,89 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Name Email Phone Message Form
-function nameEmailPhoneMessageForm($payload, $con)
+function nameEmailPhoneMessageForm($data, $connection)
 {
+    // Sanitize and extract data
+    $name = isset($data['full_name']) ? $connection->real_escape_string($data['full_name']) : '';
+    $email = isset($data['email']) ? $connection->real_escape_string($data['email']) : '';
+    $phone = isset($data['phone_no']) ? $connection->real_escape_string($data['phone_no']) : '';
+    $message = isset($data['message']) ? $connection->real_escape_string($data['message']) : '';
+    $page = isset($data['page']) ? $connection->real_escape_string($data['page']) : '';
+    $created_at = date("Y-m-d H:i:s");
 
-    if (empty($payload['name']) || empty($payload['phone']) || empty($payload['email']) || empty($payload['message'])) {
-        echo 'Empty Request';
-    } else {
-        try {
-            //DB FIRST
-            $page = $_POST['page'];
-            $date = date("Y-m-d H:i:s");
+    // Store into DB
+    $query = "INSERT INTO form (full_name, email, phone_no, message, created_at)
+              VALUES ('$name', '$email', '$phone', '$message', '$created_at')";
+    $connection->query($query);
 
-            $name = mysqli_real_escape_string($con, $payload['name']);
-            $email = mysqli_real_escape_string($con, $payload['email']);
-            $phone = mysqli_real_escape_string($con, $payload['phone']);
-            $message = mysqli_real_escape_string($con, clean($payload['message']));
-            mysqli_query($con, "INSERT INTO leads(page,date,name,email,phone,message) VALUES('$page','$date','$name','$email','$phone','$message')") or die(mysqli_error($con));
+    // Email Content for Admin
+    $adminSubject = "New Form Submission from $name";
+    $adminBody = "
+    <p><strong>Page:</strong> $page</p>
+    <p><strong>Name:</strong> $name</p>
+    <p><strong>Email:</strong> $email</p>
+    <p><strong>Phone:</strong> $phone</p>
+    <p><strong>Message:</strong><br>$message</p>
+    ";
 
-            //EMAIL NOTIFICATION
-            $emailContent = '<p>Page : ' . $payload['page'] . '</p>';
-            $emailContent .= '<p>Name : ' . $payload['name'] . '</p>';
-            $emailContent .= '<p>Email : ' . $payload['email'] . '</p>';
-            $emailContent .= '<p>Phone : ' . $payload['phone'] . '</p>';
-            $emailContent .= '<p>Message : ' . $message . '</p>';
+    // Auto-reply Content for User
+    $userSubject = 'Donaldsbookpublisher has Received Your Message!';
+    $userBody = "
+        <p>Dear <b>{$name},</b></p>
+        <p>Thank you for reaching out to Donaldsbookpublisher! Our team has received your query and is working on it. Expect to hear back from us within 24 hours. For quick answers, you might find our <a href='https://donaldsbookpublisher.com/faq'>FAQ</a> page helpful.</p>
+        <p>Thanks for your patience and interest in our work!</p>
+        <br><br>
+        <p><b>Warm regards,</b></p>
+        <p>The Donaldsbookpublisher Team.</p>
+        <img src='https://donaldsbookpublisher.com/assets/img/logo.png' alt='Donaldsbookpublisher' style='max-width: 200px;'>
+        <p>Email: <a href='mailto:info@donaldsbookpublishing.com'>info@donaldsbookpublishing.com</a><br>
+        Phone: <a href='tel:(415) 520-1098'>(415) 520-1098</a><br>
+        Address: 895 Dove Street. Newport Beach, CA 92660 United States</p>
+    ";
 
-            sendEmail($emailContent);
+    sendEmails($name, $email, $adminSubject, $adminBody, $userSubject, $userBody);
 
-            // SLACK NOTIFICATION
-            $slackContent = json_encode(array("text" => "Hi Team , \n\t We have received a new lead . Please check the following details.  \n \n Page : " . $payload['page'] . " \n Name : " . $payload['name'] . " \n Email : " . $payload['email'] . " \n Phone : " . $payload['phone'] . " \n Message : " . $message));
-            sendSlack($slackContent);
-        } catch (Exception $e) {
-            die($e->getMessage());
-        }
-    }
+    $slackContent = json_encode([
+        "text" => "Hi Team,\nWe have received a new lead.\n\nPage: $page\nName: $name\nEmail: $email\nPhone: $phone\nMessage: $message"
+    ]);
+    sendSlack($slackContent);
+
 }
 
+function sendEmails($name, $email, $adminSubject, $adminBody, $userSubject, $userBody)
+{
+    $mail = new PHPMailer(true);
+    try {
+        $mail->isSMTP();
+        $mail->Host = 'smtp.hostinger.com'; // Replace with your SMTP host
+        $mail->SMTPAuth = true;
+        $mail->Username = 'info@donaldsbookpublishing.com';
+        $mail->Password = 'Cybertron@2025';
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port = 465;
+
+        $mail->setFrom('info@donaldsbookpublishing.com', 'Hancock Publishers');
+
+        // Admin email
+        $mail->addAddress('info@donaldsbookpublishing.com', 'Admin');
+        $mail->isHTML(true);
+        $mail->Subject = $adminSubject;
+        $mail->Body = $adminBody;
+        $mail->send();
+
+        // Auto-reply to user
+        $mail->clearAddresses();
+        $mail->addAddress($email, $name);
+        $mail->Subject = $userSubject;
+        $mail->Body = $userBody;
+        $mail->send();
+
+        echo 'Emails sent successfully.';
+
+    } catch (Exception $e) {
+        echo "Email error: {$mail->ErrorInfo}";
+    }
+}
 
 function bpsPage($payload, $con)
 {
@@ -727,7 +775,7 @@ function sendEmail($message, $subject = 'Lead from no-reply@hancockpublishers.co
             // Send auto-reply email
             $autoReplySubject = 'Hancockpublishers has Received Your Message!';
             $autoReplyMessage = "
-                <p>Dear <b>{$_POST['name']},</b></p>
+                <p>Dear <b>{$_POST['full_name']},</b></p>
                 <p>Thank you for reaching out to Hancockpublishers! Our Hancockpublishers have received your query and are working on it as of now. Expect to hear back from us within 24 hours. For quick answers, you might find our <a href='https://hancockpublishers.com/faq'>FAQ</a> page helpful.</p>
                 <p>Thanks for your patience and interest in our work!</p>
                 <br><br>
@@ -874,7 +922,7 @@ function sendEmail($message, $subject = 'Lead from no-reply@hancockpublishers.co
 // SEND SLACK
 function sendSlack($data)
 {
-    $connection2 = new mysqli("localhost", "root", "", "hancockpublishers");
+    // $connection2 = new mysqli("localhost", "root", "", "hancockpublishers");
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_POST, 1);
@@ -882,7 +930,7 @@ function sendSlack($data)
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $server_output = curl_exec($ch);
     curl_close($ch);
-    mysqli_query($connection2, "INSERT INTO slack(error,slack_payload) VALUES('$server_output','$data')") or die(mysqli_error($connection2));
+    // mysqli_query($connection2, "INSERT INTO slack(error,slack_payload) VALUES('$server_output','$data')") or die(mysqli_error($connection2));
     return ($server_output);
 }
 
