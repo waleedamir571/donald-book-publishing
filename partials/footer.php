@@ -270,7 +270,7 @@
                             <input type="hidden" name="type" value="formLong">
                             <div class="row">
                                 <div class="col">
-                                    <input name="name" type="text" maxlength="60" id="txtcnsite1"
+                                    <input name="full_name" type="text" maxlength="60" id="txtcnsite1"
                                         class="form-control cn" placeholder="Enter Your full Name">
                                     <span data-val-controltovalidate="txtcnsite1"
                                         data-val-errormessage="Please enter correct name" data-val-display="Dynamic"
@@ -297,7 +297,7 @@
                                         <input type="hidden" value="" class="countryname">
                                         <input type="hidden" value="" class="countrycode">
                                         <input type="hidden" value="" class="dialcode" name="phone" id="dcsite1">
-                                        <input name="ctl00$pnsite1" type="tel" id="pnsite1" maxlength="10"
+                                        <input name="phone_no" type="tel" id="pnsite1" maxlength="10"
                                             minlength="10" tabindex="-1"
                                             class="phone-js form-control js-byphone js-valGet js-numbervalid pn"
                                             placeholder="Phone Number">
@@ -370,6 +370,7 @@
 <script src="assets/js/owl.carousel.min.js" defer></script>
 <script src="assets/js/custom.js" defer></script>
 <script src="assets/js/intl-tel-input.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" defer></script>
 <script>
     $(document).ready(function () {
         var currentURL = window.location.href; // Current page ka URL get karein

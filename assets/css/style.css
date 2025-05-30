@@ -29,6 +29,11 @@ html body h3 {
     color: white !important;
 }
 
+.iti {
+    position: relative;
+    display: block !important;
+}
+
 .reD-color{
 	background-color: #BE0A2F !important;
 }
@@ -7645,8 +7650,14 @@ a.process-box:hover {
 	z-index: 0
 }
 
-.w-20-c {
-	width: 23%
+.w-20-c
+{
+    width: 23%;
+    /* display: none; */
+}
+
+section#our-process-section {
+    display: none;
 }
 
 .w-20-c:first-child {

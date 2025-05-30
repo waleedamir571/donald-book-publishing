@@ -77,7 +77,7 @@ function sendEmails($name, $email, $adminSubject, $adminBody, $userSubject, $use
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
-        $mail->setFrom('info@donaldsbookpublishing.com', 'Hancock Publishers');
+        $mail->setFrom('info@donaldsbookpublishing.com', 'donaldsbookpublishing');
 
         // Admin email
         $mail->addAddress('info@donaldsbookpublishing.com', 'Admin');
@@ -93,7 +93,7 @@ function sendEmails($name, $email, $adminSubject, $adminBody, $userSubject, $use
         $mail->Body = $userBody;
         $mail->send();
 
-        echo 'Emails sent successfully.';
+        // echo 'Emails sent successfully.';
 
     } catch (Exception $e) {
         echo "Email error: {$mail->ErrorInfo}";

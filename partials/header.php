@@ -48,7 +48,8 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/intlTelInput.min.css" as="style" media="screen">
+    <!-- <link rel="stylesheet" href="assets/css/intlTelInput.min.css" as="style" media="screen"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,9 +68,9 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
     <!-- ROBOT TAG -->
 
-    <meta name="robots" content="index, follow" />
+    <!-- <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow, max-snippet: -1" />
-    <meta name="bingbot" content="index, follow, max-snippet: -1 " />
+    <meta name="bingbot" content="index, follow, max-snippet: -1 " /> -->
 
 </head>
 

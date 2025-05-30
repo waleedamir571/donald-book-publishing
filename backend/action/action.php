@@ -52,7 +52,7 @@ if (isset($_POST['type'])) {
             publishingJourney($_POST, $connection);
             break;
     }
-    // header('Location: /donald-book-publishing/thank-you');
+    header('Location: https://donaldsbookpublishing.com/thank-you');
 }
 
 

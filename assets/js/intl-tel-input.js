@@ -12,7 +12,7 @@
 			key: "getNumber", value: function (a) {
 				if (window.intlTelInputUtils) {
 					var b = this.s.iso2
-					; return intlTelInputUtils.formatNumber(this._6(), b, a)
+						; return intlTelInputUtils.formatNumber(this._6(), b, a)
 				} return ""
 			}
 		}, { key: "getNumberType", value: function () { return window.intlTelInputUtils ? intlTelInputUtils.getNumberType(this._6(), this.s.iso2) : -99 } }, { key: "getSelectedCountryData", value: function () { return this.s } }, { key: "getValidationError", value: function () { if (window.intlTelInputUtils) { var a = this.s.iso2; return intlTelInputUtils.getValidationError(this._6(), a) } return -99 } }, { key: "isValidNumber", value: function () { var a = this._6().trim(), b = this.d.nationalMode ? this.s.iso2 : ""; return window.intlTelInputUtils ? intlTelInputUtils.isValidNumber(a, b) : null } }, { key: "setCountry", value: function (a) { var b = a.toLowerCase(); this.l.classList.contains("iti__".concat(b)) || (this._z(b), this._4(this.s.dialCode, !1), this._m2CountryChange()) } }, { key: "setNumber", value: function (a) { var b = this._v(a); this._u(a), b && this._m2CountryChange() } }, { key: "setPlaceholderNumberType", value: function (a) { this.d.placeholderNumberType = a, this._0() } }]), a
