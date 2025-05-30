@@ -149,7 +149,7 @@
                  <div class="row flex-align-items-stretch">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div
-                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
+                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone one ">
                             <div class="content-services">
                                 <h3>Book Printing</h3>
                                 <p>Formatting and editing up to the mark to add value to the final product.</p>
@@ -164,7 +164,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div
-                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone ">
+                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone reD-color">
                             <div class="content-services">
                                 <h3>Book video trailers</h3>
                                 <p>Soothing narrations that go perfectly with your book type.</p>
@@ -180,7 +180,7 @@
                 <div class="row flex-align-items-stretch">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div
-                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
+                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone reD-color">
                             <div class="content-services">
                                 <h3>Web Design Services</h3>
                                 <p>Formatting and editing up to the mark to add value to the final product.</p>
@@ -195,7 +195,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div
-                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone ">
+                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone one">
                             <div class="content-services">
                                 <h3>Illustrations Services</h3>
                                 <p>Soothing narrations that go perfectly with your book type.</p>
@@ -211,7 +211,7 @@
                   <div class="row flex-align-items-stretch">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div
-                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
+                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone one">
                             <div class="content-services">
                                 <h3>Article Services</h3>
                                 <p>Formatting and editing up to the mark to add value to the final product.</p>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div
-                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone ">
+                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone reD-color">
                             <div class="content-services">
                                 <h3>book designs Services</h3>
                                 <p>Soothing narrations that go perfectly with your book type.</p>
@@ -242,7 +242,7 @@
                  <div class="row flex-align-items-stretch">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div
-                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
+                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone reD-color">
                             <div class="content-services">
                                 <h3>Blog Writing Services</h3>
                                 <p>Formatting and editing up to the mark to add value to the final product.</p>
@@ -257,7 +257,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div
-                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone ">
+                            class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone one">
                             <div class="content-services">
                                 <h3>Web Content Services</h3>
                                 <p>Soothing narrations that go perfectly with your book type.</p>

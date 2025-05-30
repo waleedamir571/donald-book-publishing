@@ -14,7 +14,6 @@
 </style>
 <div class="body-content">
 
-
     <section class="banner custom-padding hbanner">
         <div class=" text-center bannerh1 hbanner">
 
@@ -24,7 +23,7 @@
                     <div class="col-xl-8">
                         <h1 class="fs-40"> Thank You
                         </h1>
-                        <p class="mb-5"> Thank  you for reaching out! We appreciate your message. Our team will review
+                        <p class="mb-5 thanks"> Thank  you for reaching out! We appreciate your message. Our team will review
                             your inquiry and get back to you shortly. Expect to hear from us via email or phone,
                             whichever contact method you provided. In the meantime, feel free to explore our website for
                             more information about our services. We look forward to connecting with you soon!
@@ -39,17 +38,8 @@
                     </div>
                 </div>
             </div>
-
-           
-
-
         </div>
     </section>
-
-
-
-
-
 
 </div>
 <?php include 'partials/footer.php'; ?>

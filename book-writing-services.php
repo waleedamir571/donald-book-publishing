@@ -145,8 +145,10 @@
               <h3>Outline and Synopsis Writing
               </h3>
               <p>Crafting focused outlines that highlight key plot points, character arcs, and story structure to keep
-                the narrative on track. Writing engaging summaries that capture the heart of the story in a few
-                impactful sentences, making readers eager to dive into the full narrative</p>
+                the narrative on track.
+                 <!-- Writing engaging summaries that capture the heart of the story in a few
+                impactful sentences, making readers eager to dive into the full narrative -->
+              </p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
                 Quote</a>
               <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
