@@ -173,7 +173,7 @@ Donald’s Book Publishing supports authors every step of the way";
 }
 
 
-// $chatbutton = 'javascript:$zopim.livechat.window.show()';
+
 
 
 // start body google tag manager 

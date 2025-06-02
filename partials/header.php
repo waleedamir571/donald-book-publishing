@@ -43,14 +43,15 @@
 
     <link rel="icon" type="image/x-icon" href="assets/images/home/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css" as="style" media="screen">
-    
+
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="assets/css/intlTelInput.min.css" as="style" media="screen"> -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
-   
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,10 +62,10 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
-       <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-        <!-- <link rel="stylesheet"
+    <!-- <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
     <!-- ROBOT TAG -->
 
@@ -117,11 +118,10 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="services" id="navbarDarkDropdownMenuLink"
                                 role="button">
-
-
-                                Other Services
+                                 Services
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                            <ul class="dropdown-menu responsive-dropdown" aria-labelledby="navbarDarkDropdownMenuLink">
                                 <li><a class="dropdown-item" href="book-printing-services">Book Printing</a></li>
                                 <li><a class="dropdown-item" href="book-video-trailer">Book Video Trailer</a></li>
                                 <li><a class="dropdown-item" href="web-design-and-seo">Web design & SEO</a></li>
@@ -134,6 +134,7 @@
                                         Service</a></li>
                             </ul>
                         </li>
+
 
 
                         <li class="nav-item">
@@ -150,14 +151,14 @@
         </nav>
     </header>
     <!-- <form method="post" action="" id="ctl00"> -->
-        <!-- <div class="aspNetHidden">
+    <!-- <div class="aspNetHidden">
             <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
             <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
             <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
                 value="NboSRTwaOJQMUaZNYYpbDre4AQmdIRuYQPPHaISCltYAbzDusy7OlB/N+RHs5pGj9exg015xTgbCbuyfI+UmRlKmkElzmMTJdxM9To+z494=" />
         </div> -->
 
-        <!-- <script type="text/javascript">
+    <!-- <script type="text/javascript">
            
             var theForm = document.forms['ctl00'];
             if (!theForm) {
@@ -174,23 +175,33 @@
         </script> -->
 
 
-        <!-- <script
+    <!-- <script
             src="WebResource4e59.js?d=pynGkmcFUV13He1Qd6_TZJ51fZB5Q8gxkyPV9BvVcaHOrCdwmM5u_RUkOwtVgkkMwUnsGCMhY1vpgJbe--jp-Q2&amp;t=638610871965203766"
             type="text/javascript"></script> -->
 
 
-        <script src="scripts/jquery-3.7.0.js" type="text/javascript"></script>
-        <!-- <script
+    <script src="scripts/jquery-3.7.0.js" type="text/javascript"></script>
+    <!-- <script
             src="WebResource2ffb.js?d=x2nkrMJGXkMELz33nwnakAoXx7BHhUButGZQnllUNwQzjFobvO9zm4wD8d7u7RvbfECFL3Gw4wAC1ggBp8oPYjI7a9JzEsLyq4bhPVVNI5U1&amp;t=638610871965203766"
             type="text/javascript"></script> -->
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const dropdownLink = document.getElementById('navbarDarkDropdownMenuLink');
-                dropdownLink.addEventListener('click', function (e) {
-                    // Prevent Bootstrap dropdown toggle behavior
-                    if (!dropdownLink.classList.contains('show')) {
-                        window.location.href = dropdownLink.getAttribute('href');
-                    }
-                });
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdownLink = document.getElementById('navbarDarkDropdownMenuLink');
+            dropdownLink.addEventListener('click', function (e) {
+                // Prevent Bootstrap dropdown toggle behavior
+                if (!dropdownLink.classList.contains('show')) {
+                    window.location.href = dropdownLink.getAttribute('href');
+                }
             });
-        </script>
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdownLink = document.getElementById('navbarDarkDropdownMenuLink');
+
+            if (window.innerWidth < 768) {
+                // Remove dropdown-toggle class to prevent JS dropdown
+                dropdownLink.classList.remove('dropdown-toggle');
+            }
+        });
+    </script>

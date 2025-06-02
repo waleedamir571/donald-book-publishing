@@ -69,7 +69,7 @@
             </div>
           </div>
           <div class="w-20-c hzoom">
-            <div class="my-process-box-inner bg1 border-radius-20 process-style-content">
+            <div class="my-process-box-inner bg11 border-radius-20 process-style-content">
               <h3>Step 01<br>
                 Draft finalizing</h3>
 

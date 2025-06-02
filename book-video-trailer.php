@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
-                        <div class="my-process-box-inner bg2 bg-video2 border-radius-20 process-style-content">
+                        <div class="my-process-box-inner bg2 bg27 bg-video2 border-radius-20 process-style-content">
                             <h3>Step 02<br>
                                 Trailer Production</h3>
 

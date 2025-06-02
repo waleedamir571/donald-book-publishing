@@ -81,7 +81,7 @@
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
-                        <div class="my-process-box-inner bg2 bg-webdeisgn2 border-radius-20 process-style-content">
+                        <div class="my-process-box-inner bg2 bg25 bg-webdeisgn2 border-radius-20 process-style-content">
                             <h3>Step 02<br>
                                 SEO Integration & Optimization</h3>
 

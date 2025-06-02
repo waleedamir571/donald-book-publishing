@@ -2376,6 +2376,26 @@ section.banner.contact-banner.pageterms.custom-padding {
 	}
 }
 
+
+    /* Mobile view: display dropdown always */
+    @media (max-width: 767.98px) {
+        .responsive-dropdown {
+            display: block !important;
+            position: static !important;
+            background-color: transparent !important;
+            border: none;
+            box-shadow: none;
+        }
+
+        .responsive-dropdown .dropdown-item {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            color: #000;
+        }
+    }
+
+
+
 @media (max-height:750px) {
 	.boxes-bottom-section .row {
 		display: flex;
@@ -7375,7 +7395,7 @@ a.process-box:hover {
 }
 
 .process-style-content h4 {
-	font-size: 25px;
+	font-size: 23px;
 	line-height: 35px;
 	font-weight: 700;
 	position: absolute;
@@ -7427,15 +7447,15 @@ a.process-box:hover {
 }
 
 .bg1.bg-design:before {
-	background-image: url(../images/bg-book-design1.webp)
+	background-image: url(../images/book-design/step\ 1.png)
 }
 
 .bg2.bg-design2:before {
-	background-image: url(../images/bg-book-design2.webp)
+	background-image: url(../images/book-design/step\ 2.png)
 }
 
 .bg3.bg-design3:before {
-	background-image: url(../images/book-design/step-3.png)
+	background-image: url(../images/book-design/step\ 3.png)
 }
 
 .bg1.bg-video:before {
@@ -7471,7 +7491,7 @@ a.process-box:hover {
 }
 
 .bg2.bg-illustration2:before {
-	background-image: url(../images/illustration-bg-2.webp)
+	background-image: url(../images/Illustration-services/step\ 2.png)
 }
 
 .bg3.bg-illustration3:before {
@@ -7487,7 +7507,7 @@ a.process-box:hover {
 }
 
 .bg2.bg-articles2:before {
-	background-image: url(../images/articalbox2.webp)
+	background-image: url(../images/articles-services/step\ 2.png)
 }
 
 .bg3.bg-articles3:before {
@@ -7515,15 +7535,15 @@ a.process-box:hover {
 }
 
 .bg1.bg-blogwriting:before {
-	background-image: url(../images/blogwriting-box1.webp)
+	background-image: url(../images/blog-writing/step\ 1.png)
 }
 
 .bg2.bg-blogwriting2:before {
-	background-image: url(../images/blogwriting-box2.webp)
+	background-image: url(../images/blog-writing/step\ 2.png)
 }
 
 .bg3.bg-blogwriting3:before {
-	background-image: url(../images/blogwriting-box3.webp)
+	background-image: url(../images/blog-writing/step\ 3.png)
 }
 
 .cta-ghost.bg-blogwritingcta:before {
@@ -7531,15 +7551,15 @@ a.process-box:hover {
 }
 
 .bg1.bg-contentswriting:before {
-	background-image: url(../images/webcontent-box1.webp)
+	background-image: url(../images/web-content/step\ 1.png)
 }
 
 .bg2.bg-contentswriting2:before {
-	background-image: url(../images/webcontent-box2.webp)
+	background-image: url(../images/web-content/step\ 2.png)
 }
 
 .bg3.bg-contentswriting3:before {
-	background-image: url(../images/webcontent-box3.webp)
+	background-image: url(../images/web-content/step\ 3.png)
 }
 
 .cta-ghost.bg-blogcontentswritingcta:before {
@@ -7553,7 +7573,138 @@ a.process-box:hover {
 .bg2 {
 	/* position: relative; */
 	/* overflow: hidden; */
-	background-color: #BE0A2F;
+	background-color: #BE0A2F !important;
+}
+
+.bg11:before {
+	background-image: url(../images/book-publishing/step-1.png)
+}
+
+.bg11:hover::before {
+    transform: scale(1.1);
+}
+
+
+.bg11:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0;
+    background-size: 100%;
+    background-color: #0b3764;
+    border-radius: 20px;
+}
+
+.bg12:before {
+	background-image: url(../images/audiobook/step-1.png)
+}
+
+.bg12:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0;
+    background-size: 100%;
+    background-color: #0b3764;
+    border-radius: 20px;
+}
+
+.bg23:before {
+	background-image: url(../images/audiobook/step-2.png) !important;
+}
+
+.bg23:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0;
+    background-size: 100%;
+    background-color: #BE0A2F;
+    border-radius: 20px;
+}
+
+.bg24:before {
+	background-image: url(../images/book-editing/step-1.png);
+}
+
+.bg24:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0;
+    background-size: 100%;
+    background-color: #0b3764;
+    border-radius: 20px;
+}
+
+.bg25:before {
+	background-image: url(../images/web-design/step-2.png) !important;
+}
+
+.bg25:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0;
+    background-size: 100%;
+    background-color: #BE0A2F;
+    border-radius: 20px;
+}
+
+.bg26:before {
+	background-image: url(../images/Illustration-services/step\ 1.png) !important;
+}
+
+.bg26:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0;
+    background-size: 100%;
+    background-color: #0b3764;
+    border-radius: 20px;
+}
+
+.bg27:before {
+	background-image: url(../images/video-trailer/step-2.png) !important;
+}
+
+.bg27:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 30px;
+    right: 0px;
+    background-size: 100%;
+    background-color: #BE0A2F;
+    border-radius: 20px;
 }
 
 .bg2:before {
@@ -7605,7 +7756,7 @@ a.process-box:hover {
 }
 
 .bg3.bg-32:before {
-	background-image: url(../images/eroor-bg.webp)
+	background-image: url(../images/book-editing/step-3.png)
 }
 
 .bg3.bg7:before {
@@ -7656,9 +7807,9 @@ a.process-box:hover {
     /* display: none; */
 }
 
-section#our-process-section {
+/* section#our-process-section {
     display: none;
-}
+} */
 
 .w-20-c:first-child {
 	margin-left: 0
@@ -8854,10 +9005,13 @@ section.services-box+section.custom-padding .custom-flex {
 	background: #0b3764 !important;
 }
 
-.main-our-process-inner-section .bg3.bgcolorswap2 {
-	background: #ebf2fe !important;
-	background: linear-gradient(0deg, #ebf2fe 0, #50a4dc 100%) !important
+.main-our-process-inner-section .bg3.bgcolorswap2
+ {
+    background: #0b3764 !important;
+    /* background: linear-gradient(0deg, #ebf2fe 0, #50a4dc 100%) !important; */
 }
+
+
 
 header.my-nav {
 	position: relative !important;
@@ -10468,6 +10622,45 @@ ul.navbar-nav .nav-link.show {
 		width: 185px;
 		height: 136px;
 	}
+
+	.welcome {
+    font-weight: 300;
+    font-size: 29px;
+    text-transform: uppercase !important;
+    line-height: 1.3;
+    color: black;
+}
+
+.f-bottom {
+    
+    margin-bottom: 53px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.bg-ctabottom .row {
+    background: url(../images/services/ready-to-get.png) 0 0 / cover no-repeat;
+    width: 100%;
+    height: 35rem;
+    padding: 20px 0;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-size: auto;
+}
+
+    .mycustomctanew h2 {
+        font-size: 20px !important;
+        color: #fff !important;
+        line-height: 20px;
+        font-weight: 600;
+        margin-bottom: 30px !important;
+    }
+
+    .mycustomctanew p, .testimonials-content p {
+        font-size: 15px;
+        line-height: 24px;
+        color: #fff !important;
+    }
 
 	a.scroll-up-sticky-bar svg {
 		width: 10px !important;
