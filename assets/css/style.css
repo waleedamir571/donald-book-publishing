@@ -7479,7 +7479,7 @@ a.process-box:hover {
 }
 
 .bg3.bg-webdeisgn3:before {
-	background-image: url(../images/web-designbox3.webp)
+	background-image: url(../images/web-design/step-3.png)
 }
 
 .cta-ghost.bg-webdeisgn:before {
@@ -7503,7 +7503,7 @@ a.process-box:hover {
 }
 
 .bg1.bg-articles:before {
-	background-image: url(../images/articalbox1.webp)
+	background-image: url(../images/articles-services/step\ 1.png)
 }
 
 .bg2.bg-articles2:before {
@@ -7511,7 +7511,7 @@ a.process-box:hover {
 }
 
 .bg3.bg-articles3:before {
-	background-image: url(../images/articalbox3.webp)
+	background-image: url(../images/articles-services/step\ 3.png)
 }
 
 .cta-ghost.bg-articlescta:before {
@@ -7519,11 +7519,11 @@ a.process-box:hover {
 }
 
 .bg1.bg-printing:before {
-	background-image: url(../images/book-printing/step-2.png)
+	background-image: url(../images/book-printing/step-1.png)
 }
 
 .bg2.bg-printing2:before {
-	background-image: url(../images/boox-printing-box2.webp)
+	background-image: url(../images/book-printing/step-2.png)
 }
 
 .bg3.bg-printing3:before {
@@ -8280,7 +8280,7 @@ section.banner.banner-inner.custom-padding {
 }
 
 .cta-ghost p.my-pera {
-	width: 100%;
+	width: 83%;
 	font-size: 20px;
 	margin-bottom: 30px;
 	margin-top: 15px
