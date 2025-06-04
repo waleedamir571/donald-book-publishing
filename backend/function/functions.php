@@ -51,7 +51,7 @@ function nameEmailPhoneMessageForm($data, $connection)
         <p><b>Warm regards,</b></p>
         <p>The Donaldsbookpublisher Team.</p>
         <img src='https://donaldsbookpublisher.com/assets/img/logo.png' alt='Donaldsbookpublisher' style='max-width: 200px;'>
-        <p>Email: <a href='mailto:info@donaldsbookpublishing.com'>info@donaldsbookpublishing.com</a><br>
+        <p>Email: <a href='mailto:no-reply@donaldsbookpublishing.com'>no-reply@donaldsbookpublishing.com</a><br>
         Phone: <a href='tel:(415) 520-1098'>(415) 520-1098</a><br>
         Address: 895 Dove Street. Newport Beach, CA 92660 United States</p>
     ";
@@ -72,15 +72,15 @@ function sendEmails($name, $email, $adminSubject, $adminBody, $userSubject, $use
         $mail->isSMTP();
         $mail->Host = 'smtp.hostinger.com'; // Replace with your SMTP host
         $mail->SMTPAuth = true;
-        $mail->Username = 'info@donaldsbookpublishing.com';
+        $mail->Username = 'no-reply@donaldsbookpublishing.com';
         $mail->Password = 'Cybertron@2025';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
-        $mail->setFrom('info@donaldsbookpublishing.com', 'donaldsbookpublishing');
+        $mail->setFrom('no-reply@donaldsbookpublishing.com', 'donaldsbookpublishing');
 
         // Admin email
-        $mail->addAddress('info@donaldsbookpublishing.com', 'Admin');
+        $mail->addAddress('no-reply@donaldsbookpublishing.com', 'Admin');
         $mail->isHTML(true);
         $mail->Subject = $adminSubject;
         $mail->Body = $adminBody;
@@ -761,7 +761,7 @@ function publishingJourney($payload, $con)
     }
 }
 
-function sendEmail($message, $subject = 'Lead from no-reply@hancockpublishers.com', $to = 'info@donaldsbookpublishing.com', $fromName = 'Hancock Publishers')
+function sendEmail($message, $subject = 'Lead from no-reply@hancockpublishers.com', $to = 'no-reply@donaldsbookpublishing.com', $fromName = 'Hancock Publishers')
 {
     // Set up additional headers
     $headers = "From: {$fromName} <no-reply@hancockpublishers.com>\r\n";
@@ -926,7 +926,7 @@ function sendSlack($data)
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]); 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $server_output = curl_exec($ch);
     curl_close($ch);
