@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+
+
 .bannerh1 h1,
 .bg-ctabottom .myheading-custom h2,
 .contactbanner h2,
@@ -17,6 +21,15 @@
     display: none;
 } */
 
+
+/* * {
+	 font-family: "Bricolage Grotesque", sans-serif !important;
+	 
+} */
+
+.bricolage-grotesque {
+  font-family: "Bricolage Grotesque", sans-serif !important;
+}
 .customtextabouts p{
 	color: black;
 }
@@ -102,8 +115,6 @@ background-color: #0b3764 !important;
 	color: black;
 }
 
-
-
 section.banner.custom-padding.hbanner {
 	padding-top: 20px
 }
@@ -112,11 +123,12 @@ section.banner.custom-padding.hbanner {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Montserrat, serif
+	/* font-family: Montserrat, serif */
+	font-family: "Bricolage Grotesque", sans-serif ;
 }
 
 body {
-	overflow-x: hidden
+	overflow-x: hidden;
 }
 
 .w-12 {
@@ -8931,7 +8943,7 @@ section.services-box+section.custom-padding .custom-flex {
 .bg-ctabottom .myheading-custom p {
 	font-size: 22px;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 500;
 	margin: 0;
 	padding: 10px 0
 }

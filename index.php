@@ -6,7 +6,7 @@
 
         <section class=" mainbanner banner custom-padding hbanner">
             <div class="container-wrapper text-center bannerh1 hbanner">
-                <p class="mb-4 welcome">Welcome to  <span class="black">The Best Book</span>  Publishing <span class="blue">Company in the USA</span> 
+                <p class="mb-4 welcome">Welcome to  <span class="black">The Best Book</span>  Publishing <span class="blue"><br> Company in the USA</span> 
                 </p>
                 <div class="banner-heights">
                     <div class="bannerslider ">
@@ -141,7 +141,7 @@
                     <div class="col-lg-5 mycustomctanew">
                         <h2 class="uppercase color-white">You Think,
 
-                            <br>
+                           
                             We Write.
                         </h2>
                         <p class="mb-3 color-white">
@@ -172,21 +172,3 @@
 <?php include 'partials/footer.php'; ?>
 
 
-<div class="section">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4">
-            <h1></h1>
-            <p></p>
-        </div>
-        <div class="col-lg-4">
-            <h1></h1>
-            <p></p>
-        </div>
-        <div class="col-lg-4">
-            <h1></h1>
-            <p></p>
-        </div>
-    </div>
-</div>
-</div>
