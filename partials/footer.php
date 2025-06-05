@@ -173,7 +173,7 @@
                                         <a href="web-design-and-seo">Web design & SEO</a>
                                     </li>
                                     <li>
-                                        <a href="Illustration-services">Illustration Services</a>
+                                        <a href="book-illustration-services">Illustration Services</a>
                                     </li>
                                     <li>
                                         <a href="articles-services">Articles Services</a>

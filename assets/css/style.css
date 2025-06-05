@@ -13,6 +13,17 @@
 	text-transform: uppercase
 }
 
+/* section#our-process-section {
+    display: none;
+} */
+
+.customtextabouts p{
+	color: black;
+}
+p.mb-5 {
+    color: black;
+}
+
 .inner-page h1,
 html body h1,
 html body h3 {
@@ -50,12 +61,12 @@ background-color: #0b3764 !important;
 }
 
 .black1{
-	color: black;
+	color: black !important;
 }
 
 /* First ul with class - white text */
 .custom-ul.ctaul:first-of-type ul li {
-  color: black;
+  color: black ;
 }
 
 /* Last ul with class - black text */
@@ -7853,7 +7864,7 @@ a.process-box:hover {
 .custom-ul li {
 	font-weight: 500;
 	padding-bottom: 8px;
-	text-transform: uppercase
+	text-transform: capitalize;
 }
 
 .h-hun-custom,
@@ -8166,8 +8177,8 @@ section.banner.banner-inner.custom-padding {
 	content: "";
 	display: block;
 	position: absolute;
-	width: 10px;
-	height: 10px;
+	width: 5px;
+	height: 5px;
 	left: 0;
 	background: #fff;
 	border-radius: 50px;
@@ -9019,10 +9030,9 @@ header.my-nav {
 }
 
 section.banner.contact-banner.pageterms.custom-padding {
-	height: 100%;
-	padding: 75px 0
+    height: 100%;
+    padding: 75px 16px 0px;
 }
-
 .testimonialsbox .testimonials-content.w-50-custom {
 	width: 100%;
 	border: 1px solid #f3f3f3;
@@ -10613,7 +10623,7 @@ ul.navbar-nav .nav-link.show {
 	}
 }
 
-@media (max-width:480px) {
+@media (min-width:320px) and (max-width:480px) {
 	.pos-rel-1 {
 		display: block
 	}
@@ -10645,7 +10655,16 @@ ul.navbar-nav .nav-link.show {
     border-radius: 50px;
     margin-bottom: 30px;
     margin-top: 30px;
-    background-size: auto;
+    background-size: cover;
+}
+
+.contactboxs {
+    border: 1px solid transparent;
+    padding: 40px 25px;
+    border-radius: 30px;
+    background-color: #0b3764;
+    min-height: 120px;
+    /* color: white !important; */
 }
 
     .mycustomctanew h2 {
@@ -10746,7 +10765,7 @@ ul.navbar-nav .nav-link.show {
 
 	.contactboxs a,
 	.contactboxs p {
-		font-size: 12px
+		font-size: 15px;
 	}
 }
 

@@ -83,7 +83,7 @@
                 Campaign planning</h3>
 
               <h4>Utilize platforms like Instagram, Facebook, TikTok, etc., to create awareness and excitement. Paid
-                ads, behind-the-scenes content, and teaser trailers work well here.
+                ads, behind-the-scenes content.
               </h4>
             </div>
           </div>
