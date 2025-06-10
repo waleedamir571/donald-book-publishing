@@ -21,11 +21,24 @@
     display: none;
 } */
 
+.fa
+ {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome !important;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-/* * {
-	 font-family: "Bricolage Grotesque", sans-serif !important;
+
+
+
+* {
+	 font-family: 'Bricolage Grotesque', system-ui, sans-serif !important;
+
 	 
-} */
+}
 
 .bricolage-grotesque {
   font-family: "Bricolage Grotesque", sans-serif !important;
@@ -86,8 +99,6 @@ background-color: #0b3764 !important;
 .custom-ul.ctaul:last-of-type ul li {
   color: white;
 }
-
-
 
 .banner-image,
 .content-services,
@@ -7296,7 +7307,7 @@ section.form-section.custom-padding {
 
 .content-services h3 {
 	text-transform: uppercase;
-	font-size: 48px;
+	font-size: 50px;
 	color: #fff;
 	line-height: 55px
 }
@@ -7970,8 +7981,8 @@ a.process-box:hover {
 
 .f-bottom p a, section.portfolio-slider h5 {
     color: #000;
+    font-weight: 400;
 }
-
 .testimonials-content p {
 	padding: 30px 0;
 	margin-bottom: 0;
