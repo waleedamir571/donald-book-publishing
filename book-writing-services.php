@@ -146,7 +146,7 @@
               </h3>
               <p>Crafting focused outlines that highlight key plot points, character arcs, and story structure to keep
                 the narrative on track.
-                 <!-- Writing engaging summaries that capture the heart of the story in a few
+                <!-- Writing engaging summaries that capture the heart of the story in a few
                 impactful sentences, making readers eager to dive into the full narrative -->
               </p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
@@ -212,7 +212,7 @@
   <section class="custom-padding">
     <div class="container-wrapper">
       <div class="custom-flex">
-        <div class="col-lg-7 col-md-12 col-sm-12">
+        <div class="col-md-12 col-sm-12 text-center">
           <div class="myheading-custom heading-custom-withbtn">
             <h2>All Set to Transform Your Book into a Masterpiece?
             </h2>
@@ -220,8 +220,8 @@
             <p class="my-bigp"><strong>Let’s Begin!</strong></p>
           </div>
         </div>
-        <div class="col-lg-5 col-md-12 col-sm-12">
-          <div class="d-flex btnflex flex-bottoms">
+        <div class=" col-md-12 col-sm-12 text-center">
+          <div class=" btnflex flex-bottoms">
             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
             <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get connected</a>
           </div>
@@ -236,7 +236,9 @@
         <div class="col-lg-4">
           <h4 class="uppercase mb-3">Embracing All Genres
           </h4>
-          <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether fiction, non-fiction, or anything in between, we craft captivating narratives that connect with your audience. Your vision, our expertise – let’s create something remarkable!
+          <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether
+            fiction, non-fiction, or anything in between, we craft captivating narratives that connect with your
+            audience. Your vision, our expertise – let’s create something remarkable!
           </p>
 
 
@@ -374,7 +376,7 @@
   <?php include 'partials/vision.php'; ?>
 
   <?php include 'partials/why-choose.php'; ?>
-  
+
 
 
 </div>

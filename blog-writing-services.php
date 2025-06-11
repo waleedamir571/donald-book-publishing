@@ -213,7 +213,7 @@
     <section class="custom-padding">
         <div class="container-wrapper">
             <div class="custom-flex">
-                <div class="col-lg-7 col-md-12 col-sm-12">
+                <div class="col-md-12 col-sm-12 text-center">
                     <div class="myheading-custom heading-custom-withbtn">
                         <h2>Ready to Bring Your Blog to Life?
                         </h2>
@@ -221,8 +221,8 @@
                         <p class="my-bigp"><strong>Let’s turn your ideas into powerful, engaging content that drives growth</strong></p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12">
-                    <div class="d-flex btnflex flex-bottoms">
+                <div class=" col-md-12 col-sm-12 text-center">
+                    <div class=" btnflex flex-bottoms">
                         <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
                         <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
                             Touch</a>
@@ -277,7 +277,7 @@
         </div>
     </section>
 
-    <section class="pricing-section  d-none">
+    <section class="pricing-section d-none">
         <div class="container-wrapper">
             <div class="row">
                 <div class="col-lg-4 col-md-12">
