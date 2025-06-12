@@ -32,7 +32,8 @@
                             <div class="col-lg-4 col-md-12">
                                 <div class="contactboxs">
                                     <img loading="lazy" alt="Seedspire Publishing" src="assets/images/emails.webp">
-                                    <p><a href="mailto:info@donaldsbookpublishing.com">info@donaldsbookpublishing.com</a>
+                                    <p><a
+                                            href="mailto:info@donaldsbookpublishing.com">info@donaldsbookpublishing.com</a>
                                     </p>
                                 </div>
                             </div>
@@ -134,8 +135,7 @@
                         <p>
                             <span id="MainContent_lblErrorMessage" style="color:Red;"></span>
                         </p>
-                        <input type="submit" name="ctl00$MainContent$btnSubmit" value="Submit"
-                            onclick=""
+                        <input type="submit" name="ctl00$MainContent$btnSubmit" value="Submit" onclick=""
                             id="MainContent_btnSubmit" class="btn btn-primary web-blue-btn" />
                     </div>
                 </div>

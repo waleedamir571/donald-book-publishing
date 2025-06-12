@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
-
-
 .bannerh1 h1,
 .bg-ctabottom .myheading-custom h2,
 .contactbanner h2,
@@ -31,12 +29,21 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+   .dropdown-menu {
+    display: none;
+    padding-left: 15px;
+  }
 
+  .dropdown-menu.show {
+    display: block;
+  }
 
+  .nav-link {
+    cursor: pointer;
+  }
 
 * {
 	 font-family: 'Bricolage Grotesque', system-ui, sans-serif !important;
-
 	 
 }
 
@@ -268,6 +275,7 @@ html body h6 {
     display: block;
     
 }
+
 
 
 .container-wrapper,
@@ -9420,7 +9428,7 @@ ul.navbar-nav .nav-link.show {
 	}
 
 	.content-services {
-		padding: 60px 30px 0
+		padding: 60px 15px 0
 	}
 
 	.trustbottombanner img {
@@ -10651,6 +10659,12 @@ ul.navbar-nav .nav-link.show {
 @media (min-width:320px) and (max-width:480px) {
 	.pos-rel-1 {
 		display: block
+	}
+	.mobilehide{
+		display: none;
+	}
+	.fs-14{
+		font-size: 13px !important;
 	}
 
 	.rightzz:before {

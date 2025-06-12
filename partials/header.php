@@ -58,10 +58,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet"> -->
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet"> -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap">
 
 
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -120,10 +121,10 @@
                             <a class="nav-link active" aria-current="page" href="book-printing-services"></a>
                         </li> -->
 
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown mobilehide">
                             <a class="nav-link dropdown-toggle" href="services" id="navbarDarkDropdownMenuLink"
                                 role="button">
-                                 Services
+                                Services
                             </a>
 
                             <ul class="dropdown-menu responsive-dropdown" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -136,6 +137,22 @@
                                 <li><a class="dropdown-item" href="book-design-services">Book Design Services</a></li>
                                 <li><a class="dropdown-item" href="blog-writing-services">Blog Writing Services</a></li>
                                 <li><a class="dropdown-item" href="web-content-writing-service">Web Content Writing
+                                        Service</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item d-block d-md-none">
+
+                            <ul class="list-unstyled ">
+                                <li><a class="nav-link fs-14" href="services">Services</a></li>
+                                <li><a class="nav-link fs-14" href="book-printing-services">Book Printing</a></li>
+                                <li><a class="nav-link fs-14" href="book-video-trailer">Book Video Trailer</a></li>
+                                <li><a class="nav-link fs-14" href="web-design-and-seo">Web design & SEO</a></li>
+                                <li><a class="nav-link fs-14" href="book-illustration-services">Illustration Services</a></li>
+                                <li><a class="nav-link fs-14" href="articles-services">Articles Services</a></li>
+                                <li><a class="nav-link fs-14" href="book-design-services">Book Design Services</a></li>
+                                <li><a class="nav-link fs-14" href="blog-writing-services">Blog Writing Services</a></li>
+                                <li><a class="nav-link fs-14" href="web-content-writing-service">Web Content Writing
                                         Service</a></li>
                             </ul>
                         </li>
@@ -210,5 +227,3 @@
             }
         });
     </script>
-
-    
