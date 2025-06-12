@@ -9,7 +9,7 @@
 
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h1 class="fs-40"> Donald’s Book Publishing: Where Your Story Becomes a Bestseller</h1>
+                        <h1 class="fs-40"> Donald’s Book Publishing: <br> Where Your Story Becomes a Bestseller</h1>
                         <p class="mb-5"> At Donald’s Book Publishing, we believe every great story deserves to be
                             told—and told well. Whether you're starting with a spark of an idea or a finished
                             manuscript, we're here to help bring your vision to life. From ghostwriting and editing to

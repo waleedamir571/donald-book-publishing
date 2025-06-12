@@ -922,15 +922,16 @@ function sendEmail($message, $subject = 'Lead from no-reply@hancockpublishers.co
 // SEND SLACK
 function sendSlack($data)
 {
-    // $connection2 = new mysqli("localhost", "root", "", "hancockpublishers");
+    $connection2 = new mysqli("localhost", "u523339939_donald", "Cybertron@2026", "u523339939_donald");
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+    // curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]); 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $server_output = curl_exec($ch);
     curl_close($ch);
-    // mysqli_query($connection2, "INSERT INTO slack(error,slack_payload) VALUES('$server_output','$data')") or die(mysqli_error($connection2));
+    mysqli_query($connection2, "INSERT INTO slack(error,slack_payload) VALUES('$server_output','$data')") or die(mysqli_error($connection2));
     return ($server_output);
 }
 
