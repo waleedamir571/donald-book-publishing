@@ -7544,7 +7544,8 @@ a.process-box:hover {
 }
 
 .bg2.bg-illustration2:before {
-	background-image: url(../images/Illustration-services/step\ 2.png)
+	background-image: url(../images/Illustration-services/step\ 2.png);
+	    margin-bottom: -25px;
 }
 
 .bg3.bg-illustration3:before {

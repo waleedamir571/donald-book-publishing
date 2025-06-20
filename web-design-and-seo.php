@@ -77,7 +77,8 @@
                             <h3>Step 01<br>
                                 Strategic Planning & <br /> Design</h3>
 
-                            <h4>We start with a clear blueprint, designing a site that’s not just beautiful, but built to achieve your goals.</h4>
+                            <h4>We start with a clear blueprint, designing a site that’s not just beautiful, but built
+                                to achieve your goals.</h4>
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
@@ -85,7 +86,8 @@
                             <h3>Step 02<br>
                                 SEO Integration & Optimization</h3>
 
-                            <h4>From keywords to structure, we optimize every page for maximum visibility on search engines.</h4>
+                            <h4>From keywords to structure, we optimize every page for maximum visibility on search
+                                engines.</h4>
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
@@ -93,7 +95,8 @@
                             <h3>Step 03<br>
                                 Performance Monitoring & Growth</h3>
 
-                            <h4>We track key metrics, refine strategies, and help your website evolve as your business grows.
+                            <h4>We track key metrics, refine strategies, and help your website evolve as your business
+                                grows.
                             </h4>
                         </div>
                     </div>
@@ -112,10 +115,12 @@
                             <div class="col-lg-12 col-sm-12">
                                 <div class="custom-ul ctaul">
                                     <ul>
-                                        <li>Creative, Custom Designs: Visually stunning websites tailored to reflect your brand.
+                                        <li>Creative, Custom Designs: Visually stunning websites tailored to reflect
+                                            your brand.
                                         </li>
                                         <li>SEO-Driven Development: Built to be found, ranked, and clicked.</li>
-                                        <li>Unlimited Revisions: We perfect every detail until you're thrilled with the result</li>
+                                        <li>Unlimited Revisions: We perfect every detail until you're thrilled with the
+                                            result</li>
                                     </ul>
                                 </div>
                             </div>
@@ -123,7 +128,8 @@
                         </div>
 
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Talk About Your Website
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Talk About Your
+                                Website
                             </a>
                             <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get
                                 in Touch</a>
@@ -143,8 +149,10 @@
                     <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
                         <div class="content-services">
                             <h3>Custom Web Design </h3>
-                            <p>Responsive, user-friendly websites that reflect your brand and convert visitors into customers.</p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote
+                            <p>Responsive, user-friendly websites that reflect your brand and convert visitors into
+                                customers.</p>
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
+                                class="web-blue-btn">Request a Quote
                             </a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
@@ -157,11 +165,12 @@
                     <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
                         <div class="content-services">
                             <h3>SEO Optimization </h3>
-                            <p>Improve your site’s search performance with proven on-page and technical SEO strategies.</p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote</a>
+                            <p>Improve your site’s search performance with proven on-page and technical SEO strategies.
+                            </p>
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
+                                class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
-                                <img loading="lazy" alt="Seedspire Publishing"
-                                    src="assets/images/web-design/seo.png">
+                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/web-design/seo.png">
                             </div>
                         </div>
                     </div>
@@ -172,8 +181,10 @@
                     <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
                         <div class="content-services">
                             <h3>E-commerce Solutions</h3>
-                            <p>Launch or upgrade your online store with secure, scalable, and user-friendly e-commerce platforms.</p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote</a>
+                            <p>Launch or upgrade your online store with secure, scalable, and user-friendly e-commerce
+                                platforms.</p>
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
+                                class="web-blue-btn">Request a Quote</a>
 
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
@@ -188,7 +199,8 @@
                         <div class="content-services ">
                             <div class="zindex1">
                                 <h3>Website Maintenance</h3>
-                                <p>Keep your website secure, updated, and performing at its best with ongoing support.</p>
+                                <p>Keep your website secure, updated, and performing at its best with ongoing support.
+                                </p>
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
                                     class="web-blue-btn">Request a Quote
                                 </a>
@@ -215,7 +227,7 @@
                         </h2>
 
                         <p class="my-bigp"><strong>Start building the digital presence your brand deserves.
-                        </strong></p>
+                            </strong></p>
                     </div>
                 </div>
                 <div class=" col-md-12 col-sm-12 text-center">
@@ -235,13 +247,15 @@
                 <div class="col-lg-6">
                     <h4 class="uppercase mb-3">Embracing All Genres
                     </h4>
-                    <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether fiction, nonfiction, or anything in between, we craft captivating narratives that connect with your audience. Your vision, our expertise—let’s create something remarkable!
+                    <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life.
+                        Whether fiction, nonfiction, or anything in between, we craft captivating narratives that
+                        connect with your audience. Your vision, our expertise—let’s create something remarkable!
                     </p>
 
 
                     <div class="btn-blockss mt-4">
                         <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project
-                        </a>
+                            </a>
                         </div>
                         <div><a href="#." class="web-blue-btn" data-bs-toggle="modal"
                                 data-bs-target="#contact-popup">Get in Touch</a></div>
@@ -274,7 +288,7 @@
         </div>
     </section>
 
-    <section class="pricing-section  d-none">
+    <section class="pricing-section d-none">
         <div class="container-wrapper">
             <div class="row">
                 <div class="col-lg-4 col-md-12">
@@ -368,34 +382,36 @@
     </section>
 
     <?php include 'partials/testimonials.php'; ?>
-   <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
-    <div class="container-wrapper">
-      <div class="cta-bg border-radius-33 cta-one ">
-        <div class="col-lg-5 mycustomctanew">
-          <h2 class="uppercase mb-3">Your Vision.  <br>
-            Our Expertise</h2>
-          <p>
-         The best SEO services in the USA will rank your book at the top!
+    <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
+        <div class="container-wrapper">
+            <div class="cta-bg border-radius-33 cta-one ">
+                <div class="col-lg-5 mycustomctanew">
+                    <h2 class="uppercase mb-3">Your Vision. <br>
+                        Our Expertise</h2>
+                    <p>
+                        The best SEO services in the USA will rank your book at the top!
 
 
 
 
 
-          </p>
-          <p class="captial-small">Sign up now to connect with us.
+                    </p>
+                    <p class="captial-small">Sign up now to connect with us.
 
-          </p>
+                    </p>
 
-          <div class="d-flex btnflex mt-5">
-            <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get connected</a>
-          </div>
+                    <div class="d-flex btnflex mt-5">
+                        <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
+                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get
+                            connected</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-      </div>
-    </div>
-  </section>
+    </section>
     <?php include 'partials/why-choose.php'; ?>
 
 </div>
 <?php include 'partials/footer.php'; ?>
+

@@ -3,18 +3,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="alternate" hreflang="x-default" href="https://donaldsbookpublishing.com/" />
     <link rel="alternate" hreflang="en-us" href="https://donaldsbookpublishing.com/" />
-
-
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Top Book Publishing Company in USA | Donald’s Book Publishing" />
@@ -31,7 +25,7 @@
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <link rel="canonical" href="https://donaldsbookpublishing.com/" />
-    <meta name="robots" content="noindex, nofollow">
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="donaldsbookpublishing">
@@ -67,6 +61,36 @@
 
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
+    <?php include 'partials/schema.php'; ?>
+
+    <meta name="google-site-verification" content="xnnzx_WVGxePqQsaIlZ21uN5aVBPjULweDb_y8guZ2Y" />
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2HERCTJLBK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2HERCTJLBK');
+    </script>
+
+
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PC8B747J');</script>
+    <!-- End Google Tag Manager -->
+
+
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -75,13 +99,18 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
     <!-- ROBOT TAG -->
 
-    <!-- <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow, max-snippet: -1" />
-    <meta name="bingbot" content="index, follow, max-snippet: -1 " /> -->
+    <meta name="bingbot" content="index, follow, max-snippet: -1 " />
 
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC8B747J" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <header class="my-nav">
         <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
@@ -148,10 +177,12 @@
                                 <li><a class="nav-link fs-14" href="book-printing-services">Book Printing</a></li>
                                 <li><a class="nav-link fs-14" href="book-video-trailer">Book Video Trailer</a></li>
                                 <li><a class="nav-link fs-14" href="web-design-and-seo">Web design & SEO</a></li>
-                                <li><a class="nav-link fs-14" href="book-illustration-services">Illustration Services</a></li>
+                                <li><a class="nav-link fs-14" href="book-illustration-services">Illustration
+                                        Services</a></li>
                                 <li><a class="nav-link fs-14" href="articles-services">Articles Services</a></li>
                                 <li><a class="nav-link fs-14" href="book-design-services">Book Design Services</a></li>
-                                <li><a class="nav-link fs-14" href="blog-writing-services">Blog Writing Services</a></li>
+                                <li><a class="nav-link fs-14" href="blog-writing-services">Blog Writing Services</a>
+                                </li>
                                 <li><a class="nav-link fs-14" href="web-content-writing-service">Web Content Writing
                                         Service</a></li>
                             </ul>

@@ -119,7 +119,7 @@
                         <h6>Company</h6>
                         <ul>
                             <li>
-                                <a href="About">About Us</a>
+                                <a href="about-us">About Us</a>
                             </li>
                             <li>
                                 <a href="contact-us">Contact Us</a>
@@ -246,15 +246,15 @@
         <div class="modal-content">
             <div class="modal-body">
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/close.webp" alt="close-icon">
+                    <img loading="lazy" alt="" src="assets/images/close.webp" alt="close-icon">
                 </button>
                 <div class="modal-left-content">
                     <div class="position-relative custom-rr">
                         <div class="logo-popups">
-                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/logo-popup.webp" alt="">
+                            <img loading="lazy" alt="" src="assets/images/logo-popup.webp" alt="">
                         </div>
                         <div class="boxpopupimage">
-                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/popup-imagee.webp" alt="">
+                            <img loading="lazy" alt="" src="assets/images/popup-imagee.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -266,8 +266,8 @@
                             Journey!
                         </h3>
 
-                        <form action="backend/action/action" method="POST">
-                            <input type="hidden" name="type" value="formLong">
+                          <form action="backend/action/action.php" method="POST">
+                        <input type="hidden" name="type" value="formLong">
                             <div class="row">
                                 <div class="col">
                                     <input name="full_name" type="text" maxlength="60" id="txtcnsite1"

@@ -283,7 +283,7 @@
     </div>
   </section>
 
-  <section class="pricing-section d-none ">
+  <section class="pricing-section d-none">
     <div class="container-wrapper">
       <div class="row">
         <div class="col-lg-4 col-md-12">
@@ -376,7 +376,7 @@
   <?php include 'partials/testimonials.php'; ?>
 
 
- <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
+ <section class="main-our-cta-section mb-5 mt-5" id="our-cta-section">
     <div class="container-wrapper">
       <div class="cta-bg border-radius-33 cta-one ">
         <div class="col-lg-5 mycustomctanew">

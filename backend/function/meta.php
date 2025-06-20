@@ -34,7 +34,7 @@ switch ($functions) {
 
 
     break;
-  case "About.php";
+  case "about-us.php";
     $title_name = "About Donald’s Book Publishing | Empowering Independent Authors";
     $description = "Learn about Donald’s Book Publishing—your trusted partner in self-publishing, editing, and marketing books. We help authors bring their stories to life.";
     $keywords = "Donald’s Book Publishing, about book publisher, publishing support for authors";
