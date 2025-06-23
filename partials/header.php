@@ -14,7 +14,7 @@
     <meta property="og:title" content="Top Book Publishing Company in USA | Donald’s Book Publishing" />
     <meta property="og:description"
         content="Get your book published with the best book publishing services in USA. Trusted by authors for editing, design, and global distribution." />
-    <meta name="keywords" content="Best Book Publishing Company in the USA" />
+    <meta name="keywords" content="<?php echo $keywords; ?>" />
     <meta property="og:url" content="https://donaldsbookpublishing.com/" />
     <meta property="og:image" content="https://donaldsbookpublishing.com/assets/images/home/logo2.png" />
     <meta property="og:locale" content="en_US" />
@@ -24,7 +24,8 @@
     </title>
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="keywords" content="<?php echo $keywords; ?>" />
-    <link rel="canonical" href="https://donaldsbookpublishing.com/" />
+   <link rel="canonical" href="https://<?php echo $_SERVER['HTTP_HOST'] . strtok($_SERVER["REQUEST_URI"], '?'); ?>" />
+
     <!-- <meta name="robots" content="noindex, nofollow"> -->
 
     <meta name="twitter:card" content="summary_large_image">
@@ -258,3 +259,12 @@
             }
         });
     </script>
+
+    <script>
+  (function() {
+    var link = document.createElement('link');
+    link.rel = 'canonical';
+    link.href = window.location.href.split("?")[0]; // query string hata di
+    document.head.appendChild(link);
+  })();
+</script>

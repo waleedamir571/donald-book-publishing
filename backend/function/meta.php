@@ -28,7 +28,7 @@ $functions = basename($_SERVER['PHP_SELF']); // Get just the filename
 
 switch ($functions) {
   case "index.php";
-    $title_name = " Top Book Publishing Company in USA | Donald’s Book Publishing ";
+    $title_name = " Donald’s Book Publishing | Top Book Publishing Company in USA  ";
     $description = "Get your book published with the best book publishing services in USA. Trusted by authors for editing, design, and global distribution.";
     $keywords = "Best Book Publishing Company in the USA, Professional Book Publishing Company in the USA, Book Publishing Company";
 
@@ -97,7 +97,7 @@ switch ($functions) {
   case "privacy-policy.php";
     $title_name = "Privacy Policy | Donald’s Book Publishing – Your Data, Our Responsibility";
     $description = "Read the Privacy Policy of Donald’s Book Publishing to understand how we collect, use, and protect your personal information when you use our services.";
-    $keywords = "Donald’s Book Publishing privacy policy, data protection policy, how we use your data, personal information privacy, user data policy USA, website privacy practices ";
+    $keywords = " Donald’s Book Publishing privacy policy, data protection policy, how we use your data, personal information privacy, user data policy USA, website privacy practices ";
 
     break;
   case "web-content-writing-service.php";

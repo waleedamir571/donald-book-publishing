@@ -6,25 +6,31 @@
 
         <section class=" mainbanner banner custom-padding hbanner">
             <div class="container-wrapper text-center bannerh1 hbanner">
-                <p class="mb-4 welcome">Welcome to  <span class="black">The Best Book</span>  Publishing <span class="blue"><br> Company in the USA</span> 
-                </p>
+                <h1 class="mb-4 welcome">Welcome to <span class="black">The Best Book</span> Publishing <span
+                        class="blue"><br> Company in the USA</span>
+                </h1>
                 <div class="banner-heights">
                     <div class="bannerslider ">
                         <div class="owl-carousel-banner owl-theme owl-carousel newcaro">
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/1.png">
+                                <img loading="lazy" alt="Seedspire Publishing"
+                                    src="assets/images/homepage/header/1.png">
                             </div>
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/2.png">
+                                <img loading="lazy" alt="Seedspire Publishing"
+                                    src="assets/images/homepage/header/2.png">
                             </div>
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/3.png">
+                                <img loading="lazy" alt="Seedspire Publishing"
+                                    src="assets/images/homepage/header/3.png">
                             </div>
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/4.png">
+                                <img loading="lazy" alt="Seedspire Publishing"
+                                    src="assets/images/homepage/header/4.png">
                             </div>
                             <div class="item">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/homepage/header/5.png">
+                                <img loading="lazy" alt="Seedspire Publishing"
+                                    src="assets/images/homepage/header/5.png">
                             </div>
                         </div>
                     </div>
@@ -41,8 +47,8 @@
                             <div class="content-services">
                                 <h3>Book Writing </h3>
                                 <p>Changing your ideas to impactful literary masterpieces</p>
-                              
-                                  <a href="book-writing-services" class="web-blue-btn">View More</a>
+
+                                <a href="book-writing-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="Seedspire Publishing"
                                         src="assets/images/homepage/book-writing.png">
@@ -130,7 +136,7 @@
                 </div>
             </div>
         </section>
-        
+
         <?php include 'partials/portfolio.php'; ?>
 
         <?php include 'partials/testimonials.php'; ?>
@@ -141,14 +147,14 @@
                     <div class="col-lg-5 mycustomctanew">
                         <h2 class="uppercase color-white">You Think,
 
-                           
+
                             We Write.
                         </h2>
                         <p class="mb-3 color-white">
                             Our team of experts is all set to write, design, format, and publish your dream most
                             efficiently.
                         </p>
-                        <p class="color-white">  Connect now for astounding services.
+                        <p class="color-white"> Connect now for astounding services.
                         </p>
 
                         <div class="d-flex btnflex mt-5">
@@ -170,5 +176,3 @@
 </div>
 
 <?php include 'partials/footer.php'; ?>
-
-
