@@ -293,7 +293,7 @@
         </div>
     </section>
 
-    <section class="pricing-section  d-none">
+    <section class="pricing-section d-none">
         <div class="container-wrapper">
             <div class="row">
                 <div class="col-lg-4 col-md-12">
@@ -425,3 +425,4 @@
 
 </div>
 <?php include 'partials/footer.php'; ?>
+

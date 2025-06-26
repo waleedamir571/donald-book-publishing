@@ -12,9 +12,9 @@
               <img loading="lazy" alt="Seedspire Publishing" class="mb-20s" src="assets/images/home/ico1.png">
               <h6>End-to-End  <br> Publishing </h6>
               <p>From manuscript to bookstores with your rights & royalties</p>
-              <div class="imgright">
-                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-              </div>
+              <!-- <div class="imgright">
+                <img loading="lazy" alt="" class="" src="assets/images/plus.webp">
+              </div> -->
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
@@ -24,9 +24,9 @@
                 Retail Distribution </h6>
               <p>Get listed on Amazon, Barnes & Noble, Apple Books & more.
               </p>
-              <div class="imgright">
-                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-              </div>
+              <!-- <div class="imgright">
+                <img loading="lazy" alt="" class="" src="assets/images/plus.webp">
+              </div> -->
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
@@ -36,9 +36,9 @@
                 Digital Formats </h6>
               <p>Paperback, hardcover, ebook & audiobook. Custom solutions for every author.
               </p>
-              <div class="imgright">
-                <img loading="lazy" alt="Seedspire Publishing" class="" src="assets/images/plus.webp">
-              </div>
+              <!-- <div class="imgright">
+                <img loading="lazy" alt="" class="" src="assets/images/plus.webp">
+              </div> -->
             </div>
           </div>
         </div>
