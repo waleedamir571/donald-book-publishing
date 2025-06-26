@@ -10,16 +10,19 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="services-inner-banner-style">
                         <h1>Best Web Content Services That Bring Boom!</h1>
-                        <p class="main-para">At Donald’s Book Publishing, we craft content that does more than just fill space. </p>
+                        <p class="main-para">At Donald’s Book Publishing, we craft content that does more than just fill
+                            space. </p>
                         <div class="custom-ul ctaul">
                             <ul>
-                                <li>Expert Writers: Skilled in creating content that resonates, persuades, and performs</li>
+                                <li>Expert Writers: Skilled in creating content that resonates, persuades, and performs
+                                </li>
                                 <li>Fast Turnaround: Get high-quality content delivered on time.</li>
                                 <li>SEO-Friendly Writing: Optimized to boost traffic, visibility, and ranking.</li>
                             </ul>
                         </div>
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Talk About Your Content Needs </a>
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Talk About Your
+                                Content Needs </a>
                             <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
                                 data-bs-target="#contact-popup">Get in Touch</a>
                         </div>
@@ -74,7 +77,8 @@
                             <h3>Step 01<br>
                                 Research & Strategy Development</h3>
 
-                            <h4>We start by understanding your brand, audience, and goals to build a smart content roadmap.</h4>
+                            <h4>We start by understanding your brand, audience, and goals to build a smart content
+                                roadmap.</h4>
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
@@ -110,9 +114,12 @@
                             <div class="col-lg-12 col-sm-12">
                                 <div class="custom-ul ctaul">
                                     <ul>
-                                        <li>Professionally Written Content: Build trust and authority with every word.</li>
-                                        <li>Optimized for SEO: Improve search rankings and attract qualified traffic.</li>
-                                        <li>Tailored to Convert: Speak directly to your audience and inspire action.</li>
+                                        <li>Professionally Written Content: Build trust and authority with every word.
+                                        </li>
+                                        <li>Optimized for SEO: Improve search rankings and attract qualified traffic.
+                                        </li>
+                                        <li>Tailored to Convert: Speak directly to your audience and inspire action.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -120,9 +127,10 @@
                         </div>
 
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Start  Project With Us
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Start Project With Us
                             </a>
-                            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Let’s Create Something Powerful
+                            <a href="#." class="web-blue-btn" data-bs-toggle="modal"
+                                data-bs-target="#contact-popup">Let’s Create Something Powerful
                             </a>
                         </div>
                     </div>
@@ -153,8 +161,7 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/web-content/landing.png">
+                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/web-content/landing.png">
                         </div>
                     </div>
                 </div>
@@ -166,7 +173,8 @@
                         <div class="content-services">
                             <h3> Product Descriptions </h3>
                             <p>Showcase your offerings with sharp, benefit-driven copy that sells.</p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
+                                class="web-blue-btn">Request a Quote
                             </a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
@@ -183,7 +191,8 @@
                             <h3>Case Studies & Testimonials</h3>
                             <p>Build credibility by highlighting success stories and real customer feedback.
                             </p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request 
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
+                                class="web-blue-btn">Request
                                 a Quote</a>
 
                             <div class="position-image">
@@ -208,8 +217,7 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="Seedspire Publishing"
-                                src="assets/images/web-content/email.png">
+                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/web-content/email.png">
                         </div>
                     </div>
                 </div>
@@ -225,7 +233,8 @@
                     <div class="myheading-custom heading-custom-withbtn">
                         <h2>Ready to Elevate Your Online Presence with the Best Web Content Writing in the USA?</h2>
 
-                        <p class="my-bigp"><strong>Let’s bring your content to life with clarity, strategy, and impact.</strong></p>
+                        <p class="my-bigp"><strong>Let’s bring your content to life with clarity, strategy, and
+                                impact.</strong></p>
                     </div>
                 </div>
                 <div class=" col-md-12 col-sm-12 text-center">
@@ -244,7 +253,9 @@
             <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
                 <div class="col-lg-4">
                     <h4 class="uppercase mb-3">Embracing All Genres</h4>
-                    <p class="my-pera">At Donald’s Book  Publishing, creativity and diversity bring your story to life. Whether fiction, nonfiction, or anything in between, we craft captivating narratives that connect with your audience. Your vision, our expertise—let’s create something remarkable!</p>
+                    <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life.
+                        Whether fiction, nonfiction, or anything in between, we craft captivating narratives that
+                        connect with your audience. Your vision, our expertise—let’s create something remarkable!</p>
 
 
                     <div class="btn-blockss mt-4">
@@ -375,32 +386,33 @@
     </section>
 
     <?php include 'partials/testimonials.php'; ?>
-    
+
     <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
-    <div class="container-wrapper">
-      <div class="cta-bg border-radius-33 cta-one ">
-        <div class="col-lg-5 mycustomctanew">
-          <h2 class="uppercase mb-3">Your Vision.  <br>
-            Our Expertise</h2>
-          <p>
-      Donald’s Web Content Writing Services in the USA  are worth it!
+        <div class="container-wrapper">
+            <div class="cta-bg border-radius-33 cta-one ">
+                <div class="col-lg-5 mycustomctanew">
+                    <h2 class="uppercase mb-3">Your Vision. <br>
+                        Our Expertise</h2>
+                    <p>
+                        Donald’s Web Content Writing Services in the USA are worth it!
 
 
-          </p>
-          <p class="captial-small">Contact us today for free consultation.
+                    </p>
+                    <p class="captial-small">Contact us today for free consultation.
 
 
-          </p>
+                    </p>
 
-          <div class="d-flex btnflex mt-5">
-            <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get connected</a>
-          </div>
+                    <div class="d-flex btnflex mt-5">
+                        <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
+                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get
+                            connected</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-      </div>
-    </div>
-  </section>
+    </section>
 
     <?php include 'partials/why-choose.php'; ?>
 
