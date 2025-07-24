@@ -40,7 +40,7 @@
                             <div class="col-lg-4 col-md-12">
                                 <div class="contactboxs">
                                     <img loading="lazy" alt="Seedspire Publishing" src="assets/images/support-ico.webp">
-                                    <p><a href="tel:+1 (833) 123-4567">+1 (833) 123-4567</a></p>
+                                    <p>    <a href="tel:(949) 239-6045">(949) 239-6045</a></p>
                                 </div>
                             </div>
                         </div>

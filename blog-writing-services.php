@@ -16,7 +16,8 @@
                             audience, boost SEO, or strengthen your brand voice, we’re here to deliver.</p>
                         <div class="custom-ul ctaul">
                             <ul>
-                                <li>Custom-Crafted Content: Blog posts tailored to your industry, audience, and goals.</li>
+                                <li>Custom-Crafted Content: Blog posts tailored to your industry, audience, and goals.
+                                </li>
                                 <li>Fast Turnaround: Quality content delivered on schedule, every time.</li>
                                 <li>Strategic & Impactful: Designed to inform, engage, and increase visibility.</li>
                                 <li>Affordable Excellence: Exceptional writing at competitive prices.</li>
@@ -25,7 +26,8 @@
                             </ul>
                         </div>
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Chat About Your Blog </a>
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Chat About Your Blog
+                            </a>
                             <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
                                 data-bs-target="#contact-popup">Get in Touch Today</a>
                         </div>
@@ -80,7 +82,8 @@
                             <h3>Step 01<br>
                                 Topic Research & Planning</h3>
 
-                            <h4>We identify the most relevant and engaging topics for your niche, guided by data and creativity.</h4>
+                            <h4>We identify the most relevant and engaging topics for your niche, guided by data and
+                                creativity.</h4>
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
@@ -88,7 +91,8 @@
                             <h3>Step 02<br>
                                 Content Writing & Optimization</h3>
 
-                            <h4>Skilled writers create compelling blog posts, optimized for SEO and tailored to your voice.</h4>
+                            <h4>Skilled writers create compelling blog posts, optimized for SEO and tailored to your
+                                voice.</h4>
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
@@ -114,9 +118,11 @@
                             <div class="col-lg-12 col-sm-12">
                                 <div class="custom-ul ctaul">
                                     <ul>
-                                        <li>Informative & Entertaining Posts: Capture attention and provide value to your readers.
+                                        <li>Informative & Entertaining Posts: Capture attention and provide value to
+                                            your readers.
                                         </li>
-                                        <li>Tailored for Your Audience: Personalized tone and topics to reflect your brand.</li>
+                                        <li>Tailored for Your Audience: Personalized tone and topics to reflect your
+                                            brand.</li>
                                         <li>Designed to Convert: Encourage shares, comments, and repeat visits.</li>
                                     </ul>
                                 </div>
@@ -125,8 +131,10 @@
                         </div>
 
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Start a Project With Us </a>
-                            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Reach Out Today</a>
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Start a Project With Us
+                            </a>
+                            <a href="#." class="web-blue-btn" data-bs-toggle="modal"
+                                data-bs-target="#contact-popup">Reach Out Today</a>
                         </div>
                     </div>
                 </div>
@@ -145,7 +153,8 @@
                             <h3>Custom Blog Posts </h3>
                             <p>Original, engaging articles that connect with your readers and build authority.
                             </p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get a Quote
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get
+                                a Quote
                             </a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
@@ -159,7 +168,8 @@
                         <div class="content-services">
                             <h3>SEO Blog Writing</h3>
                             <p>Fully optimized blog posts that help you rank higher and attract organic traffic </p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get a Quote</a>
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Get
+                                a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="Seedspire Publishing"
                                     src="assets/images/blog-writing/seo-blog.png">
@@ -191,7 +201,8 @@
                         <div class="content-services ">
                             <div class="zindex1">
                                 <h3>Guest Blog Writing</h3>
-                                <p>Get featured on top blogs in your niche to expand your reach and strengthen your credibility.
+                                <p>Get featured on top blogs in your niche to expand your reach and strengthen your
+                                    credibility.
 
                                 </p>
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
@@ -218,7 +229,8 @@
                         <h2>Ready to Bring Your Blog to Life?
                         </h2>
 
-                        <p class="my-bigp"><strong>Let’s turn your ideas into powerful, engaging content that drives growth</strong></p>
+                        <p class="my-bigp"><strong>Let’s turn your ideas into powerful, engaging content that drives
+                                growth</strong></p>
                     </div>
                 </div>
                 <div class=" col-md-12 col-sm-12 text-center">
@@ -237,13 +249,15 @@
             <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
                 <div class="col-lg-6">
                     <h4 class="uppercase mb-3">Embracing All Genres</h4>
-                    <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether fiction, nonfiction, or anything in between, we craft captivating narratives that connect with your audience. Your vision, our expertise—let’s create something remarkable!
+                    <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life.
+                        Whether fiction, nonfiction, or anything in between, we craft captivating narratives that
+                        connect with your audience. Your vision, our expertise—let’s create something remarkable!
                     </p>
 
 
                     <div class="btn-blockss mt-4">
                         <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project
-                        </a>
+                            </a>
                         </div>
                         <div><a href="#." class="web-blue-btn" data-bs-toggle="modal"
                                 data-bs-target="#contact-popup">Get in Touch</a></div>
@@ -371,30 +385,31 @@
     </section>
 
     <?php include 'partials/testimonials.php'; ?>
-    
-     <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
-    <div class="container-wrapper">
-      <div class="cta-bg border-radius-33 cta-one ">
-        <div class="col-lg-5 mycustomctanew">
-          <h2 class="uppercase mb-3">Your Vision.  <br>
-            Our Expertise</h2>
-          <p>
-       Donald’s Blog Writing Services in the USA  are simply splendid!
 
-          </p>
-          <p class="captial-small">Contact us to see our work!
+    <section class="main-our-cta-section mb-5 mt-5" id="our-cta-section">
+        <div class="container-wrapper">
+            <div class="cta-bg border-radius-33 cta-one ">
+                <div class="col-lg-5 mycustomctanew">
+                    <h2 class="uppercase mb-3">Your Vision. <br>
+                        Our Expertise</h2>
+                    <p>
+                        Donald’s Blog Writing Services in the USA are simply splendid!
 
-          </p>
+                    </p>
+                    <p class="captial-small">Contact us to see our work!
 
-          <div class="d-flex btnflex mt-5">
-            <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get connected</a>
-          </div>
+                    </p>
+
+                    <div class="d-flex btnflex mt-5">
+                        <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
+                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get
+                            connected</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-      </div>
-    </div>
-  </section>
+    </section>
 
     <?php include 'partials/why-choose.php'; ?>
 

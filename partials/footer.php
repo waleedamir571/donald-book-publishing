@@ -34,6 +34,14 @@
                                     placeholder="Enter Your Email Address" required>
 
                             </div>
+
+                            <div class="mb-3">
+
+                                <input name="message" type="text" id="txttrsite1" class="form-control"
+                                    placeholder="Message here">
+
+                            </div>
+
                             <button type="submit" class="btn btn-primary web-blue-btn">submit</button>
                         </div>
                     </form>
@@ -196,7 +204,7 @@
                     <div class="customulfooter footer-content">
                         <h6 class="">Contact Details</h6>
                         <p>Phone</p>
-                        <a href="tel:+1 (833) 123-4567">+1 (833) 123-4567</a>
+                        <a href="tel:(949) 239-6045">(949) 239-6045</a>
                         <p>Email</p>
                         <a href="mailto:info@donaldsbookpublishing.com">info@donaldsbookpublishing.com</a>
                         <p>
@@ -210,7 +218,7 @@
         </div>
         <div class="f-bottom">
             <p class="rf">© 2025
-                <a href="https://donaldsbookpublishing.com/">Donalds Book Publishing</a>  All rights reserved.
+                <a href="https://donaldsbookpublishing.com/">Donalds Book Publishing</a> All rights reserved.
             </p>
         </div>
     </section>
@@ -266,8 +274,8 @@
                             Journey!
                         </h3>
 
-                          <form action="backend/action/action.php" method="POST">
-                        <input type="hidden" name="type" value="formLong">
+                        <form action="backend/action/action.php" method="POST">
+                            <input type="hidden" name="type" value="formLong">
                             <div class="row">
                                 <div class="col">
                                     <input name="full_name" type="text" maxlength="60" id="txtcnsite1"
@@ -297,8 +305,8 @@
                                         <input type="hidden" value="" class="countryname">
                                         <input type="hidden" value="" class="countrycode">
                                         <input type="hidden" value="" class="dialcode" name="phone" id="dcsite1">
-                                        <input name="phone_no" type="tel" id="pnsite1" maxlength="10"
-                                            minlength="10" tabindex="-1"
+                                        <input name="phone_no" type="tel" id="pnsite1" maxlength="10" minlength="10"
+                                            tabindex="-1"
                                             class="phone-js form-control js-byphone js-valGet js-numbervalid pn"
                                             placeholder="Phone Number">
                                         <span data-val-controltovalidate="pnsite1"
