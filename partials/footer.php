@@ -107,16 +107,16 @@
                             <a href="https://www.instagram.com/donaldsbookpublishing/">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a>
-                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                            <a href="https://www.linkedin.com/in/donald-s-book-publishing-1b2887371/">
                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                             </a>
-                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                            <a href="https://www.pinterest.com/donaldsbookpublishing/">
                                 <i class="fa fa-pinterest" aria-hidden="true"></i>
                             </a>
-                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                            <a href="https://www.facebook.com/profile.php?id=61574978285920">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                             </a>
-                            <a href="https://www.instagram.com/donaldsbookpublishing/">
+                            <a href="https://www.youtube.com/@DonaldsBookPublishing">
                                 <i class="fa fa-youtube" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -395,3 +395,16 @@
 </body>
 
 </html>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Select all buttons with this class
+    const buttons = document.querySelectorAll(".web-black-btn");
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        window.location.href = "contact-us"; // yahan apni contact page ki URL daal do
+      });
+    });
+  });
+</script>
