@@ -4,7 +4,7 @@
 
   <section class="banner banner-inner custom-padding position-relative-customs">
     <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-editing/header.png">
+      <img loading="lazy" alt="donalds Book Publishing" src="assets/images/book-editing/header.png">
     </div>
     <div class="container-wrapper ">
       <div class="row">
@@ -28,7 +28,7 @@
               </a>
             </div>
             <div class="custom-flex-banner">
-              <div class="imagetrustd"><img loading="lazy" alt="Seedspire Publishing"
+              <div class="imagetrustd"><img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/trusted-banner.webp"></div>
               <div class="imagetrustd-text">
                 <p>Trusted By<br>
@@ -36,7 +36,7 @@
               </div>
             </div>
             <div class="trustbottombanner">
-              <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-icons-banner.webp"
+              <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
                 class="mybannertrusted">
             </div>
           </div>
@@ -56,15 +56,15 @@
           <div class="w-20-c hzoom">
             <div class="processboxsection vertical-align-box">
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-1.webp">
+                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
                 <h6>Manuscript <br /> Evaluation</h6>
               </a>
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-2.webp">
+                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
                 <h6>Content <br /> Refinement</h6>
               </a>
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-3.webp">
+                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
                 <h6>Final <br /> Proofreading</h6>
               </a>
             </div>
@@ -140,7 +140,7 @@
               <p> Enhance narrative structure and flow, ensuring a seamless, engaging reading experience.
               </p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a Quote</a>
-              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
+              <div class="position-image"><img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/book-editing/editing-flow.png"></div>
             </div>
           </div>
@@ -152,7 +152,7 @@
               <p>Ensure factual accuracy and cultural sensitivity, refining every detail for precise, respectful content.
               </p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a Quote</a>
-              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
+              <div class="position-image"><img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/book-editing/accuray.png"></div>
             </div>
           </div>
@@ -174,7 +174,7 @@
               </div>
 
             </div>
-            <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
+            <div class="position-image-custom-ab"> <img loading="lazy" alt="donalds Book Publishing"
                 src="assets/images/book-editing/formatting.png"></div>
           </div>
         </div>
@@ -185,7 +185,7 @@
               <p> Thoroughly refine content for clarity, consistency, and readability, enhancing the overall manuscript quality.</p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a Quote</a>
 
-              <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
+              <div class="position-image"> <img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/book-editing/comprehensive.png"></div>
             </div>
           </div>

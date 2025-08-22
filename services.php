@@ -29,7 +29,7 @@
                 in Touch</a>
             </div>
             <div class="custom-flex-banner">
-              <div class="imagetrustd"><img loading="lazy" alt="Seedspire Publishing"
+              <div class="imagetrustd"><img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/trusted-banner.webp"></div>
               <div class="imagetrustd-text">
                 <p>Trusted By<br>
@@ -37,13 +37,13 @@
               </div>
             </div>
             <div class="trustbottombanner">
-              <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-icons-banner.webp"
+              <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
                 class="mybannertrusted">
             </div>
           </div>
         </div>
         <div class="col-md-6">
-  <img loading="lazy" alt="Seedspire Publishing" src="assets/images/services/Header.png">
+  <img loading="lazy" alt="donalds Book Publishing" src="assets/images/services/Header.png">
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
                               
                                   <a href="book-writing-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/homepage/book-writing.png">
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                                 <p>Seamless publishing services made easier than ever</p>
                                 <a href="book-publishing-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/homepage/book-publishing.png">
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                                 <p>Promoting your book by captivating the right audience</p>
                                 <a href="book-marketing-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/homepage/book-marketing.png">
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                     <a href="book-design-services" class="web-blue-btn">View More</a>
                                 </div>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/homepage/design.png">
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
                                 <a href="book-editing-services" class="web-blue-btn">View More</a>
 
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/services/book-Editing.png">
                                 </div>
                             </div>
@@ -139,7 +139,7 @@
                                 <p>Soothing narrations that go perfectly with your book type.</p>
                                 <a href="audiobook-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing" class=""
+                                    <img loading="lazy" alt="donalds Book Publishing" class=""
                                         src="assets/images/services/audiobook.png">
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                                 <a href="book-printing-services" class="web-blue-btn">View More</a>
 
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/homepage/editing.png">
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                                 <p>Soothing narrations that go perfectly with your book type.</p>
                                 <a href="book-video-trailer" class="web-blue-btn">View More</a>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing" class=""
+                                    <img loading="lazy" alt="donalds Book Publishing" class=""
                                         src="assets/images/services/book-Video.png">
                                 </div>
                             </div>
@@ -187,7 +187,7 @@
                                 <a href="web-design-and-seo" class="web-blue-btn">View More</a>
 
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/services/web-Design.png">
                                 </div>
                             </div>
@@ -201,7 +201,7 @@
                                 <p>Soothing narrations that go perfectly with your book type.</p>
                                 <a href="book-illustration-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing" class=""
+                                    <img loading="lazy" alt="donalds Book Publishing" class=""
                                         src="assets/images/services/Illustration.png">
                                 </div>
                             </div>
@@ -218,7 +218,7 @@
                                 <a href="articles-services" class="web-blue-btn">View More</a>
 
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/services/article.png">
                                 </div>
                             </div>
@@ -232,7 +232,7 @@
                                 <p>Soothing narrations that go perfectly with your book type.</p>
                                 <a href="book-design-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing" class=""
+                                    <img loading="lazy" alt="donalds Book Publishing" class=""
                                         src="assets/images/services/book-design.png">
                                 </div>
                             </div>
@@ -249,7 +249,7 @@
                                 <a href="blog-writing-services" class="web-blue-btn">View More</a>
 
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing"
+                                    <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/services/blog-writing.png">
                                 </div>
                             </div>
@@ -263,7 +263,7 @@
                                 <p>Soothing narrations that go perfectly with your book type.</p>
                                 <a href="web-content-writing-service" class="web-blue-btn">View More</a>
                                 <div class="position-image">
-                                    <img loading="lazy" alt="Seedspire Publishing" class=""
+                                    <img loading="lazy" alt="donalds Book Publishing" class=""
                                         src="assets/images/services/web-Content.png">
                                 </div>
                             </div>

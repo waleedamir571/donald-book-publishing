@@ -28,7 +28,7 @@
             </div>
 
             <div class="banner-image ">
-                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/aboutbg.webp">
+                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/aboutbg.webp">
             </div>
 
 
@@ -91,7 +91,7 @@
             <div class="row mt-4 cflexs g-0">
                 <div class="col-lg-3 col-md-12">
                     <a href="javascript:void();" class="process-box bx1">
-                        <img loading="lazy" alt="Seedspire Publishing" src="assets/images/missionwhite.webp">
+                        <img loading="lazy" alt="donalds Book Publishing" src="assets/images/missionwhite.webp">
                         <h6 class="mb-0">Our Mission </h6>
                     </a>
                 </div>
@@ -111,7 +111,7 @@
             <div class="row mt-4 cflexs g-0">
                 <div class="col-lg-3 col-md-12">
                     <a href="javascript:void();" class="process-box bx1 bx2">
-                        <img loading="lazy" alt="Seedspire Publishing" src="assets/images/abt-mission.webp">
+                        <img loading="lazy" alt="donalds Book Publishing" src="assets/images/abt-mission.webp">
                         <h6 class="mb-0">Our Vision </h6>
                     </a>
                 </div>
@@ -133,7 +133,7 @@
             <div class="row mt-4 cflexs g-0">
                 <div class="col-lg-3 col-md-12">
                     <a href="javascript:void();" class="process-box bx1 bx3">
-                        <img loading="lazy" alt="Seedspire Publishing" src="assets/images/missionwhite.webp">
+                        <img loading="lazy" alt="donalds Book Publishing" src="assets/images/missionwhite.webp">
                         <h6 class="mb-0">Our Core Values </h6>
                     </a>
                 </div>

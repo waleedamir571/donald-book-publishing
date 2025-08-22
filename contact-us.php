@@ -14,7 +14,7 @@
     <section class="banner contact-banner custom-padding">
         <div class="container-wrapper text-center bannerh1">
             <div class="contactbanner">
-                <img class="w-12" loading="lazy" alt="Seedspire Publishing" src="./assets/images/home/logo2.png">
+                <img class="w-12" loading="lazy" alt="donalds Book Publishing" src="./assets/images/home/logo2.png">
                 <h1 class="">Contact Us</h1>
                 <h2>Your Story Starts Here
                     Let’s Bring It to Life!</h2>
@@ -25,13 +25,13 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-12">
                                 <div class="contactboxs">
-                                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/locationss.webp">
+                                    <img loading="lazy" alt="donalds Book Publishing" src="assets/images/locationss.webp">
                                     <p>401 Park Avenue South New York NY 10016</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-12">
                                 <div class="contactboxs">
-                                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/emails.webp">
+                                    <img loading="lazy" alt="donalds Book Publishing" src="assets/images/emails.webp">
                                     <p><a
                                             href="mailto:info@donaldsbookpublishing.com">info@donaldsbookpublishing.com</a>
                                     </p>
@@ -39,7 +39,7 @@
                             </div>
                             <div class="col-lg-4 col-md-12">
                                 <div class="contactboxs">
-                                    <img loading="lazy" alt="Seedspire Publishing" src="assets/images/support-ico.webp">
+                                    <img loading="lazy" alt="donalds Book Publishing" src="assets/images/support-ico.webp">
                                     <p>    <a href="tel:(949) 239-6045">(949) 239-6045</a></p>
                                 </div>
                             </div>

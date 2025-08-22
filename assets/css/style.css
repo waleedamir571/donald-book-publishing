@@ -29,6 +29,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 h6.mb-20
  {
     color: black;
@@ -10667,6 +10669,10 @@ ul.navbar-nav .nav-link.show {
 }
 
 @media (min-width:320px) and (max-width:480px) {
+
+	.footer-content{
+	text-align: -webkit-center;
+}
 	.pos-rel-1 {
 		display: block
 	}

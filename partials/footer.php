@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="mycta-footerimg">
-                        <!-- <img loading="lazy" alt="Seedspire Publishing" src="assets/images/Book-writing/footer.png"> -->
+                        <!-- <img loading="lazy" alt="donalds Book Publishing" src="assets/images/Book-writing/footer.png"> -->
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     <div class="footer-content">
                         <div class="logofooter w-50">
                             <a href="index">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/home/logo2.png">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/home/logo2.png">
                             </a>
                         </div>
                         <p class="mt-2">Get your book published with the best book publishing services in USA. Trusted

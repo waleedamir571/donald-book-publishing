@@ -117,9 +117,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
             <div class="container">
                 <a class="navbar-brand" href="./">
-                    <img loading="lazy" alt="Seedspire Publishing" class="d-none-desktop"
+                    <img loading="lazy" alt="donalds Book Publishing" class="d-none-desktop"
                         src="assets/images/home/logo2.png" width="137" height="40">
-                    <img loading="lazy" alt="Seedspire Publishing" class="d-none-mobile w-100"
+                    <img loading="lazy" alt="donalds Book Publishing" class="d-none-mobile w-100"
                         src="assets/images/home/logo2.png" width="127" height="52"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
                     aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">

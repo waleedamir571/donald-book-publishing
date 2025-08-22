@@ -9,7 +9,7 @@
     <section class="banner contact-banner pageterms custom-padding">
         <div class="container-wrapper text-center bannerh1">
             <div class="contactbanner">
-                <img class="w-12" loading="lazy" alt="Seedspire Publishing" src="assets/images/home/logo2.png">
+                <img class="w-12" loading="lazy" alt="donalds Book Publishing" src="assets/images/home/logo2.png">
                 <h1 class="">TERMS AND CONDITONS </h1>
 
             </div>

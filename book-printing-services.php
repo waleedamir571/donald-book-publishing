@@ -3,7 +3,7 @@
 
     <section class="banner banner-inner custom-padding position-relative-customs">
         <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/book-printing/header.png">
+            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/book-printing/header.png">
         </div>
         <div class="container-wrapper ">
             <div class="row">
@@ -29,7 +29,7 @@
                         </div>
                         <div class="custom-flex-banner">
                             <div class="imagetrustd">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trusted-banner.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trusted-banner.webp">
                             </div>
                             <div class="imagetrustd-text">
                                 <p>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                         <div class="trustbottombanner">
-                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-icons-banner.webp"
+                            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
                                 class="mybannertrusted">
                         </div>
                     </div>
@@ -59,15 +59,15 @@
                     <div class="w-20-c hzoom">
                         <div class="processboxsection vertical-align-box">
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-1.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
                                 <h6> Design and cross-check</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-2.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
                                 <h6>Quality Printing</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-3.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
                                 <h6>Packing and Distribution</h6>
                             </a>
                         </div>
@@ -150,7 +150,7 @@
                             </p>
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
-                                <img loading="lazy" alt="Seedspire Publishing"
+                                <img loading="lazy" alt="donalds Book Publishing"
                                     src="assets/images/book-printing/demand.png">
                             </div>
                         </div>
@@ -172,7 +172,7 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="Seedspire Publishing"
+                            <img loading="lazy" alt="donalds Book Publishing"
                                 src="assets/images/book-printing/Offset-Printing.png">
                         </div>
                     </div>
@@ -197,7 +197,7 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="Seedspire Publishing"
+                            <img loading="lazy" alt="donalds Book Publishing"
                                 src="assets/images/book-printing/hardcover.png">
                         </div>
                     </div>
@@ -217,7 +217,7 @@
                             <p>Select from a range of binding styles to match your book’s look, feel, and purpose.</p>
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
-                                <img loading="lazy" alt="Seedspire Publishing"
+                                <img loading="lazy" alt="donalds Book Publishing"
                                     src="assets/images/book-printing/binding.png">
                             </div>
                         </div>

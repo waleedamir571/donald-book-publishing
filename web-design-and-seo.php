@@ -3,7 +3,7 @@
 
     <section class="banner banner-inner custom-padding position-relative-customs">
         <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/web-design/header.png">
+            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/web-design/header.png">
         </div>
         <div class="container-wrapper ">
             <div class="row">
@@ -29,7 +29,7 @@
                         </div>
                         <div class="custom-flex-banner">
                             <div class="imagetrustd">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trusted-banner.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trusted-banner.webp">
                             </div>
                             <div class="imagetrustd-text">
                                 <p>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                         <div class="trustbottombanner">
-                            <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-icons-banner.webp"
+                            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
                                 class="mybannertrusted">
                         </div>
                     </div>
@@ -59,15 +59,15 @@
                     <div class="w-20-c hzoom">
                         <div class="processboxsection vertical-align-box">
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-1.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
                                 <h6>Strategic Planning & Design</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-2.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
                                 <h6>SEO Integration & Optimization</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-3.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
                                 <h6>Performance Monitoring & Growth</h6>
                             </a>
                         </div>
@@ -155,7 +155,7 @@
                                 class="web-blue-btn">Request a Quote
                             </a>
                             <div class="position-image">
-                                <img loading="lazy" alt="Seedspire Publishing"
+                                <img loading="lazy" alt="donalds Book Publishing"
                                     src="assets/images/web-design/custom-web.png">
                             </div>
                         </div>
@@ -170,7 +170,7 @@
                             <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
                                 class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
-                                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/web-design/seo.png">
+                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/web-design/seo.png">
                             </div>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                                 class="web-blue-btn">Request a Quote</a>
 
                             <div class="position-image">
-                                <img loading="lazy" alt="Seedspire Publishing"
+                                <img loading="lazy" alt="donalds Book Publishing"
                                     src="assets/images/web-design/ecommerce.png">
                             </div>
                         </div>
@@ -208,7 +208,7 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="Seedspire Publishing"
+                            <img loading="lazy" alt="donalds Book Publishing"
                                 src="assets/images/web-design/maintainance.png">
                         </div>
                     </div>

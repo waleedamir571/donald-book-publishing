@@ -4,7 +4,7 @@
 
   <section class="banner banner-inner custom-padding position-relative-customs">
     <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="Seedspire Publishing" src="assets/images/Book-writing/Header.png">
+      <img loading="lazy" alt="donalds Book Publishing" src="assets/images/Book-writing/Header.png">
     </div>
     <div class="container-wrapper ">
       <div class="row">
@@ -29,7 +29,7 @@
               </a>
             </div>
             <div class="custom-flex-banner">
-              <div class="imagetrustd"><img loading="lazy" alt="Seedspire Publishing"
+              <div class="imagetrustd"><img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/trusted-banner.webp"></div>
               <div class="imagetrustd-text">
                 <p>Trusted By<br>
@@ -37,7 +37,7 @@
               </div>
             </div>
             <div class="trustbottombanner">
-              <img loading="lazy" alt="Seedspire Publishing" src="assets/images/trust-icons-banner.webp"
+              <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
                 class="mybannertrusted">
             </div>
           </div>
@@ -57,15 +57,15 @@
           <div class="w-20-c hzoom">
             <div class="processboxsection vertical-align-box">
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-1.webp">
+                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
                 <h6>Consultation & Outline Creation</h6>
               </a>
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-2.webp">
+                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
                 <h6>Chapter Development & Submission</h6>
               </a>
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="Seedspire Publishing" src="assets/images/process-3.webp">
+                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
                 <h6>Editing, Formatting & Finalization</h6>
               </a>
             </div>
@@ -151,7 +151,7 @@
               </p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
                 Quote</a>
-              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
+              <div class="position-image"><img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/Book-writing/outline.png"></div>
             </div>
           </div>
@@ -166,7 +166,7 @@
               </p>
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
                 Quote</a>
-              <div class="position-image"><img loading="lazy" alt="Seedspire Publishing"
+              <div class="position-image"><img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/Book-writing/character.png"></div>
             </div>
           </div>
@@ -182,7 +182,7 @@
               <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
                 Quote</a>
 
-              <div class="position-image"> <img loading="lazy" alt="Seedspire Publishing"
+              <div class="position-image"> <img loading="lazy" alt="donalds Book Publishing"
                   src="assets/images/Book-writing/Story-Structuring.png"></div>
             </div>
           </div>
@@ -200,7 +200,7 @@
               </div>
 
             </div>
-            <div class="position-image-custom-ab"> <img loading="lazy" alt="Seedspire Publishing"
+            <div class="position-image-custom-ab"> <img loading="lazy" alt="donalds Book Publishing"
                 src="assets/images/Book-writing/Manuscrip.png"></div>
           </div>
         </div>
