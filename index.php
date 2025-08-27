@@ -45,10 +45,10 @@
                         <div
                             class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
                             <div class="content-services">
-                                <h3>Book Writing </h3>
+                                <h3>Ghost Writing </h3>
                                 <p>Changing your ideas to impactful literary masterpieces</p>
 
-                                <a href="book-writing-services" class="web-blue-btn">View More</a>
+                                <a href="ghost-writing-services" class="web-blue-btn">View More</a>
                                 <div class="position-image">
                                     <img loading="lazy" alt="donalds Book Publishing"
                                         src="assets/images/homepage/book-writing.png">

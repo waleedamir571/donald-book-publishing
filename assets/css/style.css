@@ -9308,14 +9308,19 @@ section.banner.contact-banner.pageterms.custom-padding {
 	z-index: 99999 !important
 }
 
+.pt-50{
+	padding-top: 50px !important;
+}
+
 .modal-backdrop {
 	z-index: 9999
 }
 
-.share a {
-	margin: 0px 15px;
-	display: inline-block;
-	font-size: 20px;
+.share a i {
+    margin: 0px 15px;
+    display: inline-block;
+    font-size: 20px !important;
+    color: #000 !important;
 }
 
 .share {
@@ -11067,6 +11072,10 @@ a.web-blue-btn, button.web-blue-btn, input.web-blue-btn {
     transition: all 0.3s ease-in-out;
     position: relative;
     text-align: left;
+}
+
+.swiper-slide.move-up {
+  transform: translateY(-20px);
 }
 
 

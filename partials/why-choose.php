@@ -11,7 +11,7 @@
             <div class="box-one-service-bottom bg-gray-dark">
               <img loading="lazy" alt="donalds Book Publishing" class="mb-20s h-51" src="assets/images/home/1.svg">
               <h6>End-to-End  <br> Publishing </h6>
-              <p>From manuscript to bookstores with your rights & royalties</p>
+              <p>From manuscript to bookstores with your rights & royalties.</p>
               <!-- <div class="imgright">
                 <img loading="lazy" alt="" class="" src="assets/images/plus.webp">
               </div> -->

@@ -18,8 +18,12 @@
     
 
  <section class=" custom-padding bg-ctabottom pt-50">
-        <div class="container-wrapper">
-            <div class="row d-flex justify-content-around align-items-center">
+      <h1 class="text-center">Contact Us</h1>
+                <h2 class="text-center">Your Story Starts Here
+                    Let’s Bring It to Life!</h2>
+    
+        <div class="container-wrapper pt-50">
+            <div class="row d-flex justify-content-around align-items-center ">
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="myheading-custom">
                         <h2>Ready to Begin?</h2>
@@ -74,14 +78,9 @@
     </section>
    
 
-    <section class=" contact-banner custom-padding pb-25">
+    <section class=" contact-banner custom-padding pt-50">
         <div class="container-wrapper text-center bannerh1">
-            <div class="contactbanner">
-              
-                <h1 class="">Contact Us</h1>
-                <h2>Your Story Starts Here
-                    Let’s Bring It to Life!</h2>
-            </div>
+           
             <div class="banner-contact-details ">
                 <div class="row d-flex justify-content-center mt-5 mb-5">
                     <div class="col-lg-10">

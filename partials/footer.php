@@ -151,22 +151,22 @@
                             <div class="customulfooter">
                                 <ul>
                                     <li>
-                                        <a href="ghost-writing-services">Ghost Writing Service</a>
+                                        <a href="ghost-writing-services">Ghost Writing Services</a>
                                     </li>
                                     <li>
-                                        <a href="book-design-services">Book Design Service</a>
+                                        <a href="book-design-services">Book Design Services</a>
                                     </li>
                                     <li>
-                                        <a href="book-publishing-services">Book Publishing Service</a>
+                                        <a href="book-publishing-services">Book Publishing Services</a>
                                     </li>
                                     <li>
-                                        <a href="book-marketing-services">Book Marketing Service</a>
+                                        <a href="book-marketing-services">Book Marketing Services</a>
                                     </li>
                                     <li>
-                                        <a href="audiobook-services">Audiobook Service</a>
+                                        <a href="audiobook-services">Audiobook Services</a>
                                     </li>
                                     <li>
-                                        <a href="book-editing-services">Book Editing Service</a>
+                                        <a href="book-editing-services">Book Editing Services</a>
                                     </li>
                                 </ul>
                             </div>
@@ -192,7 +192,7 @@
                                     <li>
                                         <a href="web-content-writing-service">
                                             Web Content Writing
-                                            Service
+                                            Services
                                         </a>
                                     </li>
                                 </ul>
