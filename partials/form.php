@@ -1,37 +1,38 @@
   <div class="col-lg-4 offset-lg-1">
           <div class="banner-main-form">
             <div class="banner-from">
-              <form action="#" class="form-get-quote" id="contactform" cr-attached="true">
+              <form action="backend/action/action.php" method="POST" class="form-get-quote" id="contactform" cr-attached="true">
                 <div class="row gy-3">
+                  <input type="hidden" name="type" value="formLong">
                   <h2 class="what">What <span class="clr-changed ">service </span>are you looking for?</h2>
                   <div class="col-lg-12 col-lg-12 d-flex justify-content-between flex-wrap">
                     <div class="check-parent">
                       <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]"
-                          value="Book Publishing" id="service12"><label class="form-check-label " for="service12">Ghost
+                          value="Ghost Writing" id="service12"><label class="form-check-label " for="service12">Ghost
                           Writing</label></div>
                       <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]"
-                          value="Book Editing" id="service21"><label class="form-check-label " for="service21">Book
+                          value="Book Publishing" id="service21"><label class="form-check-label " for="service21">Book
                           Publishing</label></div>
                     </div>
                     <div class="check-parent">
                       <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]"
-                          value="Cover Design" id="service31"><label class="form-check-label " for="service31">Book
+                          value="Book Marketing" id="service31"><label class="form-check-label " for="service31">Book
                           Marketing</label></div>
                       <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]"
-                          value="Printing" id="service41"><label class="form-check-label " for="service41">Book
+                          value="Book Editing" id="service41"><label class="form-check-label " for="service41">Book
                           Editing</label></div>
                     </div>
                     <div class="check-parent">
                       <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]"
-                          value="Illustration" id="service51"><label class="form-check-label "
+                          value="Illustration Services" id="service51"><label class="form-check-label "
                           for="service51">Illustration Services</label></div>
                       <div class="form-check"><input class="form-check-input" type="checkbox" name="services[]"
-                          value="Interior Formatting" id="service61"><label class="form-check-label "
+                          value="Book Printing" id="service61"><label class="form-check-label "
                           for="service61">Book Printing</label></div>
                     </div>
                   </div>
                   <div class="col-lg-12">
-                    <div class="form-group"><input class="form-control" name="name" placeholder="Full Name" required=""
+                    <div class="form-group"><input class="form-control" name="full_name" placeholder="Full Name" required=""
                         minlength="3"></div>
                   </div>
                   <div class="col-lg-12">
@@ -39,39 +40,42 @@
                         placeholder="Email Address" required=""></div>
                   </div>
                   <div class="col-lg-12">
-                    <div class="form-group"><input class="form-control" type="tel" name="phone"
-                        placeholder="Phone Number" required="" minlength="12" maxlength="12" pattern="\d{3}-\d{3}-\d{4}"
+                    <div class="form-group"><input class="form-control" type="tel" name="phone_no"
+                        placeholder="Phone Number" required="" minlength="12" maxlength="12" 
                         oninput="formatPhone(this)"></div>
                   </div>
                   <div class="col-lg-12">
                     <div class="form-group"><select name="manuscript" id="manscript" class="form-select"
                         aria-label="Manuscript ?" required="">
                         <option value="" disabled="" selected="">Do You Have a Completed Manuscript?</option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                        <option value="inprogress">In Progress</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                        <option value="In Progress">In Progress</option>
                       </select></div>
                   </div>
                   <div class="col-lg-12">
                     <div class="form-group"><select name="genre" id="genre" class="form-select"
                         aria-label="Choose a Genre" required="">
                         <option value="" disabled="" selected="">What Genre Is Your Book?</option>
-                        <option value="Fiction">Ghost
+                        <option value="Ghost Writing">Ghost
                           Writing</option>
-                        <option value="Non-Fiction">Book
+                        <option value="Book Publishing">Book
                           Publishing</option>
-                        <option value="Memoir">Book
+                        <option value="Book Marketing">Book
                           Marketing</option>
-                        <option value="Self-Help">Book
+                        <option value="Book Editing">Book
                           Editing</option>
-                        <option value="Business">Book Printing</option>
-                        <option value="Other">Book Video Trailer</option>
-                        <option value="Other">Web design & SEO</option>
-                        <option value="Other">Illustration Services</option>
-                        <option value="Other">Articles Services</option>
-                        <option value="Other">Book Design Services</option>
-                        <option value="Other">Blog Writing Services</option>
-                        <option value="Other">Web Content Writing
+                        <option value="Book Printing">Book
+                          Printing</option>
+                        <option value="Book Video Trailer">Book
+                          Video Trailer</option>
+                        <option value="Web design & SEO">Web design & SEO</option>
+                        <option value="Illustration Services">Illustration Services</option>
+                        <option value="Articles Services">Articles Services</option>
+                        <option value="Book Design Services">Book Design Services</option>
+                        <option value="Blog Writing Services">Blog Writing Services</option>
+                        <option value="Web Content Writing
+                          Service">Web Content Writing
                           Service</option>
                       </select></div>
                   </div>

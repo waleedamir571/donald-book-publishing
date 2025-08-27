@@ -18,7 +18,7 @@ use PHPMailer\PHPMailer\Exception;
 //Name Email Phone Message Form
 function nameEmailPhoneMessageForm($data, $connection)
 {
-    // Sanitize and extract data
+    // Existing fields
     $name = isset($data['full_name']) ? $connection->real_escape_string($data['full_name']) : '';
     $email = isset($data['email']) ? $connection->real_escape_string($data['email']) : '';
     $phone = isset($data['phone_no']) ? $connection->real_escape_string($data['phone_no']) : '';
@@ -28,12 +28,17 @@ function nameEmailPhoneMessageForm($data, $connection)
     $page = isset($data['page']) ? $connection->real_escape_string($data['page']) : '';
     $created_at = date("Y-m-d H:i:s");
 
-    // Store into DB
-    $query = "INSERT INTO form (full_name, email, phone_no, message, plan_name, plan_amount, created_at)
-              VALUES ('$name', '$email', '$phone', '$message', '$plan_name','$plan_amount' ,'$created_at')";
+    // ✅ New fields
+    $services = isset($data['services']) ? implode(", ", array_map([$connection, 'real_escape_string'], $data['services'])) : '';
+    $manuscript = isset($data['manuscript']) ? $connection->real_escape_string($data['manuscript']) : '';
+    $genre = isset($data['genre']) ? $connection->real_escape_string($data['genre']) : '';
+
+    // Store into DB (add new columns if your table supports them)
+    $query = "INSERT INTO form (full_name, email, phone_no, message, plan_name, plan_amount, services, manuscript, genre, created_at)
+              VALUES ('$name', '$email', '$phone', '$message', '$plan_name','$plan_amount', '$services', '$manuscript', '$genre', '$created_at')";
     $connection->query($query);
 
-    // Email Content for Admin
+    // Email Content for Admin (added new fields)
     $adminSubject = "New Form Submission from $name";
     $adminBody = "
     <p><strong>Page:</strong> $page</p>
@@ -43,9 +48,11 @@ function nameEmailPhoneMessageForm($data, $connection)
     <p><strong>Message:</strong><br>$message</p>
     <p><strong>Plan Name:</strong><br>$plan_name</p>
     <p><strong>Plan Amount:</strong><br>$plan_amount</p>
+    <p><strong>Services:</strong> $services</p>
+    <p><strong>Manuscript:</strong> $manuscript</p>
+    <p><strong>Genre:</strong> $genre</p>
     ";
 
-    // Auto-reply Content for User
     $userSubject = 'Donaldsbookpublisher has Received Your Message!';
     $userBody = "
         <p>Dear <b>{$name},</b></p>
@@ -63,11 +70,11 @@ function nameEmailPhoneMessageForm($data, $connection)
     sendEmails($name, $email, $adminSubject, $adminBody, $userSubject, $userBody);
 
     $slackContent = json_encode([
-        "text" => "Hi Team,\nWe have received a new lead.\n\nPage: $page\nName: $name\nEmail: $email\nPhone: $phone\nMessage: $message\n Name: $plan_name\n Amount: $plan_amount"
+        "text" => "Hi Team,\nWe have received a new lead.\n\nPage: $page\nName: $name\nEmail: $email\nPhone: $phone\nMessage: $message\nPlan Name: $plan_name\nAmount: $plan_amount\nServices: $services\nManuscript: $manuscript\nGenre: $genre"
     ]);
     sendSlack($slackContent);
-
 }
+
 
 function sendEmails($name, $email, $adminSubject, $adminBody, $userSubject, $userBody)
 {
@@ -931,7 +938,7 @@ function sendSlack($data)
     // curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]); 
+    curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $server_output = curl_exec($ch);
     curl_close($ch);
