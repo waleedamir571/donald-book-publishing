@@ -2,16 +2,15 @@
 <div class="body-content">
 
     <section class="banner banner-inner custom-padding position-relative-customs">
-        <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/book-printing/header.png">
-        </div>
+       
         <div class="container-wrapper ">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="services-inner-banner-style">
-                        <h1>Get the Best Book Printing Services in the USA? 
+                        <h1>Get the Best Book Printing Services in the USA?
                         </h1>
-                        <p class="main-para">Look no further. Our Book printing can never go wrong! We don’t compromise on quality.
+                        <p class="main-para">Look no further. Our Book printing can never go wrong! We don’t compromise
+                            on quality.
                         </p>
                         <div class="custom-ul ctaul">
                             <ul>
@@ -24,12 +23,17 @@
                         </div>
                         <div class="d-flex btnflex mt-4">
                             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                            <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch</a>
+                            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Get in Touch
+
+                            </a>
                         </div>
                         <div class="custom-flex-banner">
                             <div class="imagetrustd">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trusted-banner.webp">
+                                <img loading="lazy" alt="donalds Book Publishing"
+                                    src="assets/images/trusted-banner.webp">
                             </div>
                             <div class="imagetrustd-text">
                                 <p>
@@ -39,11 +43,13 @@
                             </div>
                         </div>
                         <div class="trustbottombanner">
-                            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
-                                class="mybannertrusted">
+                            <img loading="lazy" alt="donalds Book Publishing"
+                                src="assets/images/trust-icons-banner.webp" class="mybannertrusted">
                         </div>
                     </div>
                 </div>
+
+                 <?php include 'partials/form.php'; ?>
             </div>
         </div>
 
@@ -59,15 +65,18 @@
                     <div class="w-20-c hzoom">
                         <div class="processboxsection vertical-align-box">
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p1.svg">
                                 <h6> Design and cross-check</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p2.svg">
                                 <h6>Quality Printing</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p3.svg">
                                 <h6>Packing and Distribution</h6>
                             </a>
                         </div>
@@ -116,7 +125,8 @@
                             <div class="col-lg-12 col-sm-12">
                                 <div class="custom-ul ctaul">
                                     <ul>
-                                        <li>Showcase your work with exceptional print quality that brings every page to life.</li>
+                                        <li>Showcase your work with exceptional print quality that brings every page to
+                                            life.</li>
                                         <li> Tailored printing solutions to suit any genre or creative vision.</li>
                                         <li>Built to impress—crafted for durability and designed to inspire.
                                         </li>
@@ -127,8 +137,14 @@
                         </div>
 
                         <div class="d-flex btnflex mt-4">
-                            <a href="#." class="web-black-btn open-chat-button" role="button">Let's Talk About Your Project </a>
-                            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Contact Us Today
+                            <a href="#." class="web-black-btn open-chat-button" role="button">Let's Talk About Your
+                                Project </a>
+                            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Contact Us Today
+
+                            </a>
                             </a>
                         </div>
                     </div>
@@ -146,9 +162,11 @@
                     <div class="mybox-services-main bg-gray-box mb-custom-20 h-hun-custom position-relative hzoomone">
                         <div class="content-services">
                             <h3>Print on Demand </h3>
-                            <p>Produce high-quality books in small runs with affordable, flexible printing—perfect for independent authors and growing publishers.
+                            <p>Produce high-quality books in small runs with affordable, flexible printing—perfect for
+                                independent authors and growing publishers.
                             </p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote</a>
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
+                                class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="donalds Book Publishing"
                                     src="assets/images/book-printing/demand.png">
@@ -164,7 +182,8 @@
                         <div class="content-services ">
                             <div class="zindex1">
                                 <h3>Offset Printing</h3>
-                                <p>Ideal for bulk orders, offset printing delivers rich color, sharp detail, and exceptional quality at scale.
+                                <p>Ideal for bulk orders, offset printing delivers rich color, sharp detail, and
+                                    exceptional quality at scale.
                                 </p>
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
                                     class="web-blue-btn">Request a Quote</a>
@@ -189,7 +208,8 @@
                         <div class="content-services ">
                             <div class="zindex1">
                                 <h3>Hardcover Printing</h3>
-                                <p>Create elegant, durable hardcover books that make a statement and stand the test of time.
+                                <p>Create elegant, durable hardcover books that make a statement and stand the test of
+                                    time.
                                 </p>
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
                                     class="web-blue-btn">Request a Quote</a>
@@ -215,7 +235,8 @@
                         <div class="content-services">
                             <h3>Custom Binding</h3>
                             <p>Select from a range of binding styles to match your book’s look, feel, and purpose.</p>
-                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn">Request a Quote</a>
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup"
+                                class="web-blue-btn">Request a Quote</a>
                             <div class="position-image">
                                 <img loading="lazy" alt="donalds Book Publishing"
                                     src="assets/images/book-printing/binding.png">
@@ -243,14 +264,18 @@
                         <h2>Ready to Edit Your Book to Perfection? </h2>
 
                         <p class="my-bigp"><strong> Let’s Get Started!
-                        </strong></p>
+                            </strong></p>
                     </div>
                 </div>
                 <div class=" col-md-12 col-sm-12 text-center">
                     <div class=" btnflex flex-bottoms">
                         <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
+                        <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                            Get in
+                            Touch
+
+                        </a>
                     </div>
                 </div>
             </div>
@@ -262,15 +287,21 @@
             <div class="cta-bg morespace-cta border-radius-33 custom-flex cta-ghost ctastyles-new mb-2">
                 <div class="col-lg-6">
                     <h4 class="uppercase mb-3">Embracing All Genres</h4>
-                    <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life. Whether fiction, nonfiction, or anything in between, we craft captivating narratives that connect with your audience. Your vision, our expertise—let’s create something remarkable!
+                    <p class="my-pera">At Donald’s Book Publishing, creativity and diversity bring your story to life.
+                        Whether fiction, nonfiction, or anything in between, we craft captivating narratives that
+                        connect with your audience. Your vision, our expertise—let’s create something remarkable!
                     </p>
 
 
                     <div class="btn-blockss mt-4">
                         <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a>
                         </div>
-                        <div><a href="#." class="web-blue-btn" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch</a></div>
+                        <div> <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Get in Touch
+
+                            </a></div>
                     </div>
                 </div>
             </div>
@@ -292,8 +323,12 @@
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="d-flex btnflex flex-bottoms">
                         <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
+                        <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                            Get in
+                            Touch
+
+                        </a>
                     </div>
                 </div>
             </div>
@@ -396,37 +431,37 @@
     <?php include 'partials/testimonials.php'; ?>
 
 
-   <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
-    <div class="container-wrapper">
-      <div class="cta-bg border-radius-33 cta-one ">
-        <div class="col-lg-5 mycustomctanew">
-          <h2 class="uppercase mb-3">Your Vision.  <br>
-            Our Expertise</h2>
-          <p>
-            Donald’s Book Printing Services in the USA will make you a Bestseller!
+    <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
+        <div class="container-wrapper">
+            <div class="cta-bg border-radius-33 cta-one ">
+                <div class="col-lg-5 mycustomctanew">
+                    <h2 class="uppercase mb-3">Your Vision. <br>
+                        Our Expertise</h2>
+                    <p>
+                        Donald’s Book Printing Services in the USA will make you a Bestseller!
 
 
 
-          </p>
-          <p class="captial-small">Sign up now to connect with us.
+                    </p>
+                    <p class="captial-small">Sign up now to connect with us.
 
-          </p>
+                    </p>
 
-          <div class="d-flex btnflex mt-5">
-            <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get connected</a>
-          </div>
+                    <div class="d-flex btnflex mt-5">
+                        <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
+                        <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                            Connect now
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-      </div>
-    </div>
-  </section>
+    </section>
 
 
     <?php include 'partials/why-choose.php'; ?>
 
 </div>
 <?php include 'partials/footer.php'; ?>
-
-
-

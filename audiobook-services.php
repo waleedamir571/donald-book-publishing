@@ -2,11 +2,9 @@
 <div class="body-content">
 
     <section class="banner banner-inner custom-padding position-relative-customs">
-        <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/audiobook/header.png">
-        </div>
+       
         <div class="container-wrapper ">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="services-inner-banner-style">
                         <h1>Bring Your Audiobook to Life with Expert Narration
@@ -28,9 +26,11 @@
                         <div class="d-flex btnflex mt-4">
                             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project
                             </a>
-                            <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch Today!
-                            </a>
+                            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                       Get in Touch
+                Today!
+                    </a>
                         </div>
                         <div class="custom-flex-banner">
                             <div class="imagetrustd">
@@ -49,6 +49,8 @@
                         </div>
                     </div>
                 </div>
+
+                <?php include 'partials/form.php'; ?>
             </div>
         </div>
 
@@ -64,21 +66,21 @@
                     <div class="w-20-c hzoom">
                         <div class="processboxsection vertical-align-box">
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51" src="assets/images/home/p1.svg">
                                 <h6>Script
                                     <br />
                                     Refinement
                                 </h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
+                                <img loading="lazy" alt="donalds Book Publishing"  class="h-51" src="assets/images/home/p2.svg">
                                 <h6>Engaging
                                     <br />
                                     Narration
                                 </h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
+                                <img loading="lazy" alt="donalds Book Publishing"   class="h-51" src="assets/images/home/p3.svg">
                                 <h6>Audio
                                     <br />
                                     Polishing
@@ -138,9 +140,11 @@
 
                         <div class="d-flex btnflex mt-4">
                             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a>
-                            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get
-                                in Touch Today!
-                            </a>
+                             <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                       Get in Touch
+                Today!
+                    </a>
                         </div>
                     </div>
                 </div>
@@ -261,9 +265,11 @@
                     <div class="btn-blockss mt-4">
                         <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a>
                         </div>
-                        <div><a href="#." class="web-blue-btn" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch
-                            </a></div>
+                        <div> <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                       Get in Touch
+                Today!
+                    </a></div>
                     </div>
                 </div>
             </div>
@@ -285,8 +291,12 @@
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="d-flex btnflex flex-bottoms">
                         <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
+                         <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                 Get in
+                            Touch
+                
+                    </a>
                     </div>
                 </div>
             </div>
@@ -413,7 +423,10 @@
 
           <div class="d-flex btnflex mt-5">
             <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get connected</a>
+           <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                        Connect now
+                    </a>
           </div>
         </div>
 

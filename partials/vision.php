@@ -5,7 +5,7 @@
           <h2 class="uppercase mb-3">Your Vision.  <br>
             Our Expertise</h2>
           <p>
-            Donald’s Book Writing services in the USA will make you a Bestseller!
+            Donald’s ghost Writing services in the USA will make you a Bestseller!
 
 
           </p>
@@ -14,7 +14,10 @@
 
           <div class="d-flex btnflex mt-5">
             <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get connected</a>
+           <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                        Connect now
+                    </a>
           </div>
         </div>
 

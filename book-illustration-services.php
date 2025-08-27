@@ -2,11 +2,9 @@
 <div class="body-content">
 
     <section class="banner banner-inner custom-padding position-relative-customs">
-        <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/illustration-bg-service.webp">
-        </div>
+       
         <div class="container-wrapper ">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="services-inner-banner-style">
                         <h1>Get Stories to Life Through Powerful Illustrations
@@ -25,12 +23,17 @@
                         <div class="d-flex btnflex mt-4">
                             <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Illustrate Your
                                 Story </a>
-                            <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch</a>
+                            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Get in Touch
+
+                            </a>
                         </div>
                         <div class="custom-flex-banner">
                             <div class="imagetrustd">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trusted-banner.webp">
+                                <img loading="lazy" alt="donalds Book Publishing"
+                                    src="assets/images/trusted-banner.webp">
                             </div>
                             <div class="imagetrustd-text">
                                 <p>
@@ -40,11 +43,13 @@
                             </div>
                         </div>
                         <div class="trustbottombanner">
-                            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
-                                class="mybannertrusted">
+                            <img loading="lazy" alt="donalds Book Publishing"
+                                src="assets/images/trust-icons-banner.webp" class="mybannertrusted">
                         </div>
                     </div>
                 </div>
+
+                 <?php include 'partials/form.php'; ?>
             </div>
         </div>
 
@@ -61,21 +66,25 @@
                     <div class="w-20-c hzoom">
                         <div class="processboxsection vertical-align-box">
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p1.svg">
                                 <h6>Concept & Sketch Development</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p2.svg">
                                 <h6> Illustration & Refinement</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p3.svg">
                                 <h6>Finalization & Delivery</h6>
                             </a>
                         </div>
                     </div>
                     <div class="w-20-c hzoom">
-                        <div class="my-process-box-inner bg1 bg26 bg-illustration border-radius-20 process-style-content">
+                        <div
+                            class="my-process-box-inner bg1 bg26 bg-illustration border-radius-20 process-style-content">
                             <h3>Step 01<br>
 
                                 Concept & Sketch Development</h3>
@@ -108,7 +117,7 @@
         </section>
 
 
-        <section class="main-our-cta-section   ">
+        <section class="main-our-cta-section">
             <div class="container-wrapper">
                 <div class="cta-bg border-radius-33 custom-flex cta-ghost bg-illustrationcta ctastyles-new">
                     <div class="col-lg-6">
@@ -132,8 +141,12 @@
                         <div class="d-flex btnflex mt-4">
                             <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Create Visual Magic
                             </a>
-                            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">
-                                Discuss Your Project</a>
+                            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Discuss Your Project
+
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -142,6 +155,168 @@
 
 
     </div>
+
+    <section class="custom-padding">
+        <div class="container-wrapper">
+            <div class="custom-flex">
+                <div class="col-md-12 col-sm-12 text-center">
+                    <div class="myheading-custom heading-custom-withbtn">
+                        <h2>Choose The Pricing Plan That’s Right For You
+                        </h2>
+
+                        <p class="my-bigp"><strong>We offer straightforward and simple pricing with no hidden
+                                charges!</strong></p>
+                    </div>
+                </div>
+
+                <div class="container py-5">
+                    <div class="row g-4 justify-content-center">
+
+                        <!-- Forever Free -->
+                        <div class="col-md-4">
+                            <div class="pricing-card">
+                                <h5>Premium Plan</h5>
+                                <div class="pt-10">
+                                    <p class="price">$85<span class="fs-6"></span></p>
+                                </div>
+
+                                <div class="ptb-50 ">
+                                    <img src="assets/images/book-design/imgline.png" alt="">
+                                </div>
+
+                                <p>A start-up Illustrator plan.
+                                </p>
+                                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                                <div class="pt-20">
+                                    <a href="#." class="web-black-btn open-chat-button" role="button"
+                                        data-plan="Premium Plan" data-amount="$85">Buy Your plan </a>
+                                </div>
+
+                                <h5>Features</h5>
+
+                                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                                <ul class="overflow">
+                                    <li><img src="assets/images/book-design/check.png" alt=""> 1 Illustration Design
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/book-design/check.png" alt=""> 1 Creative Designer
+                                    </li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> 1 Revision</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Money Back Guarantee</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Full Ownership</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Dedicated Project Manager
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Starter Plan $11 -->
+                        <div class="col-md-4 move-up">
+                            <div class="pricing-card">
+                                <h5>Pro Plan</h5>
+                                <div class="pt-10">
+                                    <p class="price">$199<span class="fs-6"></span></p>
+                                </div>
+
+                                <div class="ptb-50 ">
+                                    <img src="assets/images/book-design/imgline.png" alt="">
+                                </div>
+
+                                <p>All the features of the Premium plan
+
+                                </p>
+                                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                                <div class="pt-20">
+                                    <a href="#." class="web-black-btn open-chat-button" role="button"  data-plan="Pro Plan" data-amount="$199">Buy Your plan </a>
+                                </div>
+
+                                <h5>Features</h5>
+
+                                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                                <ul class="overflow">
+                                    <li><img src="assets/images/book-design/check.png" alt=""> 4 Illustration Designs
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/book-design/check.png" alt=""> 2 Creative Designer
+                                    </li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> 5 Revisions</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Money Back Guarantee</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Full Ownership</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Dedicated Project Manager
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Starter Plan $75 (Best Plan) -->
+
+                        <!-- Starter Plan $32 -->
+                        <div class="col-md-4">
+
+                            <div class="pricing-card best-plan-card">
+                                <!-- <img src="assets/images/home/bestplan.png" alt="Best Plan" class="best-plan-img"> -->
+                                <h5>Author</h5>
+                                <div class="pt-10">
+                                    <p class="price">$499<span class="fs-6"></span></p>
+                                </div>
+
+
+                                <div class="ptb-50 ">
+                                    <img src="assets/images/book-design/imgline.png" alt="">
+                                </div>
+
+                                <p>A plan for seasoned Illustrators
+                                </p>
+                                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                                <div class="pt-20">
+                                    <a href="#." class="web-black-btn open-chat-button" role="button" data-plan="Author" data-amount="$499">Buy Your plan </a>
+                                </div>
+
+                                <h5>Features</h5>
+
+                                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                                <ul class="overflow">
+                                    <li><img src="assets/images/book-design/check.png" alt="">10 Illustration Designs
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/book-design/check.png" alt="">4 Creative Designer
+                                    </li>
+                                    <li><img src="assets/images/book-design/check.png" alt="">100% vector based work
+                                    </li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Unlimited Revisions</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> FREE Color Options</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> File Format</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Money Back Guarantee</li>
+                                    <li><img src="assets/images/book-design/check.png" alt="">Full Ownership</li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Dedicated Project Manager
+                                    </li>
+                                    <li><img src="assets/images/book-design/check.png" alt=""> Prioritized Support</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class=" services-box">
         <div class="container-wrapper">
@@ -242,8 +417,12 @@
                     <div class="btnflex flex-bottoms">
                         <a href="#." class="web-black-btn open-chat-button" role="button">Start Your Illustration
                             Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
+                        <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                            Get in
+                            Touch
+
+                        </a>
                     </div>
                 </div>
             </div>
@@ -264,8 +443,12 @@
                     <div class="btn-blockss mt-4">
                         <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project</a>
                         </div>
-                        <div><a href="#." class="web-blue-btn" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch</a></div>
+                        <div> <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Get in Touch
+
+                            </a></div>
                     </div>
                 </div>
             </div>
@@ -289,8 +472,12 @@
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="d-flex btnflex flex-bottoms">
                         <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
+                        <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                            Get in
+                            Touch
+
+                        </a>
                     </div>
                 </div>
             </div>

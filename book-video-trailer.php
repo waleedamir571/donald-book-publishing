@@ -2,11 +2,9 @@
 <div class="body-content">
 
     <section class="banner banner-inner custom-padding position-relative-customs">
-        <div class="bg-banner-inner-service-img">
-            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/video-trailer/header.png">
-        </div>
+      
         <div class="container-wrapper ">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="services-inner-banner-style">
                         <h1>Bring Your Book to Life on Screen
@@ -27,13 +25,17 @@
                         <div class="d-flex btnflex mt-4">
                             <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Create Your Trailer
                             </a>
-                            <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Contact Us Today
+                            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Contact Us Today
+
                             </a>
                         </div>
                         <div class="custom-flex-banner">
                             <div class="imagetrustd">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trusted-banner.webp">
+                                <img loading="lazy" alt="donalds Book Publishing"
+                                    src="assets/images/trusted-banner.webp">
                             </div>
                             <div class="imagetrustd-text">
                                 <p>
@@ -43,11 +45,13 @@
                             </div>
                         </div>
                         <div class="trustbottombanner">
-                            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
-                                class="mybannertrusted">
+                            <img loading="lazy" alt="donalds Book Publishing"
+                                src="assets/images/trust-icons-banner.webp" class="mybannertrusted">
                         </div>
                     </div>
                 </div>
+
+                 <?php include 'partials/form.php'; ?>
             </div>
         </div>
 
@@ -63,15 +67,18 @@
                     <div class="w-20-c hzoom">
                         <div class="processboxsection vertical-align-box">
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p1.svg">
                                 <h6>Concept <br /> Development</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p2.svg">
                                 <h6>Trailer <br />Production</h6>
                             </a>
                             <a href="javascript:void();" class="process-box">
-                                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
+                                <img loading="lazy" alt="donalds Book Publishing" class="h-51"
+                                    src="assets/images/home/p3.svg">
                                 <h6>Final Edit & Delivery</h6>
                             </a>
                         </div>
@@ -132,8 +139,12 @@
                             <a href="#." class="web-black-btn open-chat-button" role="button">Let’s Talk About Your Book
                                 Trailer
                             </a>
-                            <a href="#." class="web-blue-btn" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Contact Us Today</a>
+                            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Contact Us Today
+
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +189,8 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/video-trailer/video-production.png">
+                            <img loading="lazy" alt="donalds Book Publishing"
+                                src="assets/images/video-trailer/video-production.png">
                         </div>
                     </div>
                 </div>
@@ -222,7 +234,8 @@
 
                         </div>
                         <div class="position-image-custom-ab">
-                            <img loading="lazy" alt="donalds Book Publishing" src="assets/images/video-trailer/sound-design.png">
+                            <img loading="lazy" alt="donalds Book Publishing"
+                                src="assets/images/video-trailer/sound-design.png">
                         </div>
                     </div>
                 </div>
@@ -245,8 +258,12 @@
                 <div class="text-center col-md-12 col-sm-12">
                     <div class=" btnflex flex-bottoms">
                         <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
+                         <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                 Get in
+                            Touch
+                
+                    </a>
                     </div>
                 </div>
             </div>
@@ -268,8 +285,12 @@
                     <div class="btn-blockss mt-4">
                         <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project</a>
                         </div>
-                        <div><a href="#." class="web-blue-btn" data-bs-toggle="modal"
-                                data-bs-target="#contact-popup">Get in Touch</a></div>
+                        <div> <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()"
+                                role="button">
+
+                                Get in Touch
+
+                            </a></div>
                     </div>
                 </div>
             </div>
@@ -292,8 +313,12 @@
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="d-flex btnflex flex-bottoms">
                         <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-                        <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                            Touch</a>
+                         <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                 Get in
+                            Touch
+                
+                    </a>
                     </div>
                 </div>
             </div>
@@ -394,31 +419,34 @@
     </section>
 
     <?php include 'partials/testimonials.php'; ?>
-  <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
-    <div class="container-wrapper">
-      <div class="cta-bg border-radius-33 cta-one ">
-        <div class="col-lg-5 mycustomctanew">
-          <h2 class="uppercase mb-3">Your Vision.  <br>
-            Our Expertise</h2>
-          <p>
-           Donald’s Book Video Trailer services in the USA that make your book a hit!
+    <section class="main-our-cta-section mb-5 mt-5  " id="our-cta-section">
+        <div class="container-wrapper">
+            <div class="cta-bg border-radius-33 cta-one ">
+                <div class="col-lg-5 mycustomctanew">
+                    <h2 class="uppercase mb-3">Your Vision. <br>
+                        Our Expertise</h2>
+                    <p>
+                        Donald’s Book Video Trailer services in the USA that make your book a hit!
 
 
 
 
-          </p>
-          <p class="captial-small">Sign up now to connect with us.
-          </p>
+                    </p>
+                    <p class="captial-small">Sign up now to connect with us.
+                    </p>
 
-          <div class="d-flex btnflex mt-5">
-            <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup"> Get connected</a>
-          </div>
+                    <div class="d-flex btnflex mt-5">
+                        <a href="#." class="web-black-btn open-chat-button" role="button">Consult now</a>
+                        <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                            Connect now
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-      </div>
-    </div>
-  </section>
+    </section>
 
 
     <?php include 'partials/why-choose.php'; ?>

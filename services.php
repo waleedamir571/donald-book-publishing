@@ -25,8 +25,10 @@
             </div>
             <div class="d-flex btnflex mt-4">
               <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-              <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal" data-bs-target="#contact-popup">Get
-                in Touch</a>
+               <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                        Connect now
+                    </a>
             </div>
             <div class="custom-flex-banner">
               <div class="imagetrustd"><img loading="lazy" alt="donalds Book Publishing"

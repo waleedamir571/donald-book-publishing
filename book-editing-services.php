@@ -3,11 +3,9 @@
 
 
   <section class="banner banner-inner custom-padding position-relative-customs">
-    <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="donalds Book Publishing" src="assets/images/book-editing/header.png">
-    </div>
+   
     <div class="container-wrapper ">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-lg-6 col-md-12 col-sm-12">
           <div class="services-inner-banner-style">
             <h1>Master Your Manuscript with the Best Book Editing Services</h1>
@@ -24,8 +22,11 @@
             <div class="d-flex btnflex mt-4">
               <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project
               </a>
-              <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in Touch Today!
-              </a>
+              <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                       Get in Touch
+                Today!
+                    </a>
             </div>
             <div class="custom-flex-banner">
               <div class="imagetrustd"><img loading="lazy" alt="donalds Book Publishing"
@@ -41,6 +42,8 @@
             </div>
           </div>
         </div>
+
+         <?php include 'partials/form.php'; ?>
       </div>
     </div>
 
@@ -56,15 +59,15 @@
           <div class="w-20-c hzoom">
             <div class="processboxsection vertical-align-box">
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
+                <img loading="lazy" alt="donalds Book Publishing" class="h-51" src="assets/images/home/p1.svg">
                 <h6>Manuscript <br /> Evaluation</h6>
               </a>
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
+                <img loading="lazy" alt="donalds Book Publishing"  class="h-51" src="assets/images/home/p2.svg">
                 <h6>Content <br /> Refinement</h6>
               </a>
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
+                <img loading="lazy" alt="donalds Book Publishing"   class="h-51" src="assets/images/home/p3.svg">
                 <h6>Final <br /> Proofreading</h6>
               </a>
             </div>
@@ -120,7 +123,11 @@
 
             <div class="d-flex btnflex mt-4">
               <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in Touch</a>
+              <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                       Get in Touch
+                Today!
+                    </a>
             </div>
           </div>
         </div>
@@ -129,6 +136,176 @@
 
 
   </div>
+
+    <section class="custom-padding">
+    <div class="container-wrapper">
+      <div class="custom-flex">
+        <div class="col-md-12 col-sm-12 text-center">
+          <div class="myheading-custom heading-custom-withbtn">
+            <h2>Choose The Pricing Plan That’s Right For You
+            </h2>
+
+            <p class="my-bigp"><strong>We offer straightforward and simple pricing with no hidden charges!</strong></p>
+          </div>
+        </div>
+
+        <div class="container py-5">
+          <div class="row g-4 justify-content-center">
+
+            <!-- Forever Free -->
+            <div class="col-md-4">
+              <div class="pricing-card">
+                <h5>Copyediting Package</h5>
+                <div class="pt-10">
+                <p class="price">$0.16<span class="fs-6"></span></p>
+                </div>
+
+                <div class="ptb-50 ">
+                  <img src="assets/images/book-design/imgline.png" alt="">
+                </div>
+
+                <p>A starter plan for writers with great ideas
+                </p>
+                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                <div class="pt-20">
+                  <a href="#." class="web-black-btn open-chat-button" role="button" data-plan="Copyediting Package" data-amount="$0.16">Buy Your plan </a>
+                </div>
+
+                <h5>Features</h5>
+
+                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                <ul class="overflow">
+                  <li><img src="assets/images/book-design/check.png" alt=""> Spelling
+                  </li>
+                  <li>
+                    <img src="assets/images/book-design/check.png" alt=""> Grammar
+                  </li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Punctuation</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Line and page breaks</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Consistency</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Usage</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> In-document comments</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Unlimited publishing consultations and
+                    support</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> TDetailed editorial letter – 1 to 2 pages</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Starter Plan $11 -->
+            <div class="col-md-4 move-up">
+              <div class="pricing-card">
+                <h5>Line Editing Package</h5>
+                <div class="pt-10">
+                <p class="price">$0.21<span class="fs-6"></span></p>
+                </div>
+
+                <div class="ptb-50 ">
+                  <img src="assets/images/book-design/imgline.png" alt="">
+                </div>
+
+                <p>All the features of the Premium plan
+
+                </p>
+                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                <div class="pt-20">
+                  <a href="#." class="web-black-btn open-chat-button" role="button" data-plan="Line Editing Package" data-amount="$0.21">Buy Your plan </a>
+                </div>
+
+                <h5>Features</h5>
+
+                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                <ul class="overflow">
+                  <li><img src="assets/images/book-design/check.png" alt=""> Spelling
+                  </li>
+                  <li>
+                    <img src="assets/images/book-design/check.png" alt=""> Grammar
+                  </li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Punctuation</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Line and page breaks</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> AConsistency</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Punctuation</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Line and page breaks</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Consistency</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Usage</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> In-document comments</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Paragraph structure</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Chapter breaks</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Plot flow</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Pacing</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Characterization</li>
+                   <li><img src="assets/images/book-design/check.png" alt=""> Dialogue</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Continuity</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Detailed editorial letter – 2 to 4 pages</li>
+
+                </ul>
+              </div>
+            </div>
+
+            <!-- Starter Plan $75 (Best Plan) -->
+
+            <!-- Starter Plan $32 -->
+            <div class="col-md-4">
+              <div class="pricing-card">
+                <h5>Development Editing</h5>
+                <div class="pt-10">
+                  <p class="price">$0.80<span class="fs-6"></span></p>
+                </div>
+
+
+                <div class="ptb-50 ">
+                  <img src="assets/images/book-design/imgline.png" alt="">
+                </div>
+
+                <p>A plan for seasoned authors
+                </p>
+                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                <div class="pt-20">
+                  <a href="#." class="web-black-btn open-chat-button" role="button" data-plan="Development Editing" data-amount="$0.80">Buy Your plan </a>
+                </div>
+
+                <h5>Features</h5>
+
+                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                <ul class="overflow">
+                  <li><img src="assets/images/book-design/check.png" alt="">In-document comments
+                  </li>
+                  <li>
+                    <img src="assets/images/book-design/check.png" alt=""> Paragraph structure
+                  </li>
+                  <li><img src="assets/images/book-design/check.png" alt="">Chapter breaks</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Plot flow</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Pacing</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Characterization</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Continuity</li>
+                   <li><img src="assets/images/book-design/check.png" alt="">Plot restructuring</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Evaluation of theme, premise, and imagery</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Timeline analysis</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Tightening thesis, improving focus</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Book mapping</li>
+                   <li><img src="assets/images/book-design/check.png" alt=""> Detailed editorial letter – 5 to 10 pages</li>
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class=" services-box">
     <div class="container-wrapper">
@@ -212,7 +389,11 @@
           <div class=" btnflex flex-bottoms">
             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project
             </a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in Touch</a>
+            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                       Get in Touch
+                Today!
+                    </a>
           </div>
         </div>
       </div>
@@ -232,8 +413,10 @@
           <div class="btn-blockss mt-4">
             <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project
             </a></div>
-            <div><a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                Touch</a></div>
+            <div> <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                        Connect now
+                    </a></div>
           </div>
         </div>
       </div>
@@ -255,7 +438,11 @@
         <div class="col-lg-5 col-md-12 col-sm-12">
           <div class="d-flex btnflex flex-bottoms">
             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in Touch</a>
+            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                       Get in Touch
+                Today!
+                    </a>
           </div>
         </div>
       </div>

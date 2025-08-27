@@ -925,7 +925,7 @@ function sendSlack($data)
     $connection2 = new mysqli("localhost", "u523339939_donald", "Cybertron@2026", "u523339939_donald");
     $ch = curl_init();
     // curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
-    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

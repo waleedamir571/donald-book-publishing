@@ -1,5 +1,5 @@
 <footer>
-    <section class=" custom-padding bg-ctabottom">
+    <section class=" custom-padding bg-ctabottom  fnone">
         <div class="container-wrapper">
             <div class="row d-flex justify-content-around align-items-center">
                 <div class="col-lg-5 col-md-12 col-sm-12">
@@ -151,7 +151,7 @@
                             <div class="customulfooter">
                                 <ul>
                                     <li>
-                                        <a href="book-writing-services">Book Writing Service</a>
+                                        <a href="ghost-writing-services">Ghost Writing Service</a>
                                     </li>
                                     <li>
                                         <a href="book-design-services">Book Design Service</a>
@@ -204,9 +204,12 @@
                     <div class="customulfooter footer-content">
                         <h6 class="">Contact Details</h6>
                         <p>Phone</p>
-                        <a href="tel:(949) 239-6045">(949) 239-6045</a>
+                        <a href="tel:(551) 290-8897">(551) 290-8897</a>
                         <p>Email</p>
-                        <a href="mailto:info@donaldsbookpublishing.com">info@donaldsbookpublishing.com</a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@donaldsbookpublishing.com"
+                            target="_blank">
+                            Email: info@donaldsbookpublishing.com
+                        </a>
                         <p>
                             Address
                             <br>
@@ -236,18 +239,22 @@
     <div class="fixed-btm">
         <ul class="fixed-list">
             <li>
-                <a href="tel:+1 (833) 501-8030">
+                <a href="tel:(551) 290-8897">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@donaldsbookpublishing.com"
+                    data-bs-toggle="modal" data-bs-target="#contact-popup">
                     <i class="fa fa-envelope"></i>
                 </a>
             </li>
         </ul>
     </div>
 </div>
+
+
+
 <div class="modal fade" id="contact-popup" tabindex="-1" role="dialog" aria-labelledby="contact-popup"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
@@ -258,9 +265,9 @@
                 </button>
                 <div class="modal-left-content">
                     <div class="position-relative custom-rr">
-                        <div class="logo-popups">
+                        <!-- <div class="logo-popups">
                             <img loading="lazy" alt="" src="assets/images/logo-popup.webp" alt="">
-                        </div>
+                        </div> -->
                         <div class="boxpopupimage">
                             <img loading="lazy" alt="" src="assets/images/popup-imagee.webp" alt="">
                         </div>
@@ -270,12 +277,14 @@
                     <div class="form-box">
                         <p class="my-pform">Sign Up Now and</p>
                         <h3 class="clr-changed"> Start Your
-                            <span class="clr-changed ">Best-Selling</span>
+                            <span class="clr-changed ">Best-Selling</span> 
                             Journey!
                         </h3>
 
                         <form action="backend/action/action.php" method="POST">
                             <input type="hidden" name="type" value="formLong">
+                            <input type="hidden" name="plan_name" id="planName">
+                            <input type="hidden" name="plan_amount" id="planAmount">
                             <div class="row">
                                 <div class="col">
                                     <input name="full_name" type="text" maxlength="60" id="txtcnsite1"
@@ -330,6 +339,14 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- <div class="row">
+                                <div class="col">
+                                    <input type="text" id="planNameDisplay" class="form-control" readonly>
+                                </div>
+                                <div class="col">
+                                    <input type="text" id="planAmountDisplay" class="form-control" readonly>
+                                </div>
+                            </div> -->
                             <div class="row">
                                 <div class="col">
                                     <input name="email" type="text" maxlength="60" id="txtemsite1"
@@ -391,20 +408,94 @@
     // });
 
 </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll(".open-chat-button");
+
+        buttons.forEach(button => {
+            button.addEventListener("click", function () {
+                const plan = this.getAttribute("data-plan");
+                const amount = this.getAttribute("data-amount");
+
+                // Set hidden inputs
+                document.getElementById("planName").value = plan;
+                document.getElementById("planAmount").value = amount;
+
+                // Set visible inputs (if you added them)
+                document.getElementById("planNameDisplay").value = plan;
+                document.getElementById("planAmountDisplay").value = amount;
+            });
+        });
+    });
+</script>
+
 </form>
 </body>
 
 </html>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Select all buttons with this class
-    const buttons = document.querySelectorAll(".web-black-btn");
+    // Page load hone ke 60 seconds (60000 ms) baad modal kholna
+    setTimeout(function () {
+        var myModal = new bootstrap.Modal(document.getElementById('contact-popup'));
+        myModal.show();
+    }, 60000);
+</script>
 
-    buttons.forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        window.location.href = "contact-us"; // yahan apni contact page ki URL daal do
-      });
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Select all buttons with this class
+        const buttons = document.querySelectorAll(".web-black-btn");
+
+        buttons.forEach(function (btn) {
+            btn.addEventListener("click", function () {
+                // Bootstrap modal show karne ka code
+                var myModal = new bootstrap.Modal(document.getElementById('contact-popup'));
+                myModal.show();
+            });
+        });
     });
-  });
+</script>
+
+
+<script>
+    function openZendeskChat() {
+        // Open Zendesk chat widget
+        if (typeof window !== 'undefined' && window.zE) {
+            window.zE('messenger', 'open');
+        } else {
+            // Fallback if Zendesk is not loaded yet
+            console.log('Zendesk chat opening...');
+            setTimeout(() => {
+                if (window.zE) {
+                    window.zE('messenger', 'open');
+                }
+            }, 1000);
+        }
+    }
+
+    // Initialize when page loads
+    document.addEventListener('DOMContentLoaded', function () {
+        console.log('Chat page loaded successfully');
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const dropdownToggle = document.querySelector(".custom-dropdown .dropdown-toggle");
+        const dropdown = document.querySelector(".custom-dropdown");
+
+        dropdownToggle.addEventListener("click", function (e) {
+            e.preventDefault();
+            dropdown.classList.toggle("open");
+        });
+
+        // Close dropdown jab bahar click ho
+        document.addEventListener("click", function (e) {
+            if (!dropdown.contains(e.target)) {
+                dropdown.classList.remove("open");
+            }
+        });
+    });
 </script>

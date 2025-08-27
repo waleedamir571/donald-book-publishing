@@ -4,28 +4,29 @@
 
   <section class="banner banner-inner custom-padding position-relative-customs">
     <div class="bg-banner-inner-service-img">
-      <img loading="lazy" alt="donalds Book Publishing" src="assets/images/Book-writing/Header.png">
+      <!-- <img loading="lazy" alt="donalds Book Publishing" src="assets/images/Book-writing/Header.png"> -->
     </div>
     <div class="container-wrapper ">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-lg-6 col-md-12 col-sm-12">
           <div class="services-inner-banner-style">
-            <h1>Professional Book Writing Services in the USA – Get Yours Today!</h1>
-            <p class="main-para">Best writing services that turn your dream into reality
+            <h1>Professional Ghost Writing Services in the USA – Get Yours Today!</h1>
+            <p class="main-para">Best ghost writing services that turn your dream into reality
             </p>
             <div class="custom-ul ctaul">
               <ul>
                 <li>Get a write-up of your book now without hassle
                 </li>
                 <li>From ISBN registration to Amazon KDP & global distribution</li>
-                <li>Seamless process of book writing
+                <li>Seamless process of Ghost Writing
                 </li>
               </ul>
             </div>
             <div class="d-flex btnflex mt-4">
               <a href="#." class="web-black-btn open-chat-button" role="button">Free Consultation </a>
-              <a href="#." class="web-blue-btn" role="button" data-bs-toggle="modal"
-                data-bs-target="#contact-popup">Connect now
+              <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                Connect now
               </a>
             </div>
             <div class="custom-flex-banner">
@@ -36,12 +37,15 @@
                   5600+ Author’s Worldwide</p>
               </div>
             </div>
-            <div class="trustbottombanner">
+            <div class="trustbottombanner pt-20">
               <img loading="lazy" alt="donalds Book Publishing" src="assets/images/trust-icons-banner.webp"
                 class="mybannertrusted">
             </div>
           </div>
         </div>
+
+
+<?php include 'partials/form.php'; ?>
       </div>
     </div>
 
@@ -57,15 +61,15 @@
           <div class="w-20-c hzoom">
             <div class="processboxsection vertical-align-box">
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-1.webp">
+                <img loading="lazy" alt="donalds Book Publishing" class="h-51" src="assets/images/home/p1.svg">
                 <h6>Consultation & Outline Creation</h6>
               </a>
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-2.webp">
+                <img loading="lazy" alt="donalds Book Publishing" class="h-51" src="assets/images/home/p2.svg">
                 <h6>Chapter Development & Submission</h6>
               </a>
               <a href="javascript:void();" class="process-box">
-                <img loading="lazy" alt="donalds Book Publishing" src="assets/images/process-3.webp">
+                <img loading="lazy" alt="donalds Book Publishing" class="h-51" src="assets/images/home/p3.svg">
                 <h6>Editing, Formatting & Finalization</h6>
               </a>
             </div>
@@ -125,7 +129,9 @@
 
             <div class="d-flex btnflex mt-4">
               <a href="#." class="web-black-btn open-chat-button" role="button">Free Consultation </a>
-              <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Connect now
+              <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                Connect now
               </a>
             </div>
           </div>
@@ -135,6 +141,178 @@
 
 
   </div>
+
+   <section class="custom-padding">
+    <div class="container-wrapper">
+      <div class="custom-flex">
+        <div class="col-md-12 col-sm-12 text-center">
+          <div class="myheading-custom heading-custom-withbtn">
+            <h2>Choose The Pricing Plan That’s Right For You
+            </h2>
+
+            <p class="my-bigp"><strong>We offer straightforward and simple pricing with no hidden charges!</strong></p>
+          </div>
+        </div>
+
+        <div class="container py-5">
+          <div class="row g-4 justify-content-center">
+
+            <!-- Forever Free -->
+            <div class="col-md-4">
+              <div class="pricing-card">
+                <h5>Premium Plan</h5>
+                <div class="pt-10">
+                <p class="price">$2,999<span class="fs-6"></span></p>
+                </div>
+
+                <div class="ptb-50 ">
+                  <img src="assets/images/book-design/imgline.png" alt="">
+                </div>
+
+                <p>A mid-tier ebook plan with FREE book analysis
+                </p>
+                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                <div class="pt-20">
+                  <a href="#." class="web-black-btn open-chat-button" role="button" data-plan="Premium Plan" data-amount="$2,999">Buy Your plan </a>
+                </div>
+
+                <h5>Features</h5>
+
+                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                <ul class="overflow">
+                  <li><img src="assets/images/book-design/check.png" alt=""> Creating /updating the outline.
+                  </li>
+                  <li>
+                    <img src="assets/images/book-design/check.png" alt=""> Completing an entire book of 100-200 Pages as per the requirements/outline.
+                  </li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Adjusting the layout and presentation for the publishing standards.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Unlimited revisions
+                    </li>
+                  <li><img src="assets/images/book-design/check.png" alt="">A dedicated team of expert writers.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Access to the online portal.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Free Editing, Proofreading and formatting</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Free Cover design</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> 100% Content Copyrights.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Starter Plan $11 -->
+            <div class="col-md-4 move-up">
+              <div class="pricing-card">
+                <h5>Pro Plan</h5>
+                <div class="pt-10">
+                <p class="price">$3,999<span class="fs-6"></span></p>
+                </div>
+
+                <div class="ptb-50 ">
+                  <img src="assets/images/book-design/imgline.png" alt="">
+                </div>
+
+                <p>20% off all the features of the Premium plan
+
+                </p>
+                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                <div class="pt-20">
+                  <a href="#." class="web-black-btn open-chat-button" role="button"  data-plan="Pro Plan" data-amount="$3,999">Buy Your plan </a>
+                </div>
+
+                <h5>Features</h5>
+
+                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                <ul class="overflow">
+                  <li><img src="assets/images/book-design/check.png" alt=""> Creating /updating the outline.
+                  </li>
+                  <li>
+                    <img src="assets/images/book-design/check.png" alt=""> Completing an entire book of 200-250 Pages as per the requirements/outline.
+                  </li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Adjusting the layout and presentation for the publishing standards.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Unlimited revisions</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> A dedicated team of expert writers.</li>
+
+                   <li><img src="assets/images/book-design/check.png" alt=""> Access to the online portal.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Free Editing, Proofreading and formatting</li>
+                  <li><img src="assets/images/book-design/check.png" alt="">Free Cover design</li>
+
+                   <li><img src="assets/images/book-design/check.png" alt=""> 100% Content Copyrights.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Publishing on Amazon, CreateSpace and Kindle ( Along with creating the accounts )</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> We will publish your book on Amazon, Kindle, and CreateSpace. Your book will be sold
+									in three different formats. E-Book, Paperback and HardCover. (Amazon will be
+									responsible for Printing and Shipping your book).</li>
+
+
+                </ul>
+              </div>
+            </div>
+
+            <!-- Starter Plan $75 (Best Plan) -->
+
+            <!-- Starter Plan $32 -->
+            <div class="col-md-4">
+              <div class="pricing-card">
+                <h5>Best-seller</h5>
+                <div class="pt-10">
+                  <p class="price">$7,999<span class="fs-6"></span></p>
+                </div>
+
+
+                <div class="ptb-50 ">
+                  <img src="assets/images/book-design/imgline.png" alt="">
+                </div>
+
+                <p>An all-in-one self-publishing package for authors, covering 10+ marketing
+							and publishing platforms
+                </p>
+                <!-- <button class="web-black-btn open-chat-button"></button> -->
+                <div class="pt-20">
+                  <a href="#." class="web-black-btn open-chat-button" role="button" data-plan="Best Seller" data-amount="$7,999">Buy Your plan </a>
+                </div>
+
+                <h5>Features</h5>
+
+                <img src="assets/images/book-design/imgline.png" alt="">
+
+
+
+
+                <ul class="overflow">
+                  <li><img src="assets/images/book-design/check.png" alt="">Creating /updating the outline.
+                  </li>
+                  <li>
+                    <img src="assets/images/book-design/check.png" alt="">Completing an entire book of 250-350 Pages as per the requirements/outline.
+                  </li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Adjusting the layout and presentation for the publishing standards.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Unlimited revisions</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> A dedicated team of expert writers.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Access to the online portal.</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Free Editing, Proofreading and formatting</li>
+
+                   <li><img src="assets/images/book-design/check.png" alt=""> Free Cover design</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> 100% Content Copyrights</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> Publishing on Amazon, CreateSpace and Kindle ( Along with creating the accounts )</li>
+                  <li><img src="assets/images/book-design/check.png" alt=""> We will publish your book on Amazon, Kindle, and CreateSpace. Your book will be sold
+									in three different formats. E-Book, Paperback and HardCover. (Amazon will be
+									responsible for Printing and Shipping your book).</li>
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
   <section class=" services-box">
     <div class="container-wrapper">
@@ -179,7 +357,7 @@
               <h3>Story Structuring</h3>
               <p>Crafting a solid narrative structure that steers the story with clarity and intent.
               </p>
-              <a href="#." data-bs-toggle="modal" data-bs-target="#contact-popup" class="web-blue-btn"> Get a
+              <a href="javascript:void(0);" onclick="openZendeskChat()" role="button" class="web-blue-btn"> Get a
                 Quote</a>
 
               <div class="position-image"> <img loading="lazy" alt="donalds Book Publishing"
@@ -223,12 +401,17 @@
         <div class=" col-md-12 col-sm-12 text-center">
           <div class=" btnflex flex-bottoms">
             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Project </a>
-            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get connected</a>
+            <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+              Get Connected
+            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+   
 
   <section class="main-our-cta-section" id="">
     <div class="container-wrapper">
@@ -244,8 +427,10 @@
 
           <div class="btn-blockss mt-4">
             <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project </a></div>
-            <div><a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                Touch</a></div>
+            <div><a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+
+                Get in Touch
+              </a></div>
           </div>
         </div>
       </div>

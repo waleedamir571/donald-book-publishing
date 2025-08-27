@@ -24,7 +24,8 @@
     </title>
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="keywords" content="<?php echo $keywords; ?>" />
-   <link rel="canonical" href="https://<?php echo $_SERVER['HTTP_HOST'] . strtok($_SERVER["REQUEST_URI"], '?'); ?>" />
+    <link rel="canonical" href="https://<?php echo $_SERVER['HTTP_HOST'] . strtok($_SERVER["REQUEST_URI"], '?'); ?>" />
+
 
     <!-- <meta name="robots" content="noindex, nofollow"> -->
 
@@ -104,6 +105,23 @@
     <meta name="googlebot" content="index, follow, max-snippet: -1" />
     <meta name="bingbot" content="index, follow, max-snippet: -1 " />
 
+    <!-- Start of donaldsbookpublishing Zendesk Widget script -->
+    <script id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=41a87322-d93d-4e50-a2d4-02d04b9d5438"> </script>
+    <!-- End of donaldsbookpublishing Zendesk Widget script -->
+
+
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17439684795"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17439684795');
+</script>
+   
+
 </head>
 
 <body>
@@ -129,7 +147,7 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="book-writing-services">Book
+                            <a class="nav-link active" aria-current="page" href="ghost-writing-services">Ghost
                                 Writing</a>
                         </li>
                         <li class="nav-item">
@@ -171,29 +189,26 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item d-block d-md-none">
+                        <li class="nav-item d-block d-md-none custom-dropdown">
 
-                            <ul class="list-unstyled ">
-                                <li><a class="nav-link fs-14" href="services">Services</a></li>
-                                <li><a class="nav-link fs-14" href="book-printing-services">Book Printing</a></li>
-                                <li><a class="nav-link fs-14" href="book-video-trailer">Book Video Trailer</a></li>
-                                <li><a class="nav-link fs-14" href="web-design-and-seo">Web design & SEO</a></li>
-                                <li><a class="nav-link fs-14" href="book-illustration-services">Illustration
-                                        Services</a></li>
-                                <li><a class="nav-link fs-14" href="articles-services">Articles Services</a></li>
-                                <li><a class="nav-link fs-14" href="book-design-services">Book Design Services</a></li>
-                                <li><a class="nav-link fs-14" href="blog-writing-services">Blog Writing Services</a>
-                                </li>
-                                <li><a class="nav-link fs-14" href="web-content-writing-service">Web Content Writing
-                                        Service</a></li>
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="book-printing-services">Book Printing</a></li>
+                                <li><a href="book-video-trailer">Book Video Trailer</a></li>
+                                <li><a href="web-design-and-seo">Web design & SEO</a></li>
+                                <li><a href="book-illustration-services">Illustration Services</a></li>
+                                <li><a href="articles-services">Articles Services</a></li>
+                                <li><a href="book-design-services">Book Design Services</a></li>
+                                <li><a href="blog-writing-services">Blog Writing Services</a></li>
+                                <li><a href="web-content-writing-service">Web Content Writing Service</a></li>
                             </ul>
                         </li>
 
 
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Blogs </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="contact-us">Contact </a>
                         </li>
@@ -261,10 +276,10 @@
     </script>
 
     <script>
-  (function() {
-    var link = document.createElement('link');
-    link.rel = 'canonical';
-    link.href = window.location.href.split("?")[0]; // query string hata di
-    document.head.appendChild(link);
-  })();
-</script>
+        (function () {
+            var link = document.createElement('link');
+            link.rel = 'canonical';
+            link.href = window.location.href.split("?")[0]; // query string hata di
+            document.head.appendChild(link);
+        })();
+    </script>

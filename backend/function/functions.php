@@ -23,12 +23,14 @@ function nameEmailPhoneMessageForm($data, $connection)
     $email = isset($data['email']) ? $connection->real_escape_string($data['email']) : '';
     $phone = isset($data['phone_no']) ? $connection->real_escape_string($data['phone_no']) : '';
     $message = isset($data['message']) ? $connection->real_escape_string($data['message']) : '';
+    $plan_name = isset($data['plan_name']) ? $connection->real_escape_string($data['plan_name']) : '';
+    $plan_amount = isset($data['plan_amount']) ? $connection->real_escape_string($data['plan_amount']) : '';
     $page = isset($data['page']) ? $connection->real_escape_string($data['page']) : '';
     $created_at = date("Y-m-d H:i:s");
 
     // Store into DB
-    $query = "INSERT INTO form (full_name, email, phone_no, message, created_at)
-              VALUES ('$name', '$email', '$phone', '$message', '$created_at')";
+    $query = "INSERT INTO form (full_name, email, phone_no, message, plan_name, plan_amount, created_at)
+              VALUES ('$name', '$email', '$phone', '$message', '$plan_name','$plan_amount' ,'$created_at')";
     $connection->query($query);
 
     // Email Content for Admin
@@ -39,6 +41,8 @@ function nameEmailPhoneMessageForm($data, $connection)
     <p><strong>Email:</strong> $email</p>
     <p><strong>Phone:</strong> $phone</p>
     <p><strong>Message:</strong><br>$message</p>
+    <p><strong>Plan Name:</strong><br>$plan_name</p>
+    <p><strong>Plan Amount:</strong><br>$plan_amount</p>
     ";
 
     // Auto-reply Content for User
@@ -59,7 +63,7 @@ function nameEmailPhoneMessageForm($data, $connection)
     sendEmails($name, $email, $adminSubject, $adminBody, $userSubject, $userBody);
 
     $slackContent = json_encode([
-        "text" => "Hi Team,\nWe have received a new lead.\n\nPage: $page\nName: $name\nEmail: $email\nPhone: $phone\nMessage: $message"
+        "text" => "Hi Team,\nWe have received a new lead.\n\nPage: $page\nName: $name\nEmail: $email\nPhone: $phone\nMessage: $message\n Name: $plan_name\n Amount: $plan_amount"
     ]);
     sendSlack($slackContent);
 

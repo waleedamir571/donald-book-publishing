@@ -11,8 +11,10 @@
           <div class="btn-blockss mt-4">
             <div><a href="#." class="web-black-btn open-chat-button" role="button">Discuss Your Project
             </a></div>
-            <div><a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get in
-                Touch</a></div>
+            <div> <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                        Connect now
+                    </a></div>
           </div>
         </div>
       </div>

@@ -29,7 +29,196 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.form-select:focus {
+    outline: none !important;       /* default outline remove */
+    box-shadow: none !important;    /* bootstrap ka glow remove */
+    border-color: #ccc !important;  /* normal border color rakhna ho */
+}
 
+.form-select:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.pt-40{
+	padding-top: 40px;
+}
+
+
+.what{
+	
+    font-size: 40px;
+    color: #BE0A2F;
+    line-height: 1.3;
+    text-transform: uppercase;
+
+}
+
+.form-box1 button.web-blue-btn {
+    color: #fff;
+    border: 1px solid #0E4173;
+    background-color: #0E4173;
+    display: inline-block;
+    padding: 10px 40px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Josefin Sans", serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-align: center;
+    margin: 16px auto 0;
+    width: 180px;
+}
+
+.form-control:focus {
+    outline: none !important;   /* default browser outline remove */
+    box-shadow: none !important; /* bootstrap ka shadow remove */
+    border-color: #ccc; /* apna normal border rakhna ho to */
+}
+
+
+.banner-main-form {
+    background: white;
+    border-radius: 20px;
+    border: 1px solid #efefef;
+    /* box-shadow: 0 3px 10px -6px #000; */
+    padding: 30px 30px;
+    position: relative;
+    z-index: 1;
+	transform: scale(1.06);
+	box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .1);
+}
+
+
+
+.pt-10{
+	padding-top: 10px;
+}
+
+
+.pt-20{
+	padding-top: 20px;
+}
+
+.overflow{
+	    height: 200px;
+    /* position: relative; */
+    overflow-y: auto;
+}
+
+.h-51{
+	height: 50px;
+}
+
+.pricing-card {
+    background: #0d2b52;
+    color: white;
+    border-radius: 8px;
+   padding: 30px 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    text-align: left;
+	height: 100%;
+}
+
+.best-plan-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 100px;  /* responsive ke liye limit */
+  height: auto;
+  z-index: 1;
+}
+
+
+.best-plan-card {
+  position: relative; /* zaroori hai */
+}
+.move-up {
+transform: scale(1.06);
+}
+
+.pricing-card:hover {
+  background: #fff;
+  color: #000;   /* Base text black */
+  transform: scale(1.04);
+  z-index: 10;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Texts inside card turn black on hover */
+.pricing-card:hover h5,
+.pricing-card:hover .price,
+.pricing-card:hover p,
+.pricing-card:hover ul li {
+  color: #000 !important;
+}
+
+.pricing-card h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.ptb-50 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.price {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.pricing-card ul li {
+    margin: 10px 0;
+    display: flex
+;
+    align-items: center;
+    color: inherit;
+    gap: 10px;
+}
+
+.pricing-card ul li::before {
+    /* content: "✔"; 
+  color: red;  */
+  /* background-image: url('../images/book-design/check.png');
+  background-size: 100% 100%; */
+  margin-right: 10px;
+}
+
+.btn-custom {
+  background: #e63946;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.btn-custom:hover {
+  background: #c1121f;
+  color: #fff;
+}
+
+.best-plan {
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  background: #e63946;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
 
 h6.mb-20
  {
@@ -7126,14 +7315,40 @@ img {
 	max-width: 100%
 }
 
+/* Scrollbar ko patla karna */
+.overflow::-webkit-scrollbar {
+    width: 6px;  /* chhota/patla scrollbar */
+}
+
+/* Scrollbar track */
+.overflow::-webkit-scrollbar-track {
+    background: #f0f0f0; /* halka grey background */
+}
+
+/* Scrollbar thumb (jo move hota hai) */
+.overflow::-webkit-scrollbar-thumb {
+    background: lightgrey; 
+    border-radius: 10px;   /* thoda gol edge */
+}
+
+/* Hover effect (optional) */
+.overflow::-webkit-scrollbar-thumb:hover {
+    background: #bfbfbf;
+}
+
+label.form-check-label {
+    color: black;
+}
+
 html body label, html body li, html body p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 600;
     color: white;
     margin: 0;
     padding: 0;
 }
+
 
 html body h1,
 html body h2,
@@ -7196,9 +7411,10 @@ html body h4 {
 }
 
 html body h5 {
-	font-size: 30px;
-	color: #000;
-	line-height: 40px
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    /* padding-bottom: 15px; */
 }
 
 html body h6 {
@@ -7216,25 +7432,24 @@ html body h6 {
 }
 
 a.web-black-btn {
-	border-radius: 50px;
-	color: #fff;
-	border: 1px solid transparent;
-	background-color: #BE0A2F ;
-	padding: 10px 40px 6px;
-	margin-bottom: 30px;
-	font-size: 18px
+    border-radius: 50px;
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #BE0A2F;
+    padding: 9px 40px 9px;
+    margin-bottom: 30px;
+    font-size: 18px;
 }
 
-a.web-blue-btn,
-button.web-blue-btn,
-input.web-blue-btn {
-	color: #000;
-	background-color: white;
-	padding: 10px 40px 6px;
-	margin-bottom: 30px;
-	font-size: 18px
-}
+a.web-blue-btn, button.web-blue-btn, input.web-blue-btn
 
+ {
+    color: #000;
+    background-color: white;
+    padding: 9px 40px 9px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
 a.web-black-btn:hover {
     color: white;
     border: 1px solid #000;
@@ -7334,7 +7549,7 @@ section.form-section.custom-padding {
 }
 
 .content-services a.web-blue-btn {
-    padding: 10px 40px 6px;
+    padding: 9px 40px 9px;
     margin-bottom: 30px;
     font-size: 18px;
     border: 1px solid transparent;
@@ -7492,7 +7707,7 @@ a.process-box:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	bottom: 35px;
+	bottom: 20px;
 	right: 0;
 	background-size: 100%
 }
@@ -7595,11 +7810,16 @@ a.process-box:hover {
 }
 
 .bg2.bg-blogwriting2:before {
-	background-image: url(../images/blog-writing/step\ 2.png)
+	background-image: url(../images/blog-writing/step\ 2.png);
+	background-size: 85%;
+    background-position: bottom;
+
 }
 
 .bg3.bg-blogwriting3:before {
-	background-image: url(../images/blog-writing/step\ 3.png)
+	background-image: url(../images/blog-writing/step\ 3.png);
+	background-position: right;
+    background-size: 95%;
 }
 
 .cta-ghost.bg-blogwritingcta:before {
@@ -7713,18 +7933,16 @@ a.process-box:hover {
 	background-image: url(../images/web-design/step-2.png) !important;
 }
 
-.bg25:before {
+.bg2.bg-4:before, .bg3.bg-32:before, .bg3:before {
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: bottom;
+    height: 100%;
+    right: 0;
+    background-size: 93%;
+    width: 100%;
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: 0px;
-    right: 0;
-    background-size: 100%;
-    background-color: #BE0A2F;
-    border-radius: 20px;
+    bottom: 0;
 }
 
 .bg26:before {
@@ -8606,7 +8824,7 @@ section.banner.banner-inner {
 	border: 1px solid #0E4173;
 	background-color: #0E4173;
 	display: inline-block;
-	padding: 10px 40px 6px;
+	padding: 10px 40px 10px;
 	text-decoration: none;
 	font-weight: 500;
 	font-family: "Josefin Sans", serif;
@@ -9490,7 +9708,7 @@ ul.navbar-nav .nav-link.show {
 
 	.mycustomctanew h2 {
 		font-size: 40px !important;
-		color: #000;
+		color: #fff;
 		line-height: 50px;
 		font-weight: 600;
 		margin-bottom: 30px !important
@@ -10054,13 +10272,13 @@ ul.navbar-nav .nav-link.show {
 		font-size: 12px
 	}
 
-	.owl-carousel-banner::before {
-		width: 100% !important;
-		background: url(../images/frame-books2.webp);
-		background-size: cover !important;
-		background-repeat: no-repeat !important;
-		max-width: 400px
-	}
+	    .owl-carousel-banner::before {
+        width: 100% !important;
+        background: url(../images/frame-books2.webp);
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat !important;
+        /* max-width: 419px; */
+    }
 
 	.owl-carousel-banner .owl-item.active.center::after,
 	.owl-carousel-banner::after {
@@ -10483,14 +10701,14 @@ ul.navbar-nav .nav-link.show {
 
 	.content-services a.web-blue-btn {
 		font-size: 12px;
-		padding: 10px 25px 6px
+		padding: 9px 25px 9px;
 	}
 
 	a.web-black-btn,
 	a.web-blue-btn,
 	input.web-blue-btn {
-		padding: 10px 25px 6px;
-		margin-bottom: 10px
+		padding: 11px 25px 11px;
+		margin-bottom: 10px;
 	}
 
 	.banner .d-flex.btnflex {
@@ -10513,10 +10731,9 @@ ul.navbar-nav .nav-link.show {
 		font-size: 17px
 	}
 
-	html body h5 {
-		color: #000
-	}
-
+	    html body h5 {
+        color: white;
+    }
 	.content-services p {
 		line-height: 20px;
 		font-size: 15px;
@@ -10656,6 +10873,163 @@ ul.navbar-nav .nav-link.show {
 	}
 }
 
+.custom-dropdown {
+    position: relative;
+    list-style: none;
+}
+
+.custom-dropdown .dropdown-toggle {
+    cursor: pointer;
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    background: #f5f5f5;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.custom-dropdown .dropdown-toggle:hover {
+    background: #ddd;
+}
+
+/* Dropdown Menu */
+.custom-dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 5px 0 0 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 200px;
+    z-index: 1000;
+}
+
+.custom-dropdown .dropdown-menu li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.3s;
+}
+
+.custom-dropdown .dropdown-menu li a:hover {
+    background: #f0f0f0;
+}
+
+/* Show Class */
+.custom-dropdown.open .dropdown-menu {
+    display: block;
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+ .banner-heights {
+    height: auto;
+}
+
+.testimonials-content p
+
+ {
+    padding: 30px 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.bg1:before, .bg2:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 75px;
+    right: 0;
+    background-size: 100%;
+}
+
+.bg2.bg-4:before, .bg3.bg-32:before, .bg3:before {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 100%;
+    right: 0;
+    background-size: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    bottom: 80px;
+}
+
+a.web-black-btn {
+    border-radius: 50px;
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #BE0A2F;
+    padding: 9px 20px 9px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.bg-ctabottom .row {
+    background: url(../images/services/ready-to-get.png) 0 0 / cover no-repeat;
+    width: 100%;
+    height: 37rem;
+    padding: 20px 0;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-size: 100% 100%;
+}
+
+.bg11:before {
+    background-image: url(../images/book-publishing/step-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top 35px !important;
+  
+}
+
+a.web-blue-btn, button.web-blue-btn, input.web-blue-btn {
+    color: #000;
+    background-color: white;
+    padding: 9px 13px 9px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+    .process-style-content h3, .process-style-content h4 {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+.cta-ghost:before
+
+ {
+        background-size: 50%;
+        background-position: right;
+    }
+
+    .customulfooter ul li a, .footer-content a, .footer-content p {
+        font-size: 13px;
+        color: #000;
+    }
+
+	a.web-black-btn, a.web-blue-btn {
+        font-size: 13px;
+    }
+
+    .mycustomctanew h2 {
+       
+        color: #fff;
+       
+    }
+}
+
 @media (max-width:576px) {
 	.custom-flex {
 		flex-wrap: wrap;
@@ -10669,6 +11043,84 @@ ul.navbar-nav .nav-link.show {
 }
 
 @media (min-width:320px) and (max-width:480px) {
+
+	.banner-main-form {
+    background: white;
+    border-radius: 20px;
+    border: 1px solid #efefef;
+    /* box-shadow: 0 3px 10px -6px #000; */
+    padding: 30px 30px;
+    position: relative;
+    z-index: 1;
+    transform: scale(1);
+    box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .1);
+}
+
+	.pricing-card
+
+ {
+    background: #0d2b52;
+    color: white;
+    border-radius: 8px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    text-align: left;
+}
+
+
+    .h-51 {
+    height: 100px;
+}
+
+.pb-25{
+	padding-bottom: 25px;
+}
+
+section.banner.contact-banner.custom-padding {
+    padding-bottom: 25px !important;
+}
+
+.custom-dropdown .dropdown-menu li a {
+    display: block;
+    padding: 3px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.3s;
+}
+
+.custom-dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style: none;
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-width: 200px;
+    z-index: 1000;
+}
+
+
+.owl-carousel-banner::before {
+    /* background: url(../images/frame-books.webp) center / contain no-repeat; */
+    width: 100%;
+    height: 95%;
+    display: block;
+    content: "";
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 	.footer-content{
 	text-align: -webkit-center;

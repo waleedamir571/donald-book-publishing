@@ -160,8 +160,12 @@
                         <div class="d-flex btnflex mt-5">
                             <a href="#." class="web-black-btn open-chat-button" role="button">Discuss Now
                             </a>
-                            <a href="#." class="web-blue-btn" data-bs-toggle="modal" data-bs-target="#contact-popup">Get
-                                connected</a>
+                           <a href="javascript:void(0);" class="web-blue-btn" onclick="openZendeskChat()" role="button">
+                       
+                        Get connected
+                    </a>
+
+
                         </div>
                     </div>
 

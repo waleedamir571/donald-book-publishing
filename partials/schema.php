@@ -17,7 +17,7 @@
             },{
                 "@type": "SiteNavigationElement",
                 "position": 3,
-                "name": "Top Book Writing Services in USA | Donald’s Book Publishing",
+                "name": "Top ghost Writing Services in USA | Donald’s Book Publishing",
                 "description": "Get expert book writing services in the USA. From concept to publishing, Donald’s Book Publishing helps bring your story to life professionally.",
                 "url": "https://donaldsbookpublishing.com/book-writing-services"
             }, {

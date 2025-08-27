@@ -70,10 +70,10 @@ switch ($functions) {
 
 
     break;
-  case "book-writing-services.php";
-    $title_name = "Top Book Writing Services in USA | Donald’s Book Publishing";
-    $description = "Get expert book writing services in the USA. From concept to publishing, Donald’s Book Publishing helps bring your story to life professionally.";
-    $keywords = "Book Writing Services in USA, Book Writing Services, Author Book Writing Services. ";
+  case "ghost-writing-services.php";
+    $title_name = "Top ghost Writing Services in USA | Donald’s Book Publishing";
+    $description = "Get expert ghost writing services in the USA. From concept to publishing, Donald’s Book Publishing helps bring your story to life professionally.";
+    $keywords = "ghost Writing Services in USA, ghost Writing Services,  ghost Writing Services. ";
 
     break;
   case "contact-us.php";
